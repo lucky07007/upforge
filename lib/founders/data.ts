@@ -12,7 +12,7 @@ export const FOUNDERS: Founder[] = [
   edition: 26,
   featured: true,
   category: "AI & Technology",
-  name: "Brendan Foody",
+  name: "Brendann Foody",
   nameShort: "Brendan Foody",
   initials: "BF",
   company: "Mercor",
