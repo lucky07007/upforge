@@ -1,0 +1,106 @@
+import type { MetadataRoute } from "next"
+
+const BASE = "https://upforge.org"
+
+export default function robots(): MetadataRoute.Robots {
+  return {
+    rules: [
+      {
+        userAgent: [
+          "Googlebot",
+          "Googlebot-News",
+          "Googlebot-Image",
+          "Googlebot-Video",
+          "AdsBot-Google",
+          "AdsBot-Google-Mobile",
+          "Google-InspectionTool",
+          "GoogleOther",
+          "Bingbot",
+          "msnbot",
+          "DuckDuckBot",
+          "YandexBot",
+          "YandexMobileBot",
+          "Baiduspider",
+          "Sogou",
+          "Yeti",
+          "Yahoo! Slurp",
+          "Yahoo",
+        ],
+        allow: "/",
+        disallow: [
+          "/api/",
+          "/_next/",
+          "/private/",
+          "/*?preview=",
+          "/*?draft=",
+          "/*?token=",
+        ],
+      },
+      {
+        userAgent: [
+          "GPTBot",
+          "OAI-SearchBot",
+          "ChatGPT-User",
+          "PerplexityBot",
+          "ClaudeBot",
+          "Claude-Web",
+          "Applebot",
+          "Applebot-Extended",
+          "Meta-ExternalAgent",
+          "Twitterbot",
+          "LinkedInBot",
+          "Slackbot",
+          "Discordbot",
+          "WhatsApp",
+          "TelegramBot",
+          "Pinterest",
+        ],
+        allow: "/",
+        disallow: [
+          "/api/",
+          "/_next/",
+          "/private/",
+          "/*?preview=",
+          "/*?draft=",
+          "/*?token=",
+        ],
+      },
+      {
+        userAgent: [
+          "CCBot",
+          "Bytespider",
+          "Google-Extended",
+          "FacebookBot",
+          "Diffbot",
+          "AhrefsBot",
+          "SemrushBot",
+          "DotBot",
+          "MJ12bot",
+          "PetalBot",
+          "MegaIndex",
+          "Spyfu",
+          "Serpstat",
+          "Screaming Frog",
+        ],
+        disallow: "/",
+      },
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: [
+          "/api/",
+          "/_next/",
+          "/private/",
+          "/*?preview=",
+          "/*?draft=",
+          "/*?token=",
+        ],
+      },
+    ],
+    sitemap: [
+      `${BASE}/sitemap.xml`,
+      `${BASE}/news-sitemap.xml`,
+    ],
+    host: BASE,
+  }
+}
