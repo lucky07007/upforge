@@ -1,0 +1,10 @@
+google.com, pub-5377045438787332, DIRECT, f08c47fec0942fa0
+
+# ─────────────────────────────────────────────────────────────────────────────
+# EZOIC — Add your reseller line below after onboarding is approved.
+# Format: ezoic.com, [YOUR_PUBLISHER_ID], RESELLER, [TAG_ID]
+#
+# NOTE: Ezoic standard tier requires 250,000+ monthly active users
+# (policy updated Feb 19, 2026). Check support.ezoic.com for your tier.
+# ─────────────────────────────────────────────────────────────────────────────
+# ezoic.com, PLACEHOLDER, RESELLER, PLACEHOLDER

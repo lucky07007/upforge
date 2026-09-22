@@ -1,0 +1,17 @@
+{
+  "compatibility_date": "2026-08-07",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "nodejs_compat_populate_process_env"
+  ]
+}
+
+/*
+IMPORTANT:
+With @opennextjs/cloudflare, do NOT use:
+  export const runtime = "edge";
+
+Remove that export from the quiz route handlers.
+OpenNext Cloudflare uses the Next.js Node.js runtime and the Cloudflare
+Workers Node.js compatibility layer.
+*/

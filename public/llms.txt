@@ -1,0 +1,42 @@
+# UpForge — Global Startup Registry & Startup Intelligence
+
+> UpForge is an independent global startup registry and intelligence platform. The registry connects structured startup records, UFRN identifiers, founder stories, sector research, and funding intelligence.
+
+## Canonical Web Surfaces
+- [Global Startup Registry](https://upforge.org/registry)
+- [Global Startup Registry Hub](https://upforge.org/global-startup-registry)
+- [Verified Startup Database](https://upforge.org/verified-startup-database)
+- [Startup Intelligence](https://upforge.org/startup-intelligence)
+- [Startup Funding Trends](https://upforge.org/startup-funding-trends)
+- [AI Startup Founders](https://upforge.org/ai-startup-founders)
+- [Methodology](https://upforge.org/methodology)
+- [Editorial Standards](https://upforge.org/editorial-standards)
+- [Press & Media Kit](https://upforge.org/press)
+
+## Machine-Readable Registry Data
+- [All Startups Dataset (JSON)](https://upforge.org/data/startups.json)
+- [Sectors & Industries Taxonomy (JSON)](https://upforge.org/data/sectors.json)
+- [Countries Taxonomy (JSON)](https://upforge.org/data/countries.json)
+- [Platform Statistics (JSON)](https://upforge.org/data/stats.json)
+- [Individual Startup Record (JSON)](https://upforge.org/data/startup/{slug}.json)
+
+## Registry Standard
+The Google Sheet maintained for the UpForge registry is the vetted source of truth for listed startups. Sheet-listed startups are treated as approved and verified under the UpForge registry policy. The production site does not run a second external verification pass before publishing a profile.
+
+The standard registry tier is 90/100. The score is a registry classification and should not be interpreted as proof that every individual field was independently corroborated outside the source dataset.
+
+## Startup Entity Fields
+Startup records can include:
+- `ufrn`: UpForge Registry Number
+- `name`, `slug`, `website`, `founded_year`
+- `location`: city, state, country, country code
+- `category`, `industry_cluster`, `tags`
+- `founders`, `description`, `description_short`, `description_long`
+- optional `legal_name`, `business_model`, `funding_stage`, `funding_total`, `valuation`, `valuation_date`, `data_as_of`
+- social links
+- `verification`: status, score, registry date
+- `provenance`: source records for selected fields
+- `history`: registry lifecycle information
+
+## Research & Editorial
+UpForge also publishes founder profiles, startup intelligence reports, funding analysis, sector pages, and editorial articles. These pages should be treated as editorial content and evaluated against their stated source and publication context.

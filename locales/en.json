@@ -1,0 +1,46 @@
+{
+  "site": {
+    "name": "UpForge",
+    "tagline": "Global Startup Registry",
+    "description": "The world's independent verified startup registry"
+  },
+  "nav": {
+    "home": "Home",
+    "registry": "Global Registry",
+    "compare": "Compare",
+    "community": "Community",
+    "journal": "Journal",
+    "reports": "Reports",
+    "about": "About",
+    "search": "Search startups...",
+    "verify": "Verify UFRN",
+    "submit": "Submit Startup"
+  },
+  "home": {
+    "hero": "Global Startup Registry & Verified Founder Database",
+    "subtitle": "Discover verified startups across 150+ countries. Get UFRN credentials. Track founder intelligence.",
+    "stats": {
+      "startups": "Verified Startups",
+      "countries": "Countries",
+      "free": "Free Listing"
+    }
+  },
+  "submit": {
+    "title": "List Your Startup. Go Global.",
+    "description": "Get independently verified. Receive your UFRN credential.",
+    "founderName": "Founder Name",
+    "startupName": "Startup Name",
+    "email": "Work Email",
+    "website": "Website URL",
+    "description_field": "What does your startup do?",
+    "industry": "Industry",
+    "foundedYear": "Founded Year",
+    "submitBtn": "Submit to Global Registry",
+    "success": "Submission Received"
+  },
+  "cta": {
+    "registry": "Explore Registry",
+    "submit": "List Your Startup",
+    "verify": "Verify UFRN"
+  }
+}

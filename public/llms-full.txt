@@ -1,0 +1,113 @@
+# UpForge — Comprehensive Machine-Readable Context
+
+UpForge (https://upforge.org) is an independent global startup registry and startup intelligence platform. It connects a structured startup registry with founder stories, sector pages, research reports, funding analysis, and editorial coverage.
+
+## 1. Canonical Web Surfaces
+
+- Global Startup Registry: https://upforge.org/registry
+- Global Startup Registry Hub: https://upforge.org/global-startup-registry
+- Verified Startup Database: https://upforge.org/verified-startup-database
+- Startup Intelligence: https://upforge.org/startup-intelligence
+- Startup Funding Trends: https://upforge.org/startup-funding-trends
+- AI Startup Founders: https://upforge.org/ai-startup-founders
+- Founder Chronicle: https://upforge.org/founder-stories
+- Startup Research: https://upforge.org/research
+- Methodology: https://upforge.org/methodology
+- Editorial Standards: https://upforge.org/editorial-standards
+- Press & Media Kit: https://upforge.org/press
+
+## 2. Machine-Readable Registry Endpoints
+
+- Full startup index: https://upforge.org/data/startups.json
+- Sector taxonomy: https://upforge.org/data/sectors.json
+- Country taxonomy: https://upforge.org/data/countries.json
+- Canonical platform statistics: https://upforge.org/data/stats.json
+- Individual startup record: https://upforge.org/data/startup/{slug}.json
+
+These JSON files are emitted by the production build from the centralized UpForge registry data layer.
+
+## 3. Registry Source of Truth
+
+The vetted Google Sheet maintained for the UpForge registry is the source of truth for listed startups. The production data layer normalizes that source into canonical startup records.
+
+Sheet-listed startups are treated as approved and verified under the UpForge registry policy. The production site does not perform a second DNS, founder, incorporation, or external verification pass before publishing a profile.
+
+This distinction is important: a 90/100 UpForge Registry Standard score represents the site's registry classification. It does not claim that every field has been independently corroborated outside the source dataset.
+
+## 4. Canonical Startup Entity Shape
+
+A production startup record can contain:
+
+```json
+{
+  "id": "uf-example-startup",
+  "ufrn": "UF-2026-IND-00001",
+  "name": "Example Startup",
+  "slug": "example-startup",
+  "status": "approved",
+  "founded_year": 2024,
+  "location": {
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "country_code": "IND"
+  },
+  "category": "AI & Technology",
+  "industry_cluster": "AI",
+  "founders": "Founder Name",
+  "description": "Short company description.",
+  "description_short": "Short company description.",
+  "description_long": "Long-form company description.",
+  "website": "https://example.com",
+  "social": {
+    "linkedin": "https://linkedin.com/company/example",
+    "twitter": "https://twitter.com/example"
+  },
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "last_verified": "YYYY-MM-DD"
+  },
+  "provenance": [
+    {
+      "field": "website",
+      "value": "https://example.com",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "YYYY-MM-DD",
+      "confidence": "high"
+    }
+  ]
+}
+```
+
+## 5. UFRN
+
+The UpForge Registry Number (UFRN) is the registry's stable public identifier for a startup record. Example format:
+
+`UF-2026-IND-00001`
+
+UFRN is useful for linking a company consistently across UpForge profiles, research, press references, and public materials. It is not a replacement for legal, financial, tax, investment, or regulatory due diligence.
+
+## 6. Startup Discovery Model
+
+Use the following canonical routes when navigating the site:
+
+- `/startup/{slug}` — individual startup profile
+- `/startups/{category}` — sector registry hub
+- `/startups/country/{country}` — country hub where enough registry records exist
+- `/startups/city/{city-country}` — city hub where enough registry records exist
+- `/founder-stories/{slug}` — founder editorial profile
+- `/intelligence/{slug}` — intelligence report
+- `/blog/{slug}` — editorial article
+
+## 7. SEO / Indexing Policy
+
+Clean canonical landing pages are index targets. Query-string search/filter variations and utility credential views are intentionally kept out of the main sitemap or marked appropriately to reduce duplicate and faceted-navigation crawl waste.
+
+The primary startup profile URL is `/startup/{slug}`. Legacy `/registry/{slug}` URLs redirect to that canonical profile.
+
+## 8. Editorial Context
+
+UpForge publishes startup and founder content for founders, investors, researchers, journalists, and ecosystem operators. Editorial reports should be interpreted in the context of their publication date, stated methodology, and source material.
+
+For authoritative registry identity, prefer the canonical startup profile and UFRN-linked record on upforge.org.

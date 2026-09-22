@@ -1,0 +1,67 @@
+# Cloudflare Workers Deployment Guide (OpenNext) — upforge.org
+
+This project is fully configured for deployment to **Cloudflare Workers** using `@opennextjs/cloudflare` and `wrangler`.
+
+---
+
+## 1. Cloudflare Workers Builds Setup (Git Integration)
+
+In the Cloudflare Dashboard (**Workers & Pages -> Create Application -> Git Connection**):
+
+| Setting | Value |
+| :--- | :--- |
+| **Worker Name** | `upforge-org` |
+| **Framework preset** | `None` / `Next.js (OpenNext)` |
+| **Build command** | `npx @opennextjs/cloudflare build` |
+| **Deploy command** | `npx wrangler deploy` |
+| **Root directory** | `/` |
+
+---
+
+## 2. Domain & Custom Domain Configuration (`upforge.org`)
+
+1. Go to **Workers & Pages** → Select `upforge-org` → **Settings** → **Triggers**.
+2. Under **Custom Domains**, add:
+   - `upforge.org`
+   - `www.upforge.org`
+3. Cloudflare will automatically provision SSL/TLS certificates and point DNS records directly to your worker.
+
+---
+
+## 3. Environment Variables & Secrets
+
+Environment variables MUST be set in the Cloudflare Dashboard:
+
+> **Cloudflare Dashboard Path**: `Workers & Pages` → `upforge-org` → `Settings` → `Variables and Secrets`
+
+### Required Variables
+| Variable Name | Purpose | Used In |
+| :--- | :--- | :--- |
+| `GROQ_API_KEY` | Groq AI API key for fast inference | `/app/api/chat/route.ts`, `/lib/fallback-ai.ts` |
+| `GEMINI_API_KEY` | Google Gemini API key for fallback inference | `/app/api/chat/route.ts`, `/lib/fallback-ai.ts` |
+| `OPENAI_API_KEY` | OpenAI API key for fallback inference | `/lib/fallback-ai.ts` |
+
+---
+
+## 4. Local Development & Deployment Commands
+
+- **Preview Cloudflare Build Locally**:
+  ```bash
+  pnpm preview
+  ```
+- **Deploy to Cloudflare via CLI**:
+  ```bash
+  pnpm deploy
+  ```
+- **Generate Cloudflare Environment Types**:
+  ```bash
+  pnpm cf-typegen
+  ```
+
+---
+
+## 5. Key File Reference
+
+- `wrangler.jsonc`: Worker entrypoint (`.open-next/worker.js`), `nodejs_compat` flag, ASSETS binding, and custom domain routes (`upforge.org`, `www.upforge.org`).
+- `open-next.config.ts`: OpenNext configuration for Cloudflare adapter.
+- `next.config.mjs`: Headers, security policies, and domain redirects (`www.upforge.org` → `upforge.org`).

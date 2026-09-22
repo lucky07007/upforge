@@ -1,0 +1,23 @@
+UPFORGE QUIZ / CLOUDFLARE PATCH
+
+In next.config.mjs keep the existing CORS headers for /api/(.*), but REMOVE the
+generic API Cache-Control rule:
+
+{
+  key: "Cache-Control",
+  value: "no-cache, no-store, must-revalidate",
+}
+
+Why:
+- quiz leaderboard/comments GET handlers now set their own cache policy;
+- Cloudflare can serve short-lived cached results and stale results while
+  revalidating;
+- the generic no-store rule defeats that strategy.
+
+Do NOT add s-maxage together with stale-while-revalidate. Current Cloudflare
+documentation says s-maxage disables stale-while-revalidate.
+
+The quiz GET endpoints use:
+public, max-age=30, stale-while-revalidate=120, stale-if-error=600
+
+POST /api/quiz/complete and POST /api/quiz/comments remain no-store.
