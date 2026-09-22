@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/etl-build.js && node scripts/check-hardcoded-stats.js && next build && mkdir -p .next/standalone/.next/static/css && cp -r .next/static/* .next/standalone/.next/static/",
+    "build": "node scripts/etl-build.js && node scripts/check-hardcoded-stats.js && next build && opennextjs-cloudflare build",
     "start": "next start",
     "lint": "next lint"
   },
