@@ -400,13 +400,34 @@ async function main() {
   let rawRows = [];
 
   try {
-    const res = await fetch(SHEET_CSV_URL, { signal: AbortSignal.timeout(5000) });
-    if (res.ok) {
-      const csvText = await res.text();
-      rawRows = parseCSV(csvText);
-      console.log(`📥 Downloaded ${rawRows.length} rows from Google Sheets CSV.`);
-    } else {
-      throw new Error(`Google Sheets fetch returned status ${res.status}.`);
+    // Build-time only: give Google Sheets enough time to respond without
+    // affecting Cloudflare Worker runtime CPU. A single retry handles
+    // occasional Google cold/slow responses while avoiding retry loops.
+    let lastError = null;
+    for (let attempt = 0; attempt < 2; attempt += 1) {
+      try {
+        const res = await fetch(SHEET_CSV_URL, {
+          headers: { Accept: "text/csv,text/plain,*/*" },
+          cache: "no-store",
+          signal: AbortSignal.timeout(15000),
+        });
+        if (!res.ok) {
+          throw new Error(`Google Sheets fetch returned status ${res.status}.`);
+        }
+        const csvText = await res.text();
+        rawRows = parseCSV(csvText);
+        console.log(`📥 Downloaded ${rawRows.length} rows from Google Sheets CSV.`);
+        break;
+      } catch (err) {
+        lastError = err;
+        if (attempt === 0) {
+          console.warn(`⚠️ Google Sheets fetch attempt 1 failed: ${err.message}. Retrying once...`);
+          await new Promise((resolve) => setTimeout(resolve, 500));
+        }
+      }
+    }
+    if (rawRows.length === 0) {
+      throw lastError || new Error("Google Sheets returned no data.");
     }
   } catch (err) {
     throw new Error(`Failed to fetch Google Sheets CSV: ${err.message}`);

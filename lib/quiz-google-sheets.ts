@@ -16,9 +16,7 @@ const PUBLISHED_SHEET_URL =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vTOxI1zaTdZOvNIK56SnjdBUwk67H8spwL3S8KCMQUmsNy3wezcMwAPYSok1L8lZclvvwSt2eUo6fsd/pub?output=csv";
 
 const WRITE_URL = process.env.UPFORGE_QUIZ_SHEET_WEB_APP_URL || "https://script.google.com/macros/s/AKfycbxdIB3PGmg1SM7BWXEodbj20KuiQQnY7OtC2uDfqDflXREeIWyg5p5O5zf4JFpzsWYf3w/exec";
-// Temporary production fallback. Move this credential back to Cloudflare Secrets during
-// the security-hardening pass. It is server-side only and is never sent to the browser.
-const WRITE_SECRET = process.env.UPFORGE_QUIZ_SHEET_SECRET || "UF-QZ-2026-9xK7mP4vR8tN2sL6wC5yH3jD";
+const WRITE_SECRET = process.env.UPFORGE_QUIZ_SHEET_SECRET || "";
 const CACHE_TTL_MS = 60_000;
 
 let cache: { expiresAt: number; entries: QuizSheetEntry[] } | null = null;
@@ -172,6 +170,10 @@ export async function appendQuizResult(input: {
   if (!WRITE_URL) {
     throw new Error("UPFORGE_QUIZ_SHEET_WEB_APP_URL is not configured.");
   }
+  if (!WRITE_SECRET) {
+    throw new Error("UPFORGE_QUIZ_SHEET_SECRET is not configured.");
+  }
+
   const payload = JSON.stringify({
     secret: WRITE_SECRET,
     name: input.userName,
@@ -181,29 +183,45 @@ export async function appendQuizResult(input: {
     date: input.date,
   });
 
-  // One bounded request: no retry storm, no extra Worker work.
-  try {
-    const response = await fetch(WRITE_URL, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json,text/plain,*/*",
-      },
-      body: payload,
-      cache: "no-store",
-      redirect: "follow",
-      signal: AbortSignal.timeout(10000),
-    });
+  let lastError: unknown = null;
 
-    const result = await response.json().catch(() => null);
+  // Google Apps Script can occasionally take a moment to wake a web-app
+  // instance. A single short retry keeps real completions reliable without
+  // creating a retry storm or unnecessary Worker CPU usage.
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    try {
+      const response = await fetch(WRITE_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json,text/plain,*/*",
+        },
+        body: payload,
+        cache: "no-store",
+        redirect: "follow",
+        signal: AbortSignal.timeout(attempt === 0 ? 8000 : 6000),
+      });
 
-    if (response.ok && result?.success) {
-      cache = null;
-      return result;
+      const result = await response.json().catch(() => null);
+
+      if (response.ok && result?.success) {
+        cache = null;
+        return result;
+      }
+
+      lastError = new Error(
+        result?.error || `Google Sheet write failed: ${response.status}`
+      );
+    } catch (error) {
+      lastError = error;
     }
 
-    throw new Error(result?.error || `Google Sheet write failed: ${response.status}`);
-  } catch (error) {
-    throw error instanceof Error ? error : new Error("Google Sheet write failed.");
+    if (attempt === 0) {
+      await new Promise((resolve) => setTimeout(resolve, 250));
+    }
   }
+
+  throw lastError instanceof Error
+    ? lastError
+    : new Error("Google Sheet write failed.");
 }
