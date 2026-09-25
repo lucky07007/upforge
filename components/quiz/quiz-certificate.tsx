@@ -87,7 +87,7 @@ export default function QuizCertificate({
   const shareLinkedIn = async () => {
     setBusy("linkedin");
     try {
-      await navigator.clipboard?.writeText(`${shareText}\n\nTag UpForge when you share your certificate.`).catch(() => undefined);
+      await navigator.clipboard?.writeText(`${shareText}\n\nShare your UpForge certificate with your network.`).catch(() => undefined);
     } finally {
       window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(publicShareUrl)}`, "_blank", "noopener,noreferrer");
       window.setTimeout(() => setBusy(""), 350);
@@ -98,7 +98,7 @@ export default function QuizCertificate({
     <section className="rounded-2xl border border-[var(--glass-border)] bg-card p-3 shadow-sm sm:p-5">
       <div className="mb-4 flex flex-col gap-3 rounded-2xl border border-accent-gold/25 bg-accent-gold/[0.045] p-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <p className="text-[10px] font-black uppercase tracking-[0.16em] text-accent-gold">Verified UpForge credential</p>
+          <p className="text-[10px] font-black uppercase tracking-[0.16em] text-accent-gold">UpForge credential</p>
           <p className="mt-1 text-sm font-black text-foreground">Ready to download and share</p>
           <p className="mt-1 text-[11px] text-muted-foreground">{leaderboardRank ? `Leaderboard rank #${leaderboardRank} · ` : ""}Certificate ID {certificateId}</p>
         </div>
@@ -117,19 +117,19 @@ export default function QuizCertificate({
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-white p-0.5"><img src="/logo.jpg" alt="UpForge" className="h-full w-full object-contain" /></div>
                 <div><div className="text-[15px] font-black tracking-[0.22em] text-[#173B72]">UPFORGE</div><div className="mt-0.5 text-[8px] font-bold uppercase tracking-[0.18em] text-[#718096]">Startup intelligence platform</div></div>
               </div>
-              <div className="text-right"><div className="text-[8px] font-black uppercase tracking-[0.18em] text-[#718096]">Verified credential</div><div className="mt-1 text-[10px] font-black text-[#173B72]">{credentialTier}</div></div>
+              <div className="text-right"><div className="text-[8px] font-black uppercase tracking-[0.18em] text-[#718096]">UpForge credential</div><div className="mt-1 text-[10px] font-black text-[#173B72]">{credentialTier}</div></div>
             </header>
             <div className="flex flex-1 flex-col items-center justify-center text-center">
               <div className="text-[9px] font-black uppercase tracking-[0.34em] text-[#2E6CB5]">Certificate of Completion</div>
               <div className="mt-[2.2%] text-[clamp(28px,4.4vw,58px)] font-semibold tracking-[-0.035em] text-[#102B50]">{userName}</div>
               <div className="mt-[1.8%] h-px w-[13%] bg-[#2E6CB5]" />
-              <p className="mx-auto mt-[2.1%] max-w-[72%] text-[clamp(10px,1.15vw,15px)] leading-[1.55] text-[#536274]">has successfully completed the <strong className="text-[#172B46]">{quizTitle}</strong> assessment and demonstrated applied knowledge in {category.toLowerCase()} through a verified scenario-based evaluation.</p>
+              <p className="mx-auto mt-[2.1%] max-w-[72%] text-[clamp(10px,1.15vw,15px)] leading-[1.55] text-[#536274]">has successfully completed the <strong className="text-[#172B46]">{quizTitle}</strong> assessment and demonstrated applied knowledge in {category.toLowerCase()} through a scenario-based evaluation.</p>
             </div>
             <div className="grid grid-cols-4 border-y border-[#D7E1ED] py-[1.9%]">
               <div className="text-center"><div className="text-[7px] font-black uppercase tracking-[0.18em] text-[#7A8796]">Score</div><div className="mt-1 text-[15px] font-black text-[#173B72]">{score}/{totalQuestions}</div></div>
               <div className="border-l border-[#D7E1ED] text-center"><div className="text-[7px] font-black uppercase tracking-[0.18em] text-[#7A8796]">Result</div><div className="mt-1 text-[15px] font-black text-[#173B72]">{percentage}%</div></div>
               <div className="border-l border-[#D7E1ED] text-center"><div className="text-[7px] font-black uppercase tracking-[0.18em] text-[#7A8796]">Issued</div><div className="mt-1 text-[10px] font-bold text-[#173B72]">{issueDate}</div></div>
-              <div className="border-l border-[#D7E1ED] text-center"><div className="text-[7px] font-black uppercase tracking-[0.18em] text-[#7A8796]">Status</div><div className="mt-1 inline-flex items-center gap-1 text-[10px] font-black text-[#17633A]"><CheckCircle2 className="h-3 w-3" /> Verified</div></div>
+              <div className="border-l border-[#D7E1ED] text-center"><div className="text-[7px] font-black uppercase tracking-[0.18em] text-[#7A8796]">Status</div><div className="mt-1 inline-flex items-center gap-1 text-[10px] font-black text-[#17633A]"><CheckCircle2 className="h-3 w-3" /> Completed</div></div>
             </div>
             <footer className="mt-[2.1%] flex items-end justify-between gap-6"><div><div className="text-[7px] font-black uppercase tracking-[0.18em] text-[#7A8796]">Certificate ID</div><div className="mt-1 text-[8px] font-bold tracking-[0.06em] text-[#536274]">{certificateId}</div></div><div className="text-right"><div className="text-[12px] font-black tracking-[0.14em] text-[#173B72]">UPFORGE</div><div className="mt-0.5 text-[7px] font-bold uppercase tracking-[0.14em] text-[#7A8796]">Issued by UpForge</div></div></footer>
           </div>

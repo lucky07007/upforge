@@ -133,22 +133,35 @@ export default function QuizDetailClient({ quiz }: { quiz: QuizDetailData }) {
     let active = true;
     setLeaderboardLoading(true);
 
-    fetch(`/api/quiz/leaderboard?quizSlug=${encodeURIComponent(quiz.slug)}&period=all-time&fresh=1`, {
-      headers: { "x-upforge-domain": "quiz" },
-    })
-      .then(readJson)
-      .then((data) => {
-        if (active) setLeaderboard(Array.isArray(data?.leaderboard) ? data.leaderboard : []);
+    const timer = window.setTimeout(() => {
+      fetch(`/api/quiz/leaderboard?quizSlug=${encodeURIComponent(quiz.slug)}&period=all-time&fresh=1`, {
+        headers: { "x-upforge-domain": "quiz" },
       })
-      .catch(() => {
-        if (active) setLeaderboard([]);
-      })
-      .finally(() => {
-        if (active) setLeaderboardLoading(false);
-      });
+        .then(readJson)
+        .then((data) => {
+          if (!active) return;
+          const remote = Array.isArray(data?.leaderboard) ? data.leaderboard : [];
+          if (remote.length) {
+            setLeaderboard((local) => {
+              const merged = [...remote, ...local.filter((entry) => !remote.some((item: LeaderboardItem) => item.id && item.id === entry.id))];
+              merged.sort((a, b) => {
+                if (b.percentage !== a.percentage) return b.percentage - a.percentage;
+                if (b.score !== a.score) return b.score - a.score;
+                return (a.timeTakenSeconds || 999999) - (b.timeTakenSeconds || 999999);
+              });
+              return merged.slice(0, 10).map((entry, index) => ({ ...entry, rank: index + 1 }));
+            });
+          }
+        })
+        .catch(() => {})
+        .finally(() => {
+          if (active) setLeaderboardLoading(false);
+        });
+    }, 700);
 
     return () => {
       active = false;
+      window.clearTimeout(timer);
     };
   }, [isCompleted, quiz.slug]);
 
@@ -163,118 +176,121 @@ export default function QuizDetailClient({ quiz }: { quiz: QuizDetailData }) {
     setStarted(true);
   };
 
-  const submitCompletion = async (nextAnswers: Record<string, number>) => {
-    if (!attemptId) {
-      setCompletionError("Your secure attempt is still preparing. Please wait a moment and retry.");
-      return;
+  const buildLocalCompletion = (nextAnswers: Record<string, number>) => {
+    let score = 0;
+    for (const question of questions) {
+      const selected = Number(nextAnswers[String(question.id)]);
+      if (Number.isInteger(selected) && selected === question.correctIndex) score += 1;
     }
+
+    const totalQuestions = questions.length;
+    const percentage = Math.round((score / Math.max(totalQuestions, 1)) * 100);
+    const completedAt = new Date().toISOString();
+    const certificateId = `UFR-CERT-${quiz.slug.slice(0, 10).toUpperCase()}-${Date.now().toString(36).toUpperCase()}`;
+    const badgeEarned = getBadge(percentage);
+
+    const record: LeaderboardItem = {
+      rank: 0,
+      id: attemptId,
+      userName: userName.trim(),
+      score,
+      totalQuestions,
+      percentage,
+      badgeEarned,
+      timeTakenSeconds: Math.max(1, timeElapsed),
+      completedAt,
+    };
+
+    return { record, certificateId };
+  };
+
+  const syncLeaderboard = async (record: LeaderboardItem, certificateId: string) => {
+    if (!record.userName || !record.totalQuestions) return;
+
+    try {
+      const controller = new AbortController();
+      const timeout = window.setTimeout(() => controller.abort(), 7000);
+      try {
+        const res = await fetch("/api/quiz/complete", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            quizSlug: quiz.slug,
+            quizTitle: title,
+            userName: record.userName,
+            score: record.score,
+            total: record.totalQuestions,
+            timeTakenSeconds: record.timeTakenSeconds,
+            date: record.completedAt,
+            attemptId: record.id,
+            certificateId,
+          }),
+          signal: controller.signal,
+          cache: "no-store",
+        });
+
+        const data = await readJson(res);
+        if (!res.ok || !data?.success) throw new Error(data?.error || "Leaderboard sync failed.");
+
+        const syncedRank = Number(data.rank || 0);
+        setCompletion((previous) => previous ? {
+          ...previous,
+          rank: syncedRank,
+          certificateId: String(data.certificateId || previous.certificateId),
+          record: {
+            ...previous.record,
+            rank: syncedRank,
+            id: String(data.completionId || previous.record.id || ""),
+          },
+        } : previous);
+
+        const syncedTop = data?.top;
+        if (syncedTop?.userName) {
+          const top = {
+            userName: String(syncedTop.userName).slice(0, 80),
+            percentage: Number(syncedTop.percentage) || 0,
+            quizTitle: syncedTop.quizTitle ? String(syncedTop.quizTitle).slice(0, 120) : undefined,
+            savedAt: Date.now(),
+          };
+          try {
+            window.localStorage.setItem("upforge:header:leaderboard-top", JSON.stringify(top));
+            window.dispatchEvent(new CustomEvent("upforge:leaderboard-updated", { detail: top }));
+          } catch {}
+        }
+
+        setCompletionError("");
+        return true;
+      } finally {
+        window.clearTimeout(timeout);
+      }
+    } catch (error: any) {
+      setCompletionError(error?.name === "AbortError"
+        ? "Leaderboard sync is taking longer than usual. Your certificate is ready; retry sync when convenient."
+        : "Certificate is ready. The leaderboard could not sync yet; you can retry once.");
+      return false;
+    }
+  };
+
+  const submitCompletion = async (nextAnswers: Record<string, number>) => {
     if (!userName.trim()) {
       setCompletionError("Please enter your name before completing the challenge.");
       return;
     }
+    if (!questions.length) return;
 
     setSubmittingResult(true);
     setCompletionError("");
 
-    const payload = {
-      quizSlug: quiz.slug,
-      answers: nextAnswers,
-      attemptId,
-      userName: userName.trim(),
-      timeTakenSeconds: timeElapsed,
-      website: "",
-    };
+    const { record, certificateId } = buildLocalCompletion(nextAnswers);
 
-    let lastError = "We could not save your result yet.";
+    // The certificate is generated locally from the quiz result. The leaderboard
+    // sync happens separately so Google Sheets latency can never block the result.
+    setCompletion({ certificateId, record, rank: 0 });
+    setLeaderboard([record]);
+    setIsCompleted(true);
+    setSubmittingResult(false);
 
-    try {
-      // Google Apps Script can occasionally cold-start. Two short retries make
-      // the completion flow resilient without adding background polling.
-      for (let attempt = 0; attempt < 3; attempt += 1) {
-        try {
-          const controller = new AbortController();
-          const timeout = window.setTimeout(() => controller.abort(), 11000);
-          try {
-            const res = await fetch("/api/quiz/complete", {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify(payload),
-              signal: controller.signal,
-              cache: "no-store",
-            });
-
-            const data = await readJson(res);
-            if (!res.ok || !data?.success) {
-              throw new Error(data?.error || "We could not save your result yet.");
-            }
-
-            const record = data.record;
-            const submittedEntry: LeaderboardItem = {
-              rank: Number(data.rank || 0),
-              id: data.completionId,
-              userName: record.userName,
-              score: record.score,
-              totalQuestions: record.totalQuestions,
-              percentage: record.percentage,
-              badgeEarned: record.badgeEarned,
-              timeTakenSeconds: record.timeTakenSeconds,
-              completedAt: record.completedAt,
-            };
-
-            try { sessionStorage.setItem("upforge:last-completion", data.completionId); } catch {}
-
-            setCompletion({
-              certificateId: data.certificateId,
-              record: submittedEntry,
-              rank: Number(data.rank || 0),
-            });
-
-            // Update the already-mounted header without another Worker request.
-            if (data?.top?.userName) {
-              try {
-                const top = {
-                  userName: String(data.top.userName).slice(0, 80),
-                  percentage: Number(data.top.percentage) || 0,
-                  quizTitle: data.top.quizTitle ? String(data.top.quizTitle).slice(0, 120) : undefined,
-                  savedAt: Date.now(),
-                };
-                window.localStorage.setItem("upforge:header:leaderboard-top", JSON.stringify(top));
-                window.dispatchEvent(new CustomEvent("upforge:leaderboard-updated", { detail: top }));
-              } catch {}
-            }
-
-            setLeaderboard((previous) => {
-              const merged = [submittedEntry, ...previous.filter((entry) => entry.id !== submittedEntry.id)];
-              merged.sort((a, b) => {
-                if (b.percentage !== a.percentage) return b.percentage - a.percentage;
-                if (b.score !== a.score) return b.score - a.score;
-                return (a.timeTakenSeconds || 999999) - (b.timeTakenSeconds || 999999);
-              });
-              return merged.slice(0, 10).map((entry, index) => ({ ...entry, rank: index + 1 }));
-            });
-
-            setIsCompleted(true);
-            return;
-          } finally {
-            window.clearTimeout(timeout);
-          }
-        } catch (error: any) {
-          lastError = error?.name === "AbortError"
-            ? "The leaderboard service took too long to respond."
-            : String(error?.message || "We could not save your result yet.");
-          if (attempt < 2) {
-            await new Promise((resolve) => window.setTimeout(resolve, 500 * (attempt + 1)));
-          }
-        }
-      }
-
-      // Keep the completed screen mounted so the user never loses their result,
-      // but clearly indicate that the official credential is waiting for sync.
-      setCompletionError(lastError);
-      setIsCompleted(true);
-    } finally {
-      setSubmittingResult(false);
-    }
+    void syncLeaderboard(record, certificateId);
   };
 
   const handleSelectOption = (optionIndex: number) => {
@@ -456,28 +472,47 @@ export default function QuizDetailClient({ quiz }: { quiz: QuizDetailData }) {
                 <Award className="h-4 w-4" /> {liveBadge}
               </div>
 
-              {completion ? (
+              {completion && completion.rank > 0 && !completionError ? (
                 <div className="mx-auto mt-5 max-w-xl rounded-2xl border border-emerald-500/20 bg-emerald-500/10 p-4 text-left">
                   <div className="flex items-center justify-between gap-4">
                     <div>
-                      <p className="text-[10px] font-black uppercase tracking-[0.16em] text-emerald-700 dark:text-emerald-300">Official result recorded</p>
-                      <p className="mt-1 text-sm font-black text-foreground">Your UpForge credential is ready.</p>
+                      <p className="text-[10px] font-black uppercase tracking-[0.16em] text-emerald-700 dark:text-emerald-300">Leaderboard result recorded</p>
+                      <p className="mt-1 text-sm font-black text-foreground">Your UpForge certificate is ready to share.</p>
                     </div>
                     <div className="shrink-0 rounded-xl bg-background px-3 py-2 text-center shadow-sm">
                       <p className="text-[9px] font-black uppercase tracking-[0.12em] text-muted-foreground">Rank</p>
-                      <p className="text-xl font-black text-foreground">#{completion.rank || "—"}</p>
+                      <p className="text-xl font-black text-foreground">#{completion.rank}</p>
                     </div>
                   </div>
-                  <p className="mt-2 text-[11px] leading-5 text-muted-foreground">Your score, real completion time and rank have been recorded on the public leaderboard.</p>
+                  <p className="mt-2 text-[11px] leading-5 text-muted-foreground">Your name, score and completion time are now on the public leaderboard.</p>
                 </div>
-              ) : completionError ? (
-                <div className="mx-auto mt-5 max-w-xl rounded-2xl border border-amber-500/25 bg-amber-500/10 p-4 text-left">
-                  <p className="text-[10px] font-black uppercase tracking-[0.16em] text-amber-700 dark:text-amber-300">Almost there</p>
-                  <p className="mt-1 text-sm font-black text-foreground">Your score is complete, but the official result has not synced yet.</p>
-                  <p className="mt-1 text-[11px] leading-5 text-muted-foreground">{completionError}</p>
-                  <button type="button" onClick={() => submitCompletion(selectedAnswers)} disabled={submittingResult} className="mt-3 rounded-xl bg-accent-primary px-4 py-2.5 text-xs font-black text-white transition hover:opacity-90 disabled:opacity-50">
-                    {submittingResult ? "Saving securely…" : "Save result & unlock certificate"}
-                  </button>
+              ) : completion ? (
+                <div className="mx-auto mt-5 max-w-xl rounded-2xl border border-accent-primary/20 bg-accent-primary/5 p-4 text-left">
+                  <div className="flex items-center justify-between gap-4">
+                    <div>
+                      <p className="text-[10px] font-black uppercase tracking-[0.16em] text-accent-primary">Certificate ready</p>
+                      <p className="mt-1 text-sm font-black text-foreground">Your result is complete. Your certificate is ready now.</p>
+                    </div>
+                    <div className="shrink-0 rounded-xl bg-background px-3 py-2 text-center shadow-sm">
+                      <p className="text-[9px] font-black uppercase tracking-[0.12em] text-muted-foreground">Rank</p>
+                      <p className="text-xl font-black text-foreground">—</p>
+                    </div>
+                  </div>
+                  <p className="mt-2 text-[11px] leading-5 text-muted-foreground">{completionError || "Adding your result to the public leaderboard…"}</p>
+                  {completionError && (
+                    <button
+                      type="button"
+                      onClick={async () => {
+                        setSubmittingResult(true);
+                        await syncLeaderboard(completion.record, completion.certificateId);
+                        setSubmittingResult(false);
+                      }}
+                      disabled={submittingResult}
+                      className="mt-3 rounded-xl bg-accent-primary px-4 py-2.5 text-xs font-black text-white transition hover:opacity-90 disabled:opacity-50"
+                    >
+                      {submittingResult ? "Syncing…" : "Retry leaderboard sync"}
+                    </button>
+                  )}
                 </div>
               ) : null}
             </div>
