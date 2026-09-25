@@ -211,6 +211,19 @@ export default function QuizDetailClient({ quiz }: { quiz: QuizDetailData }) {
 
       setCompletion({ certificateId: data.certificateId, record: submittedEntry });
 
+      if (data?.top?.userName) {
+        try {
+          const top = {
+            userName: String(data.top.userName).slice(0, 80),
+            percentage: Number(data.top.percentage) || 0,
+            quizTitle: data.top.quizTitle ? String(data.top.quizTitle).slice(0, 120) : undefined,
+            savedAt: Date.now(),
+          };
+          window.localStorage.setItem("upforge:header:leaderboard-top", JSON.stringify(top));
+          window.dispatchEvent(new CustomEvent("upforge:leaderboard-updated", { detail: top }));
+        } catch {}
+      }
+
       setLeaderboard((previous) => {
         const merged = [submittedEntry, ...previous.filter((entry) => entry.id !== submittedEntry.id)];
         merged.sort((a, b) => {

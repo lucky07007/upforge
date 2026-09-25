@@ -16,6 +16,7 @@ import {
   X,
 } from "lucide-react";
 import { QUIZ_REGISTRY } from "@/lib/quizData";
+import QuizCompletionCount from "@/components/quiz/quiz-completion-count";
 
 const BASE_URL = "https://upforge.org";
 
@@ -592,8 +593,7 @@ export default async function QuizIndexPage({
                     <div className="mb-3 flex items-center justify-between gap-3">
                       <span className="inline-flex items-center gap-1.5 text-[11px] font-semibold text-muted-foreground">
                         <Users className="h-3.5 w-3.5" />
-                        {quiz.baseParticipants.toLocaleString()}+
-                        completions
+                        <QuizCompletionCount quizSlug={quiz.slug} fallback={quiz.baseParticipants > 0 ? quiz.baseParticipants : undefined} />
                       </span>
 
                       <span className="text-[10px] font-black uppercase tracking-wider text-accent-gold">

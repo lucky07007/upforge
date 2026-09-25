@@ -92,6 +92,20 @@ export function Navbar() {
   useEffect(() => setMounted(true), []);
 
   useEffect(() => {
+    const onLeaderboardUpdated = (event: Event) => {
+      const detail = (event as CustomEvent).detail;
+      if (!detail?.userName) return;
+      setLeaderboardTop({
+        userName: String(detail.userName).slice(0, 80),
+        percentage: Number(detail.percentage) || 0,
+        quizTitle: detail.quizTitle ? String(detail.quizTitle).slice(0, 120) : undefined,
+      });
+    };
+    window.addEventListener("upforge:leaderboard-updated", onLeaderboardUpdated);
+    return () => window.removeEventListener("upforge:leaderboard-updated", onLeaderboardUpdated);
+  }, []);
+
+  useEffect(() => {
     const cacheKey = "upforge:header:leaderboard-top";
 
     // Paint the last verified #1 immediately if this browser has seen it before.

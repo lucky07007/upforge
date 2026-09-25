@@ -1,0 +1,79 @@
+/**
+ * Lightweight Google Sheets leaderboard transport.
+ *
+ * The Worker only proxies small JSON payloads. Sorting/counting is done by
+ * the Apps Script side so quiz traffic does not consume Worker CPU on large
+ * sheet scans.
+ */
+
+const DEFAULT_WEB_APP_URL =
+  "https://script.google.com/macros/s/AKfycbxdIB3PGmg1SM7BWXEodbj20KuiQQnY7OtC2uDfqDflXREeIWyg5pO5zf4JFpzsWYf3w/exec";
+
+export const QUIZ_SHEET_WEB_APP_URL =
+  process.env.UPFORGE_QUIZ_SHEET_WEB_APP_URL ||
+  process.env.NEXT_PUBLIC_APPS_SCRIPT_URL ||
+  DEFAULT_WEB_APP_URL;
+
+export const QUIZ_SHEET_SECRET = process.env.UPFORGE_QUIZ_SHEET_SECRET || "";
+
+function withTimeout(ms: number) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), ms);
+  return { controller, timer };
+}
+
+async function readJson(response: Response) {
+  const text = await response.text();
+  let data: any;
+  try {
+    data = JSON.parse(text);
+  } catch {
+    throw new Error("Google Sheets service returned an invalid response.");
+  }
+  if (!response.ok || !data?.success) {
+    throw new Error(String(data?.error || `Google Sheets service returned ${response.status}.`));
+  }
+  return data;
+}
+
+export async function fetchQuizSheet(action: string, params: Record<string, string> = {}) {
+  const url = new URL(QUIZ_SHEET_WEB_APP_URL);
+  url.searchParams.set("action", action);
+  Object.entries(params).forEach(([key, value]) => url.searchParams.set(key, value));
+
+  const { controller, timer } = withTimeout(6500);
+  try {
+    const response = await fetch(url.toString(), {
+      method: "GET",
+      headers: { Accept: "application/json" },
+      cache: "no-store",
+      signal: controller.signal,
+    });
+    return await readJson(response);
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+export async function appendQuizSheetResult(payload: Record<string, unknown>) {
+  if (!QUIZ_SHEET_SECRET) {
+    throw new Error("Quiz leaderboard secret is not configured.");
+  }
+
+  const { controller, timer } = withTimeout(7000);
+  try {
+    const response = await fetch(QUIZ_SHEET_WEB_APP_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({ ...payload, secret: QUIZ_SHEET_SECRET }),
+      cache: "no-store",
+      signal: controller.signal,
+    });
+    return await readJson(response);
+  } finally {
+    clearTimeout(timer);
+  }
+}

@@ -1,23 +1,38 @@
 import { NextRequest, NextResponse } from "next/server";
 import { QUIZ_REGISTRY } from "@/lib/quizData";
-import { appendQuizResult } from "@/lib/quiz-google-sheets";
+import { appendQuizSheetResult } from "@/lib/quiz-sheets";
 import { allowRateLimitedRequest, getClientIp } from "@/lib/quiz-rate-limit";
 
-const JSON_HEADERS = { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" };
+const JSON_HEADERS = {
+  "Content-Type": "application/json; charset=utf-8",
+  "Cache-Control": "no-store, max-age=0",
+};
 
 function json(data: unknown, status = 200) {
   return new NextResponse(JSON.stringify(data), { status, headers: JSON_HEADERS });
 }
 
 function cleanName(value: unknown) {
-  return String(value ?? "").replace(/[<>]/g, "").replace(/\s+/g, " ").trim().slice(0, 80);
+  return String(value ?? "")
+    .replace(/[<>]/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 80);
 }
 
-function makeId(prefix: string) {
-  const random = typeof crypto !== "undefined" && "randomUUID" in crypto
-    ? crypto.randomUUID().replace(/-/g, "").slice(0, 16)
-    : Math.random().toString(36).slice(2, 14);
-  return `${prefix}_${Date.now().toString(36)}_${random}`;
+function cleanAttemptId(value: unknown) {
+  return String(value ?? "")
+    .replace(/[^a-zA-Z0-9_-]/g, "")
+    .slice(0, 48);
+}
+
+function makeId() {
+  try {
+    if (typeof crypto !== "undefined" && "randomUUID" in crypto) {
+      return crypto.randomUUID().replace(/-/g, "").slice(0, 20);
+    }
+  } catch {}
+  return `${Date.now().toString(36)}${Math.random().toString(36).slice(2, 12)}`;
 }
 
 function getBadge(percentage: number) {
@@ -34,9 +49,9 @@ export async function POST(req: NextRequest) {
 
     const rate = allowRateLimitedRequest(`complete:${getClientIp(req)}`, 30);
     if (!rate.allowed) {
-      const result = json({ success: false, error: "Too many completion attempts. Please try again shortly." }, 429);
-      result.headers.set("Retry-After", String(rate.retryAfterSeconds));
-      return result;
+      const response = json({ success: false, error: "Too many completion attempts. Please try again shortly." }, 429);
+      response.headers.set("Retry-After", String(rate.retryAfterSeconds));
+      return response;
     }
 
     const body = await req.json();
@@ -45,57 +60,62 @@ export async function POST(req: NextRequest) {
     const quizSlug = String(body?.quizSlug || "").trim();
     const answers = body?.answers && typeof body.answers === "object" ? body.answers : {};
     const userName = cleanName(body?.userName);
+    const attemptId = cleanAttemptId(body?.attemptId) || makeId();
+
     if (!userName) return json({ success: false, error: "Please enter your name before starting the challenge." }, 400);
 
-    const quiz = QUIZ_REGISTRY.find((item) => item.slug === quizSlug);
+    const quiz = QUIZ_REGISTRY.find((item) => item.slug === quizSlug || item.id === quizSlug);
     if (!quiz) return json({ success: false, error: "Quiz not found." }, 404);
 
     let score = 0;
-    let answered = 0;
+    let answeredQuestionCount = 0;
+
     for (const question of quiz.questions) {
       const selected = Number(answers[String(question.id)]);
       if (Number.isInteger(selected) && selected >= 0 && selected < question.options.length) {
-        answered += 1;
+        answeredQuestionCount += 1;
         if (selected === question.correctIndex) score += 1;
       }
     }
 
-    const totalQuestions = quiz.questions.length;
-    if (answered !== totalQuestions) {
+    if (answeredQuestionCount !== quiz.questions.length) {
       return json({ success: false, error: "Please answer every question before completing the challenge." }, 400);
     }
 
+    const totalQuestions = quiz.questions.length;
     const percentage = Math.round((score / Math.max(totalQuestions, 1)) * 100);
+    const timeTakenSeconds = Math.max(1, Math.min(Number(body?.timeTakenSeconds) || 1, 60 * 60));
     const badgeEarned = getBadge(percentage);
+    const certificateId = `UFR-CERT-${quizSlug.slice(0, 8).toUpperCase()}-${attemptId.slice(-8).toUpperCase()}`;
     const completedAt = new Date().toISOString();
-    const completionId = makeId("sheet");
-    const certificateId = `UFR-CERT-${quizSlug.slice(0, 8).toUpperCase()}-${completionId.slice(-8).toUpperCase()}`;
-    const quizTitle = quiz.title.split("|")[0].trim();
 
-    await appendQuizResult({
+    const record = {
+      id: `sheet_${attemptId}`,
+      attemptId,
       userName,
-      quizTitle,
+      quizSlug: quiz.slug,
+      quizTitle: quiz.title.split("|")[0].trim(),
       score,
       totalQuestions,
-      date: completedAt,
-    });
+      percentage,
+      timeTakenSeconds,
+      badgeEarned,
+      certificateId,
+      completedAt,
+    };
+
+    const saved = await appendQuizSheetResult(record);
+    const savedRecord = saved?.record && typeof saved.record === "object"
+      ? { ...record, ...saved.record }
+      : record;
 
     return json({
       success: true,
-      completionId,
-      certificateId,
-      record: {
-        id: completionId,
-        userName,
-        score,
-        totalQuestions,
-        percentage,
-        badgeEarned,
-        timeTakenSeconds: Math.max(0, Math.min(Number(body?.timeTakenSeconds) || 0, 3600)),
-        completedAt,
-        quizSlug,
-        quizTitle,
-      },
+      completionId: String(saved?.completionId || record.id),
+      certificateId: String(savedRecord.certificateId || certificateId),
+      rank: Number(saved?.rank || 0),
+      top: saved?.top || null,
+      record: savedRecord,
     });
   } catch (error) {
     console.error("Quiz completion error:", error);
