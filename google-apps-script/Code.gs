@@ -11,7 +11,7 @@
  * UPFORGE_QUIZ_SHEET_SECRET
  */
 const SHEET_NAME = "Leaderboard";
-const SECRET = "CHANGE_THIS_TO_THE_SAME_SECRET_USED_IN_CLOUDFLARE";
+const SECRET = "UF-QZ-2026-9xK7mP4vR8tN2sL6wC5yH3jD";
 
 function doGet(e) {
   return json_({ success: true, service: "UpForge Quiz Leaderboard" });
