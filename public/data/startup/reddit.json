@@ -1,0 +1,137 @@
+{
+  "id": "uf-reddit",
+  "ufrn": "UF-2026-US-05177",
+  "name": "Reddit",
+  "slug": "reddit",
+  "status": "approved",
+  "founded": 2005,
+  "founded_year": 2005,
+  "location": {
+    "city": "San Francisco",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "consumer",
+  "subsector_ids": [
+    "consumer"
+  ],
+  "category": "Consumer",
+  "industry_cluster": "Other",
+  "founders": "Steve Huffman, Alexis Ohanian, Aaron Swartz",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-07 09:45:52.440988+00",
+  "description": "Reddit is a massive social news aggregation, content rating, and discussion platform organized into user-created communities known as \"subreddits.\"",
+  "description_short": "Reddit is a massive social news aggregation, content rating, and discussion platform organized into user-created communities known as \"subreddits.\"",
+  "description_long": "Reddit is a massive social news aggregation, content rating, and discussion platform organized into user-created communities known as \"subreddits.\"",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/2f5bed7ab9abb66ee8ccbf622c27a9d741c3c4e4.png",
+  "website": "https://www.reddit.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Reddit",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Steve Huffman, Alexis Ohanian, Aaron Swartz",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2005",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.reddit.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Consumer",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2005-01-01",
+        "note": "Entity founded by Steve Huffman, Alexis Ohanian, Aaron Swartz"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Consumer"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.reddit.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.986Z"
+}

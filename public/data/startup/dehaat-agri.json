@@ -1,0 +1,129 @@
+{
+  "id": "uf-dehaat-agri",
+  "ufrn": "UF-2026-IN-00017",
+  "name": "DeHaat",
+  "slug": "dehaat-agri",
+  "status": "approved",
+  "founded": 2012,
+  "founded_year": 2012,
+  "location": {
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "deeptech-climate",
+  "subsector_ids": [
+    "deeptech-climate"
+  ],
+  "category": "Deeptech & Climate",
+  "industry_cluster": "Other",
+  "founders": "Shashank Kumar",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-21 13:25:40.097640+00",
+  "description": "DeHaat is an agritech platform providing end-to-end services to farmers including seeds, fertilizers, and market linkage. Trending for its massive impact on the Indian rural economy. Stage: Series E.",
+  "description_short": "DeHaat is an agritech platform providing end-to-end services to farmers including seeds, fertilizers, and market linkage. Trending for its massive imp",
+  "description_long": "DeHaat is an agritech platform providing end-to-end services to farmers including seeds, fertilizers, and market linkage. Trending for its massive impact on the Indian rural economy. Stage: Series E.",
+  "logo_url": "https://techstory.in/wp-content/uploads/2022/01/DeHaat-Logo.jpg",
+  "website": "https://www.agrevolution.in/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/dehaat/",
+    "twitter": null,
+    "instagram": "https://www.instagram.com/dehaat/?hl=en"
+  },
+  "linkedin_url": "https://www.linkedin.com/company/dehaat/",
+  "twitter_url": null,
+  "instagram_url": "https://www.instagram.com/dehaat/?hl=en",
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "DeHaat",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Shashank Kumar",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2012",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.agrevolution.in/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Deeptech & Climate",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2012-01-01",
+        "note": "Entity founded by Shashank Kumar"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Deeptech & Climate"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.agrevolution.in/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.984Z"
+}

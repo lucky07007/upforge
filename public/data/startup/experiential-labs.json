@@ -1,0 +1,137 @@
+{
+  "id": "uf-experiential-labs",
+  "ufrn": "UF-2026-US-05413",
+  "name": "Experiential Labs",
+  "slug": "experiential-labs",
+  "status": "approved",
+  "founded": 2026,
+  "founded_year": 2026,
+  "location": {
+    "city": "San Francisco",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "b2b",
+  "subsector_ids": [
+    "b2b"
+  ],
+  "category": "B2B",
+  "industry_cluster": "Other",
+  "founders": "Kion Fallah, Silen Naihin",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-03-24 16:10:48.389685+00",
+  "description": "Experiential Labs builds an open-source OpenAI-compatible AI gateway and router that converts real-time production traffic into optimized custom models.",
+  "description_short": "Experiential Labs builds an open-source OpenAI-compatible AI gateway and router that converts real-time production traffic into optimized custom model",
+  "description_long": "Experiential Labs builds an open-source OpenAI-compatible AI gateway and router that converts real-time production traffic into optimized custom models.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/716e828c9efd6efe6da64574ff67dd5bfa0c2a25.png",
+  "website": "https://experientiallabs.ai/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Experiential Labs",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Kion Fallah, Silen Naihin",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2026",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://experientiallabs.ai/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "B2B",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2026-01-01",
+        "note": "Entity founded by Kion Fallah, Silen Naihin"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: B2B"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://experientiallabs.ai/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.990Z"
+}

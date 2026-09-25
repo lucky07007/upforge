@@ -1,0 +1,137 @@
+{
+  "id": "uf-pushbullet",
+  "ufrn": "UF-2026-US-05346",
+  "name": "Pushbullet",
+  "slug": "pushbullet",
+  "status": "approved",
+  "founded": 2013,
+  "founded_year": 2013,
+  "location": {
+    "city": "San Francisco",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "consumer",
+  "subsector_ids": [
+    "consumer"
+  ],
+  "category": "Consumer",
+  "industry_cluster": "Other",
+  "founders": "Ryan Oldenburg, Chris Hesse, Andre von Houck",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-03-11 12:16:43.057510+00",
+  "description": "Pushbullet is a cross-platform synchronization tool that seamlessly bridges mobile devices and desktop computers for notifications, messaging, and file transfers.",
+  "description_short": "Pushbullet is a cross-platform synchronization tool that seamlessly bridges mobile devices and desktop computers for notifications, messaging, and fil",
+  "description_long": "Pushbullet is a cross-platform synchronization tool that seamlessly bridges mobile devices and desktop computers for notifications, messaging, and file transfers.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5851e5656bbd2bdef010bd1269d6252d9748475b.png",
+  "website": "https://www.pushbullet.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Pushbullet",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Ryan Oldenburg, Chris Hesse, Andre von Houck",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2013",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.pushbullet.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Consumer",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2013-01-01",
+        "note": "Entity founded by Ryan Oldenburg, Chris Hesse, Andre von Houck"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Consumer"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.pushbullet.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.988Z"
+}

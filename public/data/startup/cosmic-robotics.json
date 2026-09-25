@@ -1,0 +1,137 @@
+{
+  "id": "uf-cosmic-robotics",
+  "ufrn": "UF-2026-GLB-COSMI",
+  "name": "Cosmic Robotics",
+  "slug": "cosmic-robotics",
+  "status": "approved",
+  "founded": 2023,
+  "founded_year": 2023,
+  "location": {
+    "city": "San Francisco",
+    "country": "San Francisco",
+    "country_code": "GLB"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "San Francisco",
+  "country_code": "GLB",
+  "sector_id": "industrials",
+  "subsector_ids": [
+    "industrials"
+  ],
+  "category": "Industrials",
+  "industry_cluster": "Other",
+  "founders": "Karan Verma, Leo Sterling",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-04-06 03:41:31.900742+00",
+  "description": "Cosmic Robotics manufactures robotic exterior wall finishing and automated inspection rovers for high-rise commercial structures.",
+  "description_short": "Cosmic Robotics manufactures robotic exterior wall finishing and automated inspection rovers for high-rise commercial structures.",
+  "description_long": "Cosmic Robotics manufactures robotic exterior wall finishing and automated inspection rovers for high-rise commercial structures.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/610b3f44c95c65ea346121a48c57b8c81a3788ce.png",
+  "website": "https://cosmicrobotics.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Cosmic Robotics",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Karan Verma, Leo Sterling",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2023",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://cosmicrobotics.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Industrials",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2023-01-01",
+        "note": "Entity founded by Karan Verma, Leo Sterling"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Industrials"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://cosmicrobotics.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.992Z"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "uf-ather-energy-ev",
+  "ufrn": "UF-2026-IN-00023",
+  "name": "Ather Energy",
+  "slug": "ather-energy-ev",
+  "status": "approved",
+  "founded": 2013,
+  "founded_year": 2013,
+  "location": {
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "mobility-ev",
+  "subsector_ids": [
+    "mobility-ev"
+  ],
+  "category": "Mobility & EV",
+  "industry_cluster": "Other",
+  "founders": "Tarun Mehta, Swapnil Jain",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-20 03:59:39.337909+00",
+  "description": "Ather Energy is a pioneer in the smart electric scooter market with a focus on performance and charging infrastructure. Trending for its 450X model and upcoming public listing. Stage: Growth.",
+  "description_short": "Ather Energy is a pioneer in the smart electric scooter market with a focus on performance and charging infrastructure. Trending for its 450X model an",
+  "description_long": "Ather Energy is a pioneer in the smart electric scooter market with a focus on performance and charging infrastructure. Trending for its 450X model and upcoming public listing. Stage: Growth.",
+  "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Y3WfC3j8lBZKVUCzeQ5t_sFGsj-zquqwJQ&s",
+  "website": "https://www.atherenergy.com/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/ather-energy/",
+    "twitter": null,
+    "instagram": "https://www.instagram.com/atherenergy/"
+  },
+  "linkedin_url": "https://www.linkedin.com/company/ather-energy/",
+  "twitter_url": null,
+  "instagram_url": "https://www.instagram.com/atherenergy/",
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Ather Energy",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Tarun Mehta, Swapnil Jain",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2013",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.atherenergy.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Mobility & EV",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2013-01-01",
+        "note": "Entity founded by Tarun Mehta, Swapnil Jain"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Mobility & EV"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.atherenergy.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.984Z"
+}

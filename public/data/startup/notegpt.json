@@ -1,0 +1,137 @@
+{
+  "id": "uf-notegpt",
+  "ufrn": "UF-2026-SG-05116",
+  "name": "NoteGPT",
+  "slug": "notegpt",
+  "status": "approved",
+  "founded": 2023,
+  "founded_year": 2023,
+  "location": {
+    "city": "Singapore",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "city": "Singapore",
+  "state": null,
+  "country_name": "Singapore",
+  "country_code": "SG",
+  "sector_id": "ai-technology",
+  "subsector_ids": [
+    "ai-technology"
+  ],
+  "category": "AI & Technology",
+  "industry_cluster": "AI",
+  "founders": "Hongyuan Cao, Pierre Peng",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-23 14:38:25.287230+00",
+  "description": "NoteGPT is an AI-powered all-in-one learning assistant that summarizes YouTube videos, PDFs, lectures, and articles. It automatically generates notes, flashcards, mind maps, and study aids to help users learn faster.",
+  "description_short": "NoteGPT is an AI-powered all-in-one learning assistant that summarizes YouTube videos, PDFs, lectures, and articles. It automatically generates notes,",
+  "description_long": "NoteGPT is an AI-powered all-in-one learning assistant that summarizes YouTube videos, PDFs, lectures, and articles. It automatically generates notes, flashcards, mind maps, and study aids to help users learn faster.",
+  "logo_url": "https://images.wondershare.com/edrawmind/articles2025/review-of-chatgpt/notegpt-review-01.jpg",
+  "website": "https://notegpt.io/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/notegpt/",
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": "https://www.linkedin.com/company/notegpt/",
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "NoteGPT",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Hongyuan Cao, Pierre Peng",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2023",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://notegpt.io/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "AI & Technology",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Singapore",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "Singapore",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2023-01-01",
+        "note": "Entity founded by Hongyuan Cao, Pierre Peng"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: AI & Technology"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://notegpt.io/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

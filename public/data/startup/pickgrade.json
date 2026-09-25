@@ -1,0 +1,129 @@
+{
+  "id": "uf-pickgrade",
+  "ufrn": "UF-2026-IS-05127",
+  "name": "PickGrade",
+  "slug": "pickgrade",
+  "status": "approved",
+  "founded": 2026,
+  "founded_year": 2026,
+  "location": {
+    "country": "Israel",
+    "country_code": "IS"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "Israel",
+  "country_code": "IS",
+  "sector_id": "ai-technology",
+  "subsector_ids": [
+    "ai-technology"
+  ],
+  "category": "AI & Technology",
+  "industry_cluster": "AI",
+  "founders": "Eran Yorkovsky",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-26 05:46:36.285194+00",
+  "description": "PickGrade is an independent, AI-powered product review and grading platform designed to help consumers make smarter buying decisions without relying on sponsored recommendations. The website aggregates and synthesizes technical specifications, expert reviews, and real user feedback to assign clear letter grades (e.g., A+, B) to consumer goods.",
+  "description_short": "PickGrade is an independent, AI-powered product review and grading platform designed to help consumers make smarter buying decisions without relying o",
+  "description_long": "PickGrade is an independent, AI-powered product review and grading platform designed to help consumers make smarter buying decisions without relying on sponsored recommendations. The website aggregates and synthesizes technical specifications, expert reviews, and real user feedback to assign clear letter grades (e.g., A+, B) to consumer goods.",
+  "logo_url": "https://s3-eu-west-1.amazonaws.com/tpd/logos/5eff483c0d5a6500010473b1/0x0.png",
+  "website": "https://pickgrade.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "PickGrade",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Eran Yorkovsky",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2026",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://pickgrade.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "AI & Technology",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "Israel",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2026-01-01",
+        "note": "Entity founded by Eran Yorkovsky"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: AI & Technology"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://pickgrade.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

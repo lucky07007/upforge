@@ -1,0 +1,137 @@
+{
+  "id": "uf-sunfarmer",
+  "ufrn": "UF-2026-NP-05271",
+  "name": "SunFarmer",
+  "slug": "sunfarmer",
+  "status": "approved",
+  "founded": 2013,
+  "founded_year": 2013,
+  "location": {
+    "city": "Kathmandu",
+    "country": "Nepal",
+    "country_code": "NP"
+  },
+  "city": "Kathmandu",
+  "state": null,
+  "country_name": "Nepal",
+  "country_code": "NP",
+  "sector_id": "industrials",
+  "subsector_ids": [
+    "industrials"
+  ],
+  "category": "Industrials",
+  "industry_cluster": "Other",
+  "founders": "Andy Moon, Jason Gray, Avishek Malla",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-25 06:25:59.816683+00",
+  "description": "SunFarmer is a non-profit and social enterprise that designs and finances affordable solar power systems for hospitals, schools, and agricultural farms in developing countries.",
+  "description_short": "SunFarmer is a non-profit and social enterprise that designs and finances affordable solar power systems for hospitals, schools, and agricultural farm",
+  "description_long": "SunFarmer is a non-profit and social enterprise that designs and finances affordable solar power systems for hospitals, schools, and agricultural farms in developing countries.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/eee49613f2a6fc2f2eda54599ee09dc7c3daee88.png",
+  "website": "https://www.sunfarmer.org/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "SunFarmer",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Andy Moon, Jason Gray, Avishek Malla",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2013",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.sunfarmer.org/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Industrials",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Kathmandu",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "Nepal",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2013-01-01",
+        "note": "Entity founded by Andy Moon, Jason Gray, Avishek Malla"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Industrials"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.sunfarmer.org/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.987Z"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "uf-estatepass",
+  "ufrn": "UF-2026-US-05115",
+  "name": "EstatePass",
+  "slug": "estatepass",
+  "status": "approved",
+  "founded": 2024,
+  "founded_year": 2024,
+  "location": {
+    "city": "New York",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "New York",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "ai-technology",
+  "subsector_ids": [
+    "ai-technology"
+  ],
+  "category": "AI & Technology",
+  "industry_cluster": "AI",
+  "founders": "Emma Smith",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-23 08:31:50.189763+00",
+  "description": "AI real estate exam prep and agent tools for aspiring and working real estate professionals.",
+  "description_short": "AI real estate exam prep and agent tools for aspiring and working real estate professionals.",
+  "description_long": "AI real estate exam prep and agent tools for aspiring and working real estate professionals.",
+  "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK2k1_21KqqyUbYvUzhXsyH3gLn5RbYBRZTw&s",
+  "website": "https://www.estatepass.ai/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/estatepass-ai/",
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": "https://www.linkedin.com/company/estatepass-ai/",
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "EstatePass",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Emma Smith",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2024",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.estatepass.ai/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "AI & Technology",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "New York",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2024-01-01",
+        "note": "Entity founded by Emma Smith"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: AI & Technology"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.estatepass.ai/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

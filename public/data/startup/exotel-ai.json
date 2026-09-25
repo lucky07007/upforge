@@ -1,0 +1,129 @@
+{
+  "id": "uf-exotel-ai",
+  "ufrn": "UF-2026-IN-00119",
+  "name": "Exotel AI",
+  "slug": "exotel-ai",
+  "status": "approved",
+  "founded": 2011,
+  "founded_year": 2011,
+  "location": {
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "saas",
+  "subsector_ids": [
+    "saas"
+  ],
+  "category": "SaaS",
+  "industry_cluster": "SaaS",
+  "founders": "Shivakumar Ganesan, Ishwar Sridharan",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-22 10:17:05.936495+00",
+  "description": "Exotel AI develops cloud communication platforms with conversational AI, call automation, and omnichannel customer engagement tools. Enterprises use it for call centers, messaging, and voice bots integrated with CRM systems. The platform supports scalable communication infrastructure for fintech, e-commerce, and mobility companies. Widely used across Asia and emerging markets. Stage: Series D funded.",
+  "description_short": "Exotel AI develops cloud communication platforms with conversational AI, call automation, and omnichannel customer engagement tools. Enterprises use i",
+  "description_long": "Exotel AI develops cloud communication platforms with conversational AI, call automation, and omnichannel customer engagement tools. Enterprises use it for call centers, messaging, and voice bots integrated with CRM systems. The platform supports scalable communication infrastructure for fintech, e-commerce, and mobility companies. Widely used across Asia and emerging markets. Stage: Series D funded.",
+  "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQE73QGU3KTQOg/company-logo_200_200/B56Z33te2yIsAI-/0/1777977388911/exotel_techcom_private_limited_logo?e=2147483647&v=beta&t=Z4ToV379q4u9ZEHiBa0ht2cSxQi3CRS-5BaFEcVkaT4",
+  "website": "https://exotel.com/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/exotel-techcom-private-limited/",
+    "twitter": null,
+    "instagram": "https://www.instagram.com/exotel_com/"
+  },
+  "linkedin_url": "https://www.linkedin.com/company/exotel-techcom-private-limited/",
+  "twitter_url": null,
+  "instagram_url": "https://www.instagram.com/exotel_com/",
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Exotel AI",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Shivakumar Ganesan, Ishwar Sridharan",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2011",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://exotel.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "SaaS",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2011-01-01",
+        "note": "Entity founded by Shivakumar Ganesan, Ishwar Sridharan"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: SaaS"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://exotel.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.984Z"
+}

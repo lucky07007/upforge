@@ -1,0 +1,137 @@
+{
+  "id": "uf-roomstorm",
+  "ufrn": "UF-2026-US-05321",
+  "name": "Roomstorm",
+  "slug": "roomstorm",
+  "status": "approved",
+  "founded": 2012,
+  "founded_year": 2012,
+  "location": {
+    "city": "San Francisco",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "consumer",
+  "subsector_ids": [
+    "consumer"
+  ],
+  "category": "Consumer",
+  "industry_cluster": "Other",
+  "founders": "Tore Knos, Daniel Wernli",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-03-06 18:01:43.820639+00",
+  "description": "Roomstorm is a software platform that simplifies housing and roommate matching processes for universities, student housing providers, and property managers.",
+  "description_short": "Roomstorm is a software platform that simplifies housing and roommate matching processes for universities, student housing providers, and property man",
+  "description_long": "Roomstorm is a software platform that simplifies housing and roommate matching processes for universities, student housing providers, and property managers.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/cce01a2f70c807a6306657d37ae4196d8bd4c40d.png",
+  "website": "https://www.roomstorm.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Roomstorm",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Tore Knos, Daniel Wernli",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2012",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.roomstorm.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Consumer",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2012-01-01",
+        "note": "Entity founded by Tore Knos, Daniel Wernli"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Consumer"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.roomstorm.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.988Z"
+}

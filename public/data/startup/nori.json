@@ -1,0 +1,137 @@
+{
+  "id": "uf-nori",
+  "ufrn": "UF-2026-GLB-NORI",
+  "name": "Nori",
+  "slug": "nori",
+  "status": "approved",
+  "founded": 2017,
+  "founded_year": 2017,
+  "location": {
+    "city": "New York City",
+    "country": "New York City",
+    "country_code": "GLB"
+  },
+  "city": "New York City",
+  "state": null,
+  "country_name": "New York City",
+  "country_code": "GLB",
+  "sector_id": "industrials",
+  "subsector_ids": [
+    "industrials"
+  ],
+  "category": "Industrials",
+  "industry_cluster": "Other",
+  "founders": "Paul Gambill, Christophe Jospe, Alexsandra Guerra",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-04-13 10:21:00.232797+00",
+  "description": "Nori operates a carbon removal marketplace that enables buyers to purchase verified Soil Carbon Removal Credits directly from farmers.",
+  "description_short": "Nori operates a carbon removal marketplace that enables buyers to purchase verified Soil Carbon Removal Credits directly from farmers.",
+  "description_long": "Nori operates a carbon removal marketplace that enables buyers to purchase verified Soil Carbon Removal Credits directly from farmers.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4b7cc06bfd9d08d6eae3bc20eca8c056f893bf8b.png",
+  "website": "https://nori.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Nori",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Paul Gambill, Christophe Jospe, Alexsandra Guerra",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2017",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://nori.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Industrials",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "New York City",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "New York City",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2017-01-01",
+        "note": "Entity founded by Paul Gambill, Christophe Jospe, Alexsandra Guerra"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Industrials"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://nori.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.992Z"
+}

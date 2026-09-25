@@ -1,0 +1,129 @@
+{
+  "id": "uf-exponent-energy",
+  "ufrn": "UF-2026-IN-00024",
+  "name": "Exponent Energy",
+  "slug": "exponent-energy",
+  "status": "approved",
+  "founded": 2020,
+  "founded_year": 2020,
+  "location": {
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "mobility-ev",
+  "subsector_ids": [
+    "mobility-ev"
+  ],
+  "category": "Mobility & EV",
+  "industry_cluster": "Other",
+  "founders": "Arun Vinayak, Sanjay Byalal",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-22 17:50:16.595678+00",
+  "description": "Exponent Energy develops 15-minute rapid charging technology for electric vehicles. In news for their massive expansion in the commercial 3-wheeler segment and battery-as-a-service model. Stage: Series B.",
+  "description_short": "Exponent Energy develops 15-minute rapid charging technology for electric vehicles. In news for their massive expansion in the commercial 3-wheeler se",
+  "description_long": "Exponent Energy develops 15-minute rapid charging technology for electric vehicles. In news for their massive expansion in the commercial 3-wheeler segment and battery-as-a-service model. Stage: Series B.",
+  "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQHislen9Mc29A/company-logo_200_200/company-logo_200_200/0/1732020819656/exponent_energy_logo?e=2147483647&v=beta&t=VY3-VKxmv9H8he90iTuTgQD8nS57J2ywrzPAK6Kqd6U",
+  "website": "https://exponentenergy.com/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/exponent-energy/",
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": "https://www.linkedin.com/company/exponent-energy/",
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Exponent Energy",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Arun Vinayak, Sanjay Byalal",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2020",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://exponentenergy.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Mobility & EV",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2020-01-01",
+        "note": "Entity founded by Arun Vinayak, Sanjay Byalal"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Mobility & EV"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://exponentenergy.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

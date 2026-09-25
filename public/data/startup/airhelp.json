@@ -1,0 +1,137 @@
+{
+  "id": "uf-airhelp",
+  "ufrn": "UF-2026-PT-05356",
+  "name": "AirHelp",
+  "slug": "airhelp",
+  "status": "approved",
+  "founded": 2013,
+  "founded_year": 2013,
+  "location": {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "city": "Lisbon",
+  "state": null,
+  "country_name": "Portugal",
+  "country_code": "PT",
+  "sector_id": "consumer",
+  "subsector_ids": [
+    "consumer"
+  ],
+  "category": "Consumer",
+  "industry_cluster": "Other",
+  "founders": "Henrik Zillmer, Nicolas Michaelsen, Poul Oddershede",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-03-13 17:29:25.379007+00",
+  "description": "AirHelp is a legal-tech claims processing service that advocates on behalf of air passengers to secure statutory compensation for delayed, canceled, or overbooked flights.",
+  "description_short": "AirHelp is a legal-tech claims processing service that advocates on behalf of air passengers to secure statutory compensation for delayed, canceled, o",
+  "description_long": "AirHelp is a legal-tech claims processing service that advocates on behalf of air passengers to secure statutory compensation for delayed, canceled, or overbooked flights.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/4e0dee02b88310ef4536fac2221c79633010d047.png",
+  "website": "https://www.airhelp.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "AirHelp",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Henrik Zillmer, Nicolas Michaelsen, Poul Oddershede",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2013",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.airhelp.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Consumer",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Lisbon",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "Portugal",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2013-01-01",
+        "note": "Entity founded by Henrik Zillmer, Nicolas Michaelsen, Poul Oddershede"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Consumer"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.airhelp.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.989Z"
+}

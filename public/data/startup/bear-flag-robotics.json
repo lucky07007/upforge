@@ -1,0 +1,137 @@
+{
+  "id": "uf-bear-flag-robotics",
+  "ufrn": "UF-2026-US-05191",
+  "name": "Bear Flag Robotics",
+  "slug": "bear-flag-robotics",
+  "status": "approved",
+  "founded": 2017,
+  "founded_year": 2017,
+  "location": {
+    "city": "New York City",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "New York City",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "industrials",
+  "subsector_ids": [
+    "industrials"
+  ],
+  "category": "Industrials",
+  "industry_cluster": "Other",
+  "founders": "Igino Cafiero, Aubrey Donnellan",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-10 10:25:10.462050+00",
+  "description": "Bear Flag Robotics is an autonomous agricultural technology company that develops self-driving software and sensor systems to turn farm tractors into fully autonomous machinery.",
+  "description_short": "Bear Flag Robotics is an autonomous agricultural technology company that develops self-driving software and sensor systems to turn farm tractors into ",
+  "description_long": "Bear Flag Robotics is an autonomous agricultural technology company that develops self-driving software and sensor systems to turn farm tractors into fully autonomous machinery.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f6c760103131e6cfdd881aff2d03fe079d21ff37.png",
+  "website": "https://bearflagrobotics.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Bear Flag Robotics",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Igino Cafiero, Aubrey Donnellan",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2017",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://bearflagrobotics.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Industrials",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "New York City",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2017-01-01",
+        "note": "Entity founded by Igino Cafiero, Aubrey Donnellan"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Industrials"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://bearflagrobotics.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.986Z"
+}

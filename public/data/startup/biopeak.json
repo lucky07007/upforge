@@ -1,0 +1,129 @@
+{
+  "id": "uf-biopeak",
+  "ufrn": "UF-2026-IN-00002",
+  "name": "Biopeak",
+  "slug": "biopeak",
+  "status": "approved",
+  "founded": 2024,
+  "founded_year": 2024,
+  "location": {
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "healthcare",
+  "subsector_ids": [
+    "healthcare"
+  ],
+  "category": "Healthcare",
+  "industry_cluster": "HealthTech",
+  "founders": "Runam Mehta (lead), Agastya Samat, Pasindu Wijesena",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-20 05:46:57.369918+00",
+  "description": "Biopeak operates India's first high-tech healthspan clinic network for preventive, personalized longevity care tailored to South Asians. It uses multiomics testing, AI insights, and expert teams for customized health blueprints, digitized tracking, and ongoing support covering nutrition, movement, and neurocare. Focused on proactive wellness over illness treatment, with a state-of-the-art Bengaluru facility. Achieved 20x clinic growth, expert events, and rapid adoption in preventive health. Stage: Seed ($3.5M+ from Accel and others).",
+  "description_short": "Biopeak operates India's first high-tech healthspan clinic network for preventive, personalized longevity care tailored to South Asians. It uses multi",
+  "description_long": "Biopeak operates India's first high-tech healthspan clinic network for preventive, personalized longevity care tailored to South Asians. It uses multiomics testing, AI insights, and expert teams for customized health blueprints, digitized tracking, and ongoing support covering nutrition, movement, and neurocare. Focused on proactive wellness over illness treatment, with a state-of-the-art Bengaluru facility. Achieved 20x clinic growth, expert events, and rapid adoption in preventive health. Stage: Seed ($3.5M+ from Accel and others).",
+  "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjnbbQJ4C3kiycFsPHgBougliAxvg8DKPKrA&s",
+  "website": "https://biopeakhealth.com/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/biopeak-health/",
+    "twitter": null,
+    "instagram": "https://www.instagram.com/postureheadachedoc/"
+  },
+  "linkedin_url": "https://www.linkedin.com/company/biopeak-health/",
+  "twitter_url": null,
+  "instagram_url": "https://www.instagram.com/postureheadachedoc/",
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Biopeak",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Runam Mehta (lead), Agastya Samat, Pasindu Wijesena",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2024",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://biopeakhealth.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Healthcare",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2024-01-01",
+        "note": "Entity founded by Runam Mehta (lead), Agastya Samat, Pasindu Wijesena"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Healthcare"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://biopeakhealth.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.984Z"
+}

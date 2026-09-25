@@ -1,0 +1,137 @@
+{
+  "id": "uf-bird",
+  "ufrn": "UF-2026-NL-05166",
+  "name": "Bird",
+  "slug": "bird",
+  "status": "approved",
+  "founded": 2017,
+  "founded_year": 2017,
+  "location": {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "country_code": "NL"
+  },
+  "city": "Amsterdam",
+  "state": null,
+  "country_name": "Netherlands",
+  "country_code": "NL",
+  "sector_id": "b2b",
+  "subsector_ids": [
+    "b2b"
+  ],
+  "category": "B2B",
+  "industry_cluster": "Other",
+  "founders": "Travis VanderZanden",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-03 18:18:38.226525+00",
+  "description": "Bird is an electric vehicle transportation company that operates shared electric scooters and micro-mobility platforms across cities worldwide.",
+  "description_short": "Bird is an electric vehicle transportation company that operates shared electric scooters and micro-mobility platforms across cities worldwide.",
+  "description_long": "Bird is an electric vehicle transportation company that operates shared electric scooters and micro-mobility platforms across cities worldwide.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/bdee5b69dd38909ad07702b3aebc29f8d5880658.png",
+  "website": "https://bird.co/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Bird",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Travis VanderZanden",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2017",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://bird.co/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "B2B",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Amsterdam",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "Netherlands",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2017-01-01",
+        "note": "Entity founded by Travis VanderZanden"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: B2B"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://bird.co/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.986Z"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "uf-botmarketingpro",
+  "ufrn": "UF-2026-SG-05130",
+  "name": "BotMarketing.pro",
+  "slug": "botmarketingpro",
+  "status": "approved",
+  "founded": 2026,
+  "founded_year": 2026,
+  "location": {
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "Singapore",
+  "country_code": "SG",
+  "sector_id": "saas",
+  "subsector_ids": [
+    "saas"
+  ],
+  "category": "SaaS",
+  "industry_cluster": "SaaS",
+  "founders": "Eduard Volkov",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-26 15:26:57.281208+00",
+  "description": "BotMarketingPro is a no-code business automation and customer retention SaaS platform designed specifically for small businesses, local merchants, and freelancers. The software allows non-technical entrepreneurs to launch their own digital sales presence directly inside the Telegram messaging ecosystem.",
+  "description_short": "BotMarketingPro is a no-code business automation and customer retention SaaS platform designed specifically for small businesses, local merchants, and",
+  "description_long": "BotMarketingPro is a no-code business automation and customer retention SaaS platform designed specifically for small businesses, local merchants, and freelancers. The software allows non-technical entrepreneurs to launch their own digital sales presence directly inside the Telegram messaging ecosystem.",
+  "logo_url": "https://botmarketing.pro/favicon/android-chrome-192x192.png",
+  "website": "https://botmarketing.pro/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "BotMarketing.pro",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Eduard Volkov",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2026",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://botmarketing.pro/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "SaaS",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "Singapore",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2026-01-01",
+        "note": "Entity founded by Eduard Volkov"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: SaaS"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://botmarketing.pro/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "uf-vendo",
+  "ufrn": "UF-2026-GLB-VENDO",
+  "name": "Vendo",
+  "slug": "vendo",
+  "status": "approved",
+  "founded": 2020,
+  "founded_year": 2020,
+  "location": {
+    "city": "San Francisco",
+    "country": "San Francisco",
+    "country_code": "GLB"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "San Francisco",
+  "country_code": "GLB",
+  "sector_id": "b2b",
+  "subsector_ids": [
+    "b2b"
+  ],
+  "category": "B2B",
+  "industry_cluster": "Other",
+  "founders": "Piotr Szelag, Wojtek Szelag",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-04-10 10:49:26.917168+00",
+  "description": "Vendo is an all-in-one headless multi-vendor marketplace platform enabling brands to integrate curated drop-shippers into online storefronts.",
+  "description_short": "Vendo is an all-in-one headless multi-vendor marketplace platform enabling brands to integrate curated drop-shippers into online storefronts.",
+  "description_long": "Vendo is an all-in-one headless multi-vendor marketplace platform enabling brands to integrate curated drop-shippers into online storefronts.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/78a3b3436ef4b4e09e82a4c3fcc2733004348735.png",
+  "website": "https://www.getvendo.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Vendo",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Piotr Szelag, Wojtek Szelag",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2020",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.getvendo.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "B2B",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2020-01-01",
+        "note": "Entity founded by Piotr Szelag, Wojtek Szelag"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: B2B"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.getvendo.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.992Z"
+}

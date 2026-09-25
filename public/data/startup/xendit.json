@@ -1,0 +1,137 @@
+{
+  "id": "uf-xendit",
+  "ufrn": "UF-2026-ID-05253",
+  "name": "Xendit",
+  "slug": "xendit",
+  "status": "approved",
+  "founded": 2015,
+  "founded_year": 2015,
+  "location": {
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "city": "Jakarta",
+  "state": null,
+  "country_name": "Indonesia",
+  "country_code": "ID",
+  "sector_id": "fintech",
+  "subsector_ids": [
+    "fintech"
+  ],
+  "category": "Fintech",
+  "industry_cluster": "Fintech",
+  "founders": "Moses Lo, Tessa Wijaya, Bo Chen, Juan Gonzalez",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-21 16:20:50.143291+00",
+  "description": "Xendit is a Southeast Asian payment gateway platform that enables online businesses across Indonesia, the Philippines, and the region to accept payments, disburse funds, and manage fraud.",
+  "description_short": "Xendit is a Southeast Asian payment gateway platform that enables online businesses across Indonesia, the Philippines, and the region to accept paymen",
+  "description_long": "Xendit is a Southeast Asian payment gateway platform that enables online businesses across Indonesia, the Philippines, and the region to accept payments, disburse funds, and manage fraud.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/82971ab934851a55cee1aa3b11b22839902e7f2e.png",
+  "website": "https://www.xendit.co/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Xendit",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Moses Lo, Tessa Wijaya, Bo Chen, Juan Gonzalez",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2015",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.xendit.co/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Fintech",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Jakarta",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "Indonesia",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2015-01-01",
+        "note": "Entity founded by Moses Lo, Tessa Wijaya, Bo Chen, Juan Gonzalez"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Fintech"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.xendit.co/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.987Z"
+}

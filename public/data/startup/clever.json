@@ -1,0 +1,137 @@
+{
+  "id": "uf-clever",
+  "ufrn": "UF-2026-US-05176",
+  "name": "Clever",
+  "slug": "clever",
+  "status": "approved",
+  "founded": 2012,
+  "founded_year": 2012,
+  "location": {
+    "city": "San Francisco",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "edtech",
+  "subsector_ids": [
+    "edtech"
+  ],
+  "category": "EdTech",
+  "industry_cluster": "EdTech",
+  "founders": "Tyler Bosmeny, Dan Carroll, Rafael Garcia",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-07 05:11:47.755248+00",
+  "description": "Clever is an educational technology platform that offers a single sign-on portal and data management system connecting K-12 schools, students, and digital learning applications.",
+  "description_short": "Clever is an educational technology platform that offers a single sign-on portal and data management system connecting K-12 schools, students, and dig",
+  "description_long": "Clever is an educational technology platform that offers a single sign-on portal and data management system connecting K-12 schools, students, and digital learning applications.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/76cc0d8c3947ddc3bc0b8b889117b3cf3dc00ba2.png",
+  "website": "https://www.clever.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Clever",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Tyler Bosmeny, Dan Carroll, Rafael Garcia",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2012",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.clever.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "EdTech",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2012-01-01",
+        "note": "Entity founded by Tyler Bosmeny, Dan Carroll, Rafael Garcia"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: EdTech"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.clever.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.986Z"
+}

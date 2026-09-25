@@ -1,0 +1,137 @@
+{
+  "id": "uf-levocred-ai",
+  "ufrn": "UF-2026-GLB-LEVOC",
+  "name": "Levocred AI",
+  "slug": "levocred-ai",
+  "status": "approved",
+  "founded": 2023,
+  "founded_year": 2023,
+  "location": {
+    "city": "San Francisco",
+    "country": "San Francisco",
+    "country_code": "GLB"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "San Francisco",
+  "country_code": "GLB",
+  "sector_id": "fintech",
+  "subsector_ids": [
+    "fintech"
+  ],
+  "category": "Fintech",
+  "industry_cluster": "Fintech",
+  "founders": "Andres Silva, Maria Gonzalez",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-04-03 23:47:10.649613+00",
+  "description": "Levocred AI provides automated credit risk scoring and alternative data underwriting tools for consumer and SME lenders.",
+  "description_short": "Levocred AI provides automated credit risk scoring and alternative data underwriting tools for consumer and SME lenders.",
+  "description_long": "Levocred AI provides automated credit risk scoring and alternative data underwriting tools for consumer and SME lenders.",
+  "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQFA2OIHln6yNQ/company-logo_200_200/B56Z_o9.gAKYAE-/0/1786319988959/levocred_ai_logo?e=2147483647&v=beta&t=8njIXtaId99GJzZfPi9RGe4ygemdOZV_lgrp7SWj_mY",
+  "website": "https://levocred.ai/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Levocred AI",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Andres Silva, Maria Gonzalez",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2023",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://levocred.ai/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Fintech",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2023-01-01",
+        "note": "Entity founded by Andres Silva, Maria Gonzalez"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Fintech"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://levocred.ai/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.991Z"
+}

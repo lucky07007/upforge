@@ -1,0 +1,129 @@
+{
+  "id": "uf-stealthmole",
+  "ufrn": "UF-2026-SG-05134",
+  "name": "StealthMole",
+  "slug": "stealthmole",
+  "status": "approved",
+  "founded": 2021,
+  "founded_year": 2021,
+  "location": {
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "Singapore",
+  "country_code": "SG",
+  "sector_id": "ai-technology",
+  "subsector_ids": [
+    "ai-technology"
+  ],
+  "category": "AI & Technology",
+  "industry_cluster": "AI",
+  "founders": "Louis Hur and Simon Choi",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-27 17:15:17.850474+00",
+  "description": "StealthMole is an AI-powered dark web intelligence platform that helps enterprises and governments detect leaked data, monitor cyber threats, and get ahead of criminal activity before it escalates.",
+  "description_short": "StealthMole is an AI-powered dark web intelligence platform that helps enterprises and governments detect leaked data, monitor cyber threats, and get ",
+  "description_long": "StealthMole is an AI-powered dark web intelligence platform that helps enterprises and governments detect leaked data, monitor cyber threats, and get ahead of criminal activity before it escalates.",
+  "logo_url": "https://www.google.com/s2/favicons?domain=stealthmole.com&sz=128",
+  "website": "https://stealthmole.com",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "StealthMole",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Louis Hur and Simon Choi",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2021",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://stealthmole.com",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "AI & Technology",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "Singapore",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2021-01-01",
+        "note": "Entity founded by Louis Hur and Simon Choi"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: AI & Technology"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://stealthmole.com"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

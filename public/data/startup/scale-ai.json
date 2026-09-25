@@ -1,0 +1,137 @@
+{
+  "id": "uf-scale-ai",
+  "ufrn": "UF-2026-US-05217",
+  "name": "Scale AI",
+  "slug": "scale-ai",
+  "status": "approved",
+  "founded": 2016,
+  "founded_year": 2016,
+  "location": {
+    "city": "San Francisco",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "b2b",
+  "subsector_ids": [
+    "b2b"
+  ],
+  "category": "B2B",
+  "industry_cluster": "Other",
+  "founders": "Alexandr Wang, Lucy Guo",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-15 06:18:19.929098+00",
+  "description": "Scale AI is a data infrastructure platform that provides labeled data, annotation pipelines, and evaluation benchmarks to train artificial intelligence and machine learning models.",
+  "description_short": "Scale AI is a data infrastructure platform that provides labeled data, annotation pipelines, and evaluation benchmarks to train artificial intelligenc",
+  "description_long": "Scale AI is a data infrastructure platform that provides labeled data, annotation pipelines, and evaluation benchmarks to train artificial intelligence and machine learning models.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8c45a78eb56f4a95e41a3a77960b00fdfb4cd918.png",
+  "website": "https://scale.com/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/scaleai",
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": "https://www.linkedin.com/company/scaleai",
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Scale AI",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Alexandr Wang, Lucy Guo",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2016",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://scale.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "B2B",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2016-01-01",
+        "note": "Entity founded by Alexandr Wang, Lucy Guo"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: B2B"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://scale.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.983Z"
+}

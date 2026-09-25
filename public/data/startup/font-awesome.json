@@ -1,0 +1,137 @@
+{
+  "id": "uf-font-awesome",
+  "ufrn": "UF-2026-US-05252",
+  "name": "Font Awesome",
+  "slug": "font-awesome",
+  "status": "approved",
+  "founded": 2012,
+  "founded_year": 2012,
+  "location": {
+    "city": "Bentonville",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "Bentonville",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "b2b",
+  "subsector_ids": [
+    "b2b"
+  ],
+  "category": "B2B",
+  "industry_cluster": "Other",
+  "founders": "Dave Gandy",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-21 12:59:01.578831+00",
+  "description": "Font Awesome is a popular web icon library and toolkit offering scalable vector icons and social logos used by millions of websites globally.",
+  "description_short": "Font Awesome is a popular web icon library and toolkit offering scalable vector icons and social logos used by millions of websites globally.",
+  "description_long": "Font Awesome is a popular web icon library and toolkit offering scalable vector icons and social logos used by millions of websites globally.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/fa479320e3d153a191f13fca9e3c89b631a02350.png",
+  "website": "https://fontawesome.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Font Awesome",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Dave Gandy",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2012",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://fontawesome.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "B2B",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Bentonville",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2012-01-01",
+        "note": "Entity founded by Dave Gandy"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: B2B"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://fontawesome.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.987Z"
+}

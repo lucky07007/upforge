@@ -1,0 +1,137 @@
+{
+  "id": "uf-nurx",
+  "ufrn": "UF-2026-US-05188",
+  "name": "NURX",
+  "slug": "nurx",
+  "status": "approved",
+  "founded": 2015,
+  "founded_year": 2015,
+  "location": {
+    "city": "New York City",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "New York City",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "healthcare",
+  "subsector_ids": [
+    "healthcare"
+  ],
+  "category": "Healthcare",
+  "industry_cluster": "HealthTech",
+  "founders": "Hans Gangeskar, Edvard Engesaeth",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-09 23:23:41.713850+00",
+  "description": "NURX is a telehealth platform that provides specialized online medical consultations, home testing kits, and home delivery for prescriptions like birth control, dermatology, and PrEP.",
+  "description_short": "NURX is a telehealth platform that provides specialized online medical consultations, home testing kits, and home delivery for prescriptions like birt",
+  "description_long": "NURX is a telehealth platform that provides specialized online medical consultations, home testing kits, and home delivery for prescriptions like birth control, dermatology, and PrEP.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/e30eef55b4ffb18884d227d20476b264b3388dd6.png",
+  "website": "https://www.nurx.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "NURX",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Hans Gangeskar, Edvard Engesaeth",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2015",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.nurx.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Healthcare",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "New York City",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2015-01-01",
+        "note": "Entity founded by Hans Gangeskar, Edvard Engesaeth"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Healthcare"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.nurx.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.986Z"
+}

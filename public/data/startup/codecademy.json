@@ -1,0 +1,137 @@
+{
+  "id": "uf-codecademy",
+  "ufrn": "UF-2026-US-05169",
+  "name": "Codecademy",
+  "slug": "codecademy",
+  "status": "approved",
+  "founded": 2011,
+  "founded_year": 2011,
+  "location": {
+    "city": "New York City",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "New York City",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "edtech",
+  "subsector_ids": [
+    "edtech"
+  ],
+  "category": "EdTech",
+  "industry_cluster": "EdTech",
+  "founders": "Zach Sims, Ryan Bubinski",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-04 10:57:52.268368+00",
+  "description": "Codecademy is an online interactive learning platform that offers coding classes and technical skills courses across various programming languages and tech disciplines.",
+  "description_short": "Codecademy is an online interactive learning platform that offers coding classes and technical skills courses across various programming languages and",
+  "description_long": "Codecademy is an online interactive learning platform that offers coding classes and technical skills courses across various programming languages and tech disciplines.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ee26c3b11a260e7a045f68b47d8c804b306db89f.png",
+  "website": "https://www.codecademy.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Codecademy",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Zach Sims, Ryan Bubinski",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2011",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.codecademy.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "EdTech",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "New York City",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2011-01-01",
+        "note": "Entity founded by Zach Sims, Ryan Bubinski"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: EdTech"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.codecademy.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.986Z"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "uf-luca-iq",
+  "ufrn": "UF-2026-GLB-LUCAI",
+  "name": "Luca IQ",
+  "slug": "luca-iq",
+  "status": "approved",
+  "founded": 2022,
+  "founded_year": 2022,
+  "location": {
+    "city": "Boston",
+    "country": "Boston",
+    "country_code": "GLB"
+  },
+  "city": "Boston",
+  "state": null,
+  "country_name": "Boston",
+  "country_code": "GLB",
+  "sector_id": "b2b",
+  "subsector_ids": [
+    "b2b"
+  ],
+  "category": "B2B",
+  "industry_cluster": "Other",
+  "founders": "Anthony Rizzo, Sean Bennett",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-04-06 23:32:29.337435+00",
+  "description": "Luca IQ is an AI copilot for finance teams that automates balance sheet analysis, cash variance tracking, and SaaS forecasting.",
+  "description_short": "Luca IQ is an AI copilot for finance teams that automates balance sheet analysis, cash variance tracking, and SaaS forecasting.",
+  "description_long": "Luca IQ is an AI copilot for finance teams that automates balance sheet analysis, cash variance tracking, and SaaS forecasting.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/05718bc482e46fde4208c29e7eef28f2f4b686e7.png",
+  "website": "https://lucaiq.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Luca IQ",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Anthony Rizzo, Sean Bennett",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2022",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://lucaiq.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "B2B",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Boston",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "Boston",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2022-01-01",
+        "note": "Entity founded by Anthony Rizzo, Sean Bennett"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: B2B"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://lucaiq.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.992Z"
+}

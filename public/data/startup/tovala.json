@@ -1,0 +1,137 @@
+{
+  "id": "uf-tovala",
+  "ufrn": "UF-2026-US-05234",
+  "name": "Tovala",
+  "slug": "tovala",
+  "status": "approved",
+  "founded": 2015,
+  "founded_year": 2015,
+  "location": {
+    "city": "Chicago",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "Chicago",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "consumer",
+  "subsector_ids": [
+    "consumer"
+  ],
+  "category": "Consumer",
+  "industry_cluster": "Other",
+  "founders": "David Rabie, Bryan Wilcox",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-18 17:45:32.528748+00",
+  "description": "Tovala is a smart kitchen appliance and meal-delivery service combining a Wi-Fi-connected countertop smart oven with a subscription meal service that cooks fresh meals automatically using QR codes.",
+  "description_short": "Tovala is a smart kitchen appliance and meal-delivery service combining a Wi-Fi-connected countertop smart oven with a subscription meal service that ",
+  "description_long": "Tovala is a smart kitchen appliance and meal-delivery service combining a Wi-Fi-connected countertop smart oven with a subscription meal service that cooks fresh meals automatically using QR codes.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/247ac2d1345ad129934e37ac634a887b3dd3edf1.png",
+  "website": "http://tovala.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Tovala",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "David Rabie, Bryan Wilcox",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2015",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "http://tovala.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Consumer",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Chicago",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2015-01-01",
+        "note": "Entity founded by David Rabie, Bryan Wilcox"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Consumer"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "http://tovala.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.986Z"
+}

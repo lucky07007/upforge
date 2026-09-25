@@ -1,0 +1,137 @@
+{
+  "id": "uf-simantic",
+  "ufrn": "UF-2026-CA-05412",
+  "name": "Simantic",
+  "slug": "simantic",
+  "status": "approved",
+  "founded": 2025,
+  "founded_year": 2025,
+  "location": {
+    "city": "Waterloo",
+    "country": "Canada",
+    "country_code": "CA"
+  },
+  "city": "Waterloo",
+  "state": null,
+  "country_name": "Canada",
+  "country_code": "CA",
+  "sector_id": "b2b",
+  "subsector_ids": [
+    "b2b"
+  ],
+  "category": "B2B",
+  "industry_cluster": "Other",
+  "founders": "Seungmin Hong, Ahnaf Shahriar",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-03-24 14:23:32.986097+00",
+  "description": "Simantic builds embedded firmware simulation environments for autonomous AI engineering agents to test and validate hardware code before physical manufacturing.",
+  "description_short": "Simantic builds embedded firmware simulation environments for autonomous AI engineering agents to test and validate hardware code before physical manu",
+  "description_long": "Simantic builds embedded firmware simulation environments for autonomous AI engineering agents to test and validate hardware code before physical manufacturing.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/12eef74104b6e57636a6f0d2305e3a2d18d5c2e5.png",
+  "website": "https://uwaterloo.ca/news/simantic-scales-waterloo-startup-global-ai-hardware",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Simantic",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Seungmin Hong, Ahnaf Shahriar",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2025",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://uwaterloo.ca/news/simantic-scales-waterloo-startup-global-ai-hardware",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "B2B",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Waterloo",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "Canada",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2025-01-01",
+        "note": "Entity founded by Seungmin Hong, Ahnaf Shahriar"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: B2B"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://uwaterloo.ca/news/simantic-scales-waterloo-startup-global-ai-hardware"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.990Z"
+}

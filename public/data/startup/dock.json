@@ -1,0 +1,137 @@
+{
+  "id": "uf-dock",
+  "ufrn": "UF-2026-GLB-DOCK",
+  "name": "Dock",
+  "slug": "dock",
+  "status": "approved",
+  "founded": 2017,
+  "founded_year": 2017,
+  "location": {
+    "city": "San Francisco",
+    "country": "San Francisco",
+    "country_code": "GLB"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "San Francisco",
+  "country_code": "GLB",
+  "sector_id": "b2b",
+  "subsector_ids": [
+    "b2b"
+  ],
+  "category": "B2B",
+  "industry_cluster": "Other",
+  "founders": "Nick Lambert, Elina Cadouri",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-03-30 20:21:36.383313+00",
+  "description": "Dock provides verifiable credential infrastructure and decentralized digital identity verification platforms for enterprises.",
+  "description_short": "Dock provides verifiable credential infrastructure and decentralized digital identity verification platforms for enterprises.",
+  "description_long": "Dock provides verifiable credential infrastructure and decentralized digital identity verification platforms for enterprises.",
+  "logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQFNSvYWe4-GiQ/company-logo_200_200/company-logo_200_200/0/1734455760732/docknetwork_logo?e=2147483647&v=beta&t=iL2HWsuHZoTpV3bJruHTf0ohyiVteElB9YqONVbBVyY",
+  "website": "https://www.dock.io/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Dock",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Nick Lambert, Elina Cadouri",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2017",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.dock.io/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "B2B",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2017-01-01",
+        "note": "Entity founded by Nick Lambert, Elina Cadouri"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: B2B"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.dock.io/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.991Z"
+}

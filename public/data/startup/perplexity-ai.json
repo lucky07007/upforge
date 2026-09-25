@@ -1,0 +1,137 @@
+{
+  "id": "uf-perplexity-ai",
+  "ufrn": "UF-2026-US-05108",
+  "name": "Perplexity AI",
+  "slug": "perplexity-ai",
+  "status": "approved",
+  "founded": 2022,
+  "founded_year": 2022,
+  "location": {
+    "city": "San Francisco",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "ai-technology",
+  "subsector_ids": [
+    "ai-technology"
+  ],
+  "category": "AI & Technology",
+  "industry_cluster": "AI",
+  "founders": "Aravind Srinivas, Denis Yarats, Johnny Ho, Andy Konwinski",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-22 20:51:11.103812+00",
+  "description": "Perplexity AI is an AI-powered conversational search engine that delivers real-time, accurate answers with citations, acting as a smarter alternative to traditional search engines.",
+  "description_short": "Perplexity AI is an AI-powered conversational search engine that delivers real-time, accurate answers with citations, acting as a smarter alternative ",
+  "description_long": "Perplexity AI is an AI-powered conversational search engine that delivers real-time, accurate answers with citations, acting as a smarter alternative to traditional search engines.",
+  "logo_url": "https://framerusercontent.com/images/gcMkPKyj2RX8EOEja8A1GWvCb7E.jpg?width=2000&height=2000",
+  "website": "https://www.perplexity.ai/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/perplexity-ai/",
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": "https://www.linkedin.com/company/perplexity-ai/",
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Perplexity AI",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Aravind Srinivas, Denis Yarats, Johnny Ho, Andy Konwinski",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2022",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.perplexity.ai/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "AI & Technology",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2022-01-01",
+        "note": "Entity founded by Aravind Srinivas, Denis Yarats, Johnny Ho, Andy Konwinski"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: AI & Technology"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.perplexity.ai/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

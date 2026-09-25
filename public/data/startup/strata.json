@@ -1,0 +1,129 @@
+{
+  "id": "uf-strata",
+  "ufrn": "UF-2026-IN-05123",
+  "name": "Strata",
+  "slug": "strata",
+  "status": "approved",
+  "founded": 2026,
+  "founded_year": 2026,
+  "location": {
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "social-media",
+  "subsector_ids": [
+    "social-media"
+  ],
+  "category": "Social media",
+  "industry_cluster": "Other",
+  "founders": "Gautam Govind",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-25 16:03:14.530937+00",
+  "description": "Strata is an interactive 3D spatial social media application by Continuum Arc Technologies, designed for capturing and sharing photos with depth, motion, and spatial commenting. It features mobile-based exploration, including \"Portals\" for navigating 3D environments, and a daily rewards system.",
+  "description_short": "Strata is an interactive 3D spatial social media application by Continuum Arc Technologies, designed for capturing and sharing photos with depth, moti",
+  "description_long": "Strata is an interactive 3D spatial social media application by Continuum Arc Technologies, designed for capturing and sharing photos with depth, motion, and spatial commenting. It features mobile-based exploration, including \"Portals\" for navigating 3D environments, and a daily rewards system.",
+  "logo_url": "data:image/jpeg;base64,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",
+  "website": "https://strata.continuumarc.tech/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/strata-prop/",
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": "https://www.linkedin.com/company/strata-prop/",
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Strata",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Gautam Govind",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2026",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://strata.continuumarc.tech/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Social media",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2026-01-01",
+        "note": "Entity founded by Gautam Govind"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Social media"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://strata.continuumarc.tech/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

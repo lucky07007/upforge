@@ -1,0 +1,137 @@
+{
+  "id": "uf-grip",
+  "ufrn": "UF-2026-GLB-GRIP",
+  "name": "Grip",
+  "slug": "grip",
+  "status": "approved",
+  "founded": 2014,
+  "founded_year": 2014,
+  "location": {
+    "city": "Zürich",
+    "country": "Zürich",
+    "country_code": "GLB"
+  },
+  "city": "Zürich",
+  "state": null,
+  "country_name": "Zürich",
+  "country_code": "GLB",
+  "sector_id": "industrials",
+  "subsector_ids": [
+    "industrials"
+  ],
+  "category": "Industrials",
+  "industry_cluster": "Other",
+  "founders": "Tim Groot, Warren Brand",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-03-31 12:06:57.644697+00",
+  "description": "Grip is an AI-powered event networking and matchmaking platform that connects event attendees, exhibitors, and corporate sponsors.",
+  "description_short": "Grip is an AI-powered event networking and matchmaking platform that connects event attendees, exhibitors, and corporate sponsors.",
+  "description_long": "Grip is an AI-powered event networking and matchmaking platform that connects event attendees, exhibitors, and corporate sponsors.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/a6be2671c5d4e3adfe916a4a59aad4680c7cc9d3.png",
+  "website": "https://grip.events/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Grip",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Tim Groot, Warren Brand",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2014",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://grip.events/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Industrials",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Zürich",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "Zürich",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2014-01-01",
+        "note": "Entity founded by Tim Groot, Warren Brand"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Industrials"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://grip.events/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.991Z"
+}

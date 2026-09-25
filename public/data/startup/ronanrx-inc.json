@@ -1,0 +1,137 @@
+{
+  "id": "uf-ronanrx-inc",
+  "ufrn": "UF-2026-GLB-RONAN",
+  "name": "RonanRx Inc.",
+  "slug": "ronanrx-inc",
+  "status": "approved",
+  "founded": 2022,
+  "founded_year": 2022,
+  "location": {
+    "city": "San Francisco",
+    "country": "San Francisco",
+    "country_code": "GLB"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "San Francisco",
+  "country_code": "GLB",
+  "sector_id": "healthcare",
+  "subsector_ids": [
+    "healthcare"
+  ],
+  "category": "Healthcare",
+  "industry_cluster": "HealthTech",
+  "founders": "Dr. Ronan Campbell, Jessica Brooks",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-04-06 09:38:55.689363+00",
+  "description": "RonanRx is a digital pharmacy and adherence management platform delivering automated prescription synchronization and home delivery.",
+  "description_short": "RonanRx is a digital pharmacy and adherence management platform delivering automated prescription synchronization and home delivery.",
+  "description_long": "RonanRx is a digital pharmacy and adherence management platform delivering automated prescription synchronization and home delivery.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ce1dcec626f9c7fdc1ea66f4d7850c7a32015773.png",
+  "website": "https://ronanrx.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "RonanRx Inc.",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Dr. Ronan Campbell, Jessica Brooks",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2022",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://ronanrx.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Healthcare",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2022-01-01",
+        "note": "Entity founded by Dr. Ronan Campbell, Jessica Brooks"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Healthcare"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://ronanrx.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.992Z"
+}

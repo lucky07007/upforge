@@ -1,0 +1,137 @@
+{
+  "id": "uf-wefunder",
+  "ufrn": "UF-2026-US-05371",
+  "name": "Wefunder",
+  "slug": "wefunder",
+  "status": "approved",
+  "founded": 2011,
+  "founded_year": 2011,
+  "location": {
+    "city": "San Francisco",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "fintech",
+  "subsector_ids": [
+    "fintech"
+  ],
+  "category": "Fintech",
+  "industry_cluster": "Fintech",
+  "founders": "Nick Tommarello, Mike Norman, Greg Belote",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-03-17 10:11:38.121727+00",
+  "description": "Wefunder is a leading equity crowdfunding platform that allows everyday non-accredited individuals to invest small amounts in early-stage startups and small businesses.",
+  "description_short": "Wefunder is a leading equity crowdfunding platform that allows everyday non-accredited individuals to invest small amounts in early-stage startups and",
+  "description_long": "Wefunder is a leading equity crowdfunding platform that allows everyday non-accredited individuals to invest small amounts in early-stage startups and small businesses.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/86fe89dc40132aeb8f280105ad161eb9c7281ebc.png",
+  "website": "https://wefunder.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Wefunder",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Nick Tommarello, Mike Norman, Greg Belote",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2011",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://wefunder.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Fintech",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2011-01-01",
+        "note": "Entity founded by Nick Tommarello, Mike Norman, Greg Belote"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Fintech"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://wefunder.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.990Z"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "uf-robocurve",
+  "ufrn": "UF-2026-GLB-ROBOC",
+  "name": "Robocurve",
+  "slug": "robocurve",
+  "status": "approved",
+  "founded": 2023,
+  "founded_year": 2023,
+  "location": {
+    "city": "San Francisco",
+    "country": "San Francisco",
+    "country_code": "GLB"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "San Francisco",
+  "country_code": "GLB",
+  "sector_id": "industrials",
+  "subsector_ids": [
+    "industrials"
+  ],
+  "category": "Industrials",
+  "industry_cluster": "Other",
+  "founders": "Karthik Raman, Marcus Vance",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-03-27 02:38:36.906490+00",
+  "description": "Robocurve provides real-time motion planning and kinematic control software for complex multi-axis industrial robotics.",
+  "description_short": "Robocurve provides real-time motion planning and kinematic control software for complex multi-axis industrial robotics.",
+  "description_long": "Robocurve provides real-time motion planning and kinematic control software for complex multi-axis industrial robotics.",
+  "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQFvWTi5T787kA/company-logo_200_200/B56aBFG90lIsAI-/0/1787865849338/robocurve_logo?e=2147483647&v=beta&t=FJvzMq8R-53znDrMV71GXoUETc-MBIEwdOCBQOY8FgI",
+  "website": "https://robocurve.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Robocurve",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Karthik Raman, Marcus Vance",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2023",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://robocurve.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Industrials",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2023-01-01",
+        "note": "Entity founded by Karthik Raman, Marcus Vance"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Industrials"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://robocurve.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.991Z"
+}

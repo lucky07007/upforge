@@ -1,0 +1,137 @@
+{
+  "id": "uf-chatfuel",
+  "ufrn": "UF-2026-US-05237",
+  "name": "Chatfuel",
+  "slug": "chatfuel",
+  "status": "approved",
+  "founded": 2015,
+  "founded_year": 2015,
+  "location": {
+    "city": "San Francisco",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "b2b",
+  "subsector_ids": [
+    "b2b"
+  ],
+  "category": "B2B",
+  "industry_cluster": "Other",
+  "founders": "Dmitry Dumik, Artem Ptashnik",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-19 04:14:52.016690+00",
+  "description": "Chatfuel is a no-code conversational AI and chatbot building platform designed for businesses to automate marketing, sales, and support automation across Meta channels like WhatsApp, Instagram, and Facebook Messenger.",
+  "description_short": "Chatfuel is a no-code conversational AI and chatbot building platform designed for businesses to automate marketing, sales, and support automation acr",
+  "description_long": "Chatfuel is a no-code conversational AI and chatbot building platform designed for businesses to automate marketing, sales, and support automation across Meta channels like WhatsApp, Instagram, and Facebook Messenger.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5fd8bcf8d9a9b759b820215a29ca5d614328aac4.png",
+  "website": "https://chatfuel.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Chatfuel",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Dmitry Dumik, Artem Ptashnik",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2015",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://chatfuel.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "B2B",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2015-01-01",
+        "note": "Entity founded by Dmitry Dumik, Artem Ptashnik"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: B2B"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://chatfuel.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.987Z"
+}

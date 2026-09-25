@@ -1,0 +1,129 @@
+{
+  "id": "uf-longevityworldcup",
+  "ufrn": "UF-2026-HU-05121",
+  "name": "longevityworldcup",
+  "slug": "longevityworldcup",
+  "status": "approved",
+  "founded": 2024,
+  "founded_year": 2024,
+  "location": {
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "Hungary",
+  "country_code": "HU",
+  "sector_id": "healthcare",
+  "subsector_ids": [
+    "healthcare"
+  ],
+  "category": "Healthcare",
+  "industry_cluster": "HealthTech",
+  "founders": "Adam Ficsor",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-25 09:31:26.242892+00",
+  "description": "The Longevity World Cup is a global biohacking competition where participants compete to reverse their biological age based on differences between their chronological and biological ages. It features Amateur and Pro tracks utilizing specific biomarker tests and a Bitcoin-funded prize pool for top performers in the Ultimate League.",
+  "description_short": "The Longevity World Cup is a global biohacking competition where participants compete to reverse their biological age based on differences between the",
+  "description_long": "The Longevity World Cup is a global biohacking competition where participants compete to reverse their biological age based on differences between their chronological and biological ages. It features Amateur and Pro tracks utilizing specific biomarker tests and a Bitcoin-funded prize pool for top performers in the Ultimate League.",
+  "logo_url": "https://longevityworldcup.com/assets/og-image.png?v=69061cf54dfd8c7a",
+  "website": "https://longevityworldcup.com/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/longevity-gl/",
+    "twitter": null,
+    "instagram": "https://www.instagram.com/LongevityWorldCup/"
+  },
+  "linkedin_url": "https://www.linkedin.com/company/longevity-gl/",
+  "twitter_url": null,
+  "instagram_url": "https://www.instagram.com/LongevityWorldCup/",
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "longevityworldcup",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Adam Ficsor",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2024",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://longevityworldcup.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Healthcare",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "Hungary",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2024-01-01",
+        "note": "Entity founded by Adam Ficsor"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Healthcare"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://longevityworldcup.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "uf-gocardless",
+  "ufrn": "UF-2026-UK-05239",
+  "name": "GoCardless",
+  "slug": "gocardless",
+  "status": "approved",
+  "founded": 2011,
+  "founded_year": 2011,
+  "location": {
+    "city": "London",
+    "country": "United Kingdom",
+    "country_code": "UK"
+  },
+  "city": "London",
+  "state": null,
+  "country_name": "United Kingdom",
+  "country_code": "UK",
+  "sector_id": "fintech",
+  "subsector_ids": [
+    "fintech"
+  ],
+  "category": "Fintech",
+  "industry_cluster": "Fintech",
+  "founders": "Hiroki Takeuchi, Tom Blomfield, Matt Robinson",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-19 13:48:04.201431+00",
+  "description": "GoCardless is a global bank payments platform specializing in direct debit processing and open banking solutions for recurring and subscription billing.",
+  "description_short": "GoCardless is a global bank payments platform specializing in direct debit processing and open banking solutions for recurring and subscription billin",
+  "description_long": "GoCardless is a global bank payments platform specializing in direct debit processing and open banking solutions for recurring and subscription billing.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0ccdabab089f9b89cedc7a361ae2e169d4d6a942.png",
+  "website": "https://gocardless.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "GoCardless",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Hiroki Takeuchi, Tom Blomfield, Matt Robinson",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2011",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://gocardless.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Fintech",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "London",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United Kingdom",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2011-01-01",
+        "note": "Entity founded by Hiroki Takeuchi, Tom Blomfield, Matt Robinson"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Fintech"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://gocardless.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.987Z"
+}

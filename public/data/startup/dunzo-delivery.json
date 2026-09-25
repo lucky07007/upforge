@@ -1,0 +1,129 @@
+{
+  "id": "uf-dunzo-delivery",
+  "ufrn": "UF-2026-IN-00020",
+  "name": "Dunzo",
+  "slug": "dunzo-delivery",
+  "status": "approved",
+  "founded": 2014,
+  "founded_year": 2014,
+  "location": {
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "e-commerce-d2c",
+  "subsector_ids": [
+    "e-commerce-d2c"
+  ],
+  "category": "E-commerce & D2C",
+  "industry_cluster": "Other",
+  "founders": "Kabeer Biswas",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-22 05:26:37.980445+00",
+  "description": "Dunzo is a hyperlocal delivery app that delivers anything and everything in 19 minutes. Trending for its integration with the ONDC network. Stage: Series E.",
+  "description_short": "Dunzo is a hyperlocal delivery app that delivers anything and everything in 19 minutes. Trending for its integration with the ONDC network. Stage: Ser",
+  "description_long": "Dunzo is a hyperlocal delivery app that delivers anything and everything in 19 minutes. Trending for its integration with the ONDC network. Stage: Series E.",
+  "logo_url": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/c79cc971959541.5bd75efd34d39.jpg",
+  "website": "https://www.dunzo.com/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/dunzo-in/",
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": "https://www.linkedin.com/company/dunzo-in/",
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Dunzo",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Kabeer Biswas",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2014",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.dunzo.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "E-commerce & D2C",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2014-01-01",
+        "note": "Entity founded by Kabeer Biswas"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: E-commerce & D2C"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.dunzo.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.984Z"
+}

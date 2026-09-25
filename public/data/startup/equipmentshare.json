@@ -1,0 +1,137 @@
+{
+  "id": "uf-equipmentshare",
+  "ufrn": "UF-2026-US-05147",
+  "name": "EquipmentShare",
+  "slug": "equipmentshare",
+  "status": "approved",
+  "founded": 2015,
+  "founded_year": 2015,
+  "location": {
+    "city": "Columbia",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "Columbia",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "real-estate-and-construction",
+  "subsector_ids": [
+    "real-estate-and-construction"
+  ],
+  "category": "Real Estate and Construction",
+  "industry_cluster": "Other",
+  "founders": "Jabbok Schlacks, Willy Schlacks",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-31 03:02:36.320761+00",
+  "description": "EquipmentShare is a nationwide construction technology and equipment rental company providing a cloud-based platform for fleet tracking, contractor management, and job-site telemetry.",
+  "description_short": "EquipmentShare is a nationwide construction technology and equipment rental company providing a cloud-based platform for fleet tracking, contractor ma",
+  "description_long": "EquipmentShare is a nationwide construction technology and equipment rental company providing a cloud-based platform for fleet tracking, contractor management, and job-site telemetry.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ad05853522c217d92c372ba8883ff6b45dd83d99.png",
+  "website": "https://www.equipmentshare.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "EquipmentShare",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Jabbok Schlacks, Willy Schlacks",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2015",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.equipmentshare.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Real Estate and Construction",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Columbia",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2015-01-01",
+        "note": "Entity founded by Jabbok Schlacks, Willy Schlacks"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Real Estate and Construction"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.equipmentshare.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

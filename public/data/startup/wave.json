@@ -1,0 +1,137 @@
+{
+  "id": "uf-wave",
+  "ufrn": "UF-2026-SN-05223",
+  "name": "Wave",
+  "slug": "wave",
+  "status": "approved",
+  "founded": 2010,
+  "founded_year": 2010,
+  "location": {
+    "city": "Dakar",
+    "country": "Senegal",
+    "country_code": "SN"
+  },
+  "city": "Dakar",
+  "state": null,
+  "country_name": "Senegal",
+  "country_code": "SN",
+  "sector_id": "fintech",
+  "subsector_ids": [
+    "fintech"
+  ],
+  "category": "Fintech",
+  "industry_cluster": "Fintech",
+  "founders": "Kirk Simpson, James Lochrie",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-16 19:05:08.766135+00",
+  "description": "Wave (Wave Financial) is an all-in-one financial management software platform offering free accounting, invoicing, credit card processing, and payroll tools designed specifically for small businesses and freelancers.",
+  "description_short": "Wave (Wave Financial) is an all-in-one financial management software platform offering free accounting, invoicing, credit card processing, and payroll",
+  "description_long": "Wave (Wave Financial) is an all-in-one financial management software platform offering free accounting, invoicing, credit card processing, and payroll tools designed specifically for small businesses and freelancers.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/7bb010b1c1951d3cc6578fb3ff4c83700de7c376.png",
+  "website": "https://www.waveapps.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Wave",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Kirk Simpson, James Lochrie",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2010",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.waveapps.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Fintech",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Dakar",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "Senegal",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2010-01-01",
+        "note": "Entity founded by Kirk Simpson, James Lochrie"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Fintech"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.waveapps.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.986Z"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "uf-numerion-labs",
+  "ufrn": "UF-2026-US-05311",
+  "name": "Numerion Labs",
+  "slug": "numerion-labs",
+  "status": "approved",
+  "founded": 2012,
+  "founded_year": 2012,
+  "location": {
+    "city": "San Francisco",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "healthcare",
+  "subsector_ids": [
+    "healthcare"
+  ],
+  "category": "Healthcare",
+  "industry_cluster": "HealthTech",
+  "founders": "Abraham Heifets, Humberto Gonzalez",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-03-05 06:53:17.467109+00",
+  "description": "Numerion Labs (operating as Atomwise) is a biotechnology company that uses artificial intelligence and deep learning to accelerate structure-based drug discovery and small molecule design.",
+  "description_short": "Numerion Labs (operating as Atomwise) is a biotechnology company that uses artificial intelligence and deep learning to accelerate structure-based dru",
+  "description_long": "Numerion Labs (operating as Atomwise) is a biotechnology company that uses artificial intelligence and deep learning to accelerate structure-based drug discovery and small molecule design.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/c3b218096497a702becc32895ca1b21c4cae78bd.png",
+  "website": "https://numerionlabs.ai/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Numerion Labs",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Abraham Heifets, Humberto Gonzalez",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2012",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://numerionlabs.ai/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Healthcare",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2012-01-01",
+        "note": "Entity founded by Abraham Heifets, Humberto Gonzalez"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Healthcare"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://numerionlabs.ai/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.988Z"
+}

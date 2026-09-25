@@ -1,0 +1,137 @@
+{
+  "id": "uf-givecampus",
+  "ufrn": "UF-2026-US-05262",
+  "name": "GiveCampus",
+  "slug": "givecampus",
+  "status": "approved",
+  "founded": 2014,
+  "founded_year": 2014,
+  "location": {
+    "city": "Washington",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "Washington",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "edtech",
+  "subsector_ids": [
+    "edtech"
+  ],
+  "category": "EdTech",
+  "industry_cluster": "EdTech",
+  "founders": "Kestrel Linder, Michael Kong",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-23 13:39:50.209260+00",
+  "description": "GiveCampus is a digital fundraising and alumni engagement platform designed specifically for educational institutions and non-profit schools.",
+  "description_short": "GiveCampus is a digital fundraising and alumni engagement platform designed specifically for educational institutions and non-profit schools.",
+  "description_long": "GiveCampus is a digital fundraising and alumni engagement platform designed specifically for educational institutions and non-profit schools.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/55a1d2299284203df1bfdb4eb60c9ad5ca6328d2.png",
+  "website": "https://go.givecampus.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "GiveCampus",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Kestrel Linder, Michael Kong",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2014",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://go.givecampus.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "EdTech",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Washington",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2014-01-01",
+        "note": "Entity founded by Kestrel Linder, Michael Kong"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: EdTech"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://go.givecampus.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.987Z"
+}

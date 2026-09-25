@@ -1,0 +1,129 @@
+{
+  "id": "uf-entellus-industries",
+  "ufrn": "UF-2026-IN-00007",
+  "name": "Entellus Industries",
+  "slug": "entellus-industries",
+  "status": "approved",
+  "founded": 2022,
+  "founded_year": 2022,
+  "location": {
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "deeptech-climate",
+  "subsector_ids": [
+    "deeptech-climate"
+  ],
+  "category": "Deeptech & Climate",
+  "industry_cluster": "Other",
+  "founders": "Simha Kumar, Nagarajan Mahadeven",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-22 09:06:12.692634+00",
+  "description": "Entellus Industries manufactures rare earth metals and alloys like NdPr for permanent magnets used in EVs, wind turbines, and electronics, addressing supply chain gaps in India. Chennai-based with Tamil Nadu plants, it has proven technical capabilities and media recognition for pioneering domestic production. Traction includes partnerships and expansion funding. Stage: Series A (₹50 Cr led by ZeroW).",
+  "description_short": "Entellus Industries manufactures rare earth metals and alloys like NdPr for permanent magnets used in EVs, wind turbines, and electronics, addressing ",
+  "description_long": "Entellus Industries manufactures rare earth metals and alloys like NdPr for permanent magnets used in EVs, wind turbines, and electronics, addressing supply chain gaps in India. Chennai-based with Tamil Nadu plants, it has proven technical capabilities and media recognition for pioneering domestic production. Traction includes partnerships and expansion funding. Stage: Series A (₹50 Cr led by ZeroW).",
+  "logo_url": "https://cdn.prod.website-files.com/699817849ff7d1c9c45137de/69d6460d4add244882ca7a63_Logo.svg",
+  "website": "https://entellusind.com/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/entellus-industries/",
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": "https://www.linkedin.com/company/entellus-industries/",
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Entellus Industries",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Simha Kumar, Nagarajan Mahadeven",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2022",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://entellusind.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Deeptech & Climate",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2022-01-01",
+        "note": "Entity founded by Simha Kumar, Nagarajan Mahadeven"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Deeptech & Climate"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://entellusind.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.984Z"
+}

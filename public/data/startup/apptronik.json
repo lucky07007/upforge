@@ -1,0 +1,137 @@
+{
+  "id": "uf-apptronik",
+  "ufrn": "UF-2026-US-05119",
+  "name": "Apptronik",
+  "slug": "apptronik",
+  "status": "approved",
+  "founded": 2016,
+  "founded_year": 2016,
+  "location": {
+    "city": "Texas",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "Texas",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "ai-technology",
+  "subsector_ids": [
+    "ai-technology"
+  ],
+  "category": "AI & Technology",
+  "industry_cluster": "AI",
+  "founders": "Jeff Cardenas , Dr. Nick Paine , Dr. Luis Sentis & Bill Helmsing",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-24 07:58:50.178080+00",
+  "description": "Apptronik is an Austin-based robotics company specializing in the development of next-generation humanoid robots. Spun out of the University of Texas at Austin in 2016, the company focuses on creating Apollo, a general-purpose humanoid designed to work safely alongside humans. Its primary mission is to automate physically demanding tasks in logistics, manufacturing, and retail to address global labor shortages and improve operational efficiency.",
+  "description_short": "Apptronik is an Austin-based robotics company specializing in the development of next-generation humanoid robots. Spun out of the University of Texas ",
+  "description_long": "Apptronik is an Austin-based robotics company specializing in the development of next-generation humanoid robots. Spun out of the University of Texas at Austin in 2016, the company focuses on creating Apollo, a general-purpose humanoid designed to work safely alongside humans. Its primary mission is to automate physically demanding tasks in logistics, manufacturing, and retail to address global labor shortages and improve operational efficiency.",
+  "logo_url": "https://cdn.prod.website-files.com/6a0dd86942776facbc2f6ba4/6a32d000ae9712d1f8ed76c3_Apptronik-Logo.svg",
+  "website": "https://apptronik.com/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/apptronik-inc./",
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": "https://www.linkedin.com/company/apptronik-inc./",
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Apptronik",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Jeff Cardenas , Dr. Nick Paine , Dr. Luis Sentis & Bill Helmsing",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2016",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://apptronik.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "AI & Technology",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Texas",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2016-01-01",
+        "note": "Entity founded by Jeff Cardenas , Dr. Nick Paine , Dr. Luis Sentis & Bill Helmsing"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: AI & Technology"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://apptronik.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

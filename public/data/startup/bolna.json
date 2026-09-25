@@ -1,0 +1,129 @@
+{
+  "id": "uf-bolna",
+  "ufrn": "UF-2026-IN-00001",
+  "name": "Bolna",
+  "slug": "bolna",
+  "status": "approved",
+  "founded": 2024,
+  "founded_year": 2024,
+  "location": {
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "ai-technology",
+  "subsector_ids": [
+    "ai-technology"
+  ],
+  "category": "AI & Technology",
+  "industry_cluster": "AI",
+  "founders": "Maitreya Wagh, Prateek Sachan",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-20 07:47:10.402391+00",
+  "description": "Bolna is a multilingual Voice AI platform for Indian enterprises, enabling human-like voice agents for high-volume inbound/outbound calls in 10+ languages including Hindi. Features include <300ms latency, interruption handling, no-code builder, and integrations with ASR/LLM models. It handles customer support, e-commerce recovery, logistics COD, and recruitment. With 1,050+ paying customers, 200K+ daily interactions, and revenue growth, it scales efficiently for BFSI and logistics. Bengaluru-based with strong enterprise pipeline. Stage: Seed ($6.3M led by General Catalyst).",
+  "description_short": "Bolna is a multilingual Voice AI platform for Indian enterprises, enabling human-like voice agents for high-volume inbound/outbound calls in 10+ langu",
+  "description_long": "Bolna is a multilingual Voice AI platform for Indian enterprises, enabling human-like voice agents for high-volume inbound/outbound calls in 10+ languages including Hindi. Features include <300ms latency, interruption handling, no-code builder, and integrations with ASR/LLM models. It handles customer support, e-commerce recovery, logistics COD, and recruitment. With 1,050+ paying customers, 200K+ daily interactions, and revenue growth, it scales efficiently for BFSI and logistics. Bengaluru-based with strong enterprise pipeline. Stage: Seed ($6.3M led by General Catalyst).",
+  "logo_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Fmb5vtfk8veg-Bolna%20Blog%201x1.webp&w=3840&q=95",
+  "website": "https://www.bolna.ai/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/bolna-ai/",
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": "https://www.linkedin.com/company/bolna-ai/",
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Bolna",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Maitreya Wagh, Prateek Sachan",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2024",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.bolna.ai/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "AI & Technology",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2024-01-01",
+        "note": "Entity founded by Maitreya Wagh, Prateek Sachan"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: AI & Technology"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.bolna.ai/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.984Z"
+}

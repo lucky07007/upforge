@@ -1,0 +1,129 @@
+{
+  "id": "uf-codeair-software-solutions",
+  "ufrn": "UF-2026-IN-00125",
+  "name": "Codeair Software Solutions",
+  "slug": "codeair-software-solutions",
+  "status": "approved",
+  "founded": 2015,
+  "founded_year": 2015,
+  "location": {
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "saas",
+  "subsector_ids": [
+    "saas"
+  ],
+  "category": "SaaS",
+  "industry_cluster": "SaaS",
+  "founders": "Sunmughan Swamy",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-21 11:16:56.619922+00",
+  "description": "Codeair Software Solutions is a global IT services company that provides customized software development, digital solutions, and technology consulting for entrepreneurs and new ventures.",
+  "description_short": "Codeair Software Solutions is a global IT services company that provides customized software development, digital solutions, and technology consulting",
+  "description_long": "Codeair Software Solutions is a global IT services company that provides customized software development, digital solutions, and technology consulting for entrepreneurs and new ventures.",
+  "logo_url": "https://media.licdn.com/dms/image/v2/D4D0BAQEBkRynOLHERg/company-logo_200_200/company-logo_200_200/0/1710315611873?e=2147483647&v=beta&t=MFlcULx0yDcED9rrC5yon39hVggi5awbq5E2ywmhzhg",
+  "website": "https://codeair.tech/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/codeairofficial/",
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": "https://www.linkedin.com/company/codeairofficial/",
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Codeair Software Solutions",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Sunmughan Swamy",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2015",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://codeair.tech/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "SaaS",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2015-01-01",
+        "note": "Entity founded by Sunmughan Swamy"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: SaaS"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://codeair.tech/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.984Z"
+}

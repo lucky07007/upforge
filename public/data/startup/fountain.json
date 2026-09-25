@@ -1,0 +1,137 @@
+{
+  "id": "uf-fountain",
+  "ufrn": "UF-2026-KR-05259",
+  "name": "Fountain",
+  "slug": "fountain",
+  "status": "approved",
+  "founded": 2014,
+  "founded_year": 2014,
+  "location": {
+    "city": "Seoul",
+    "country": "South Korea",
+    "country_code": "KR"
+  },
+  "city": "Seoul",
+  "state": null,
+  "country_name": "South Korea",
+  "country_code": "KR",
+  "sector_id": "b2b",
+  "subsector_ids": [
+    "b2b"
+  ],
+  "category": "B2B",
+  "industry_cluster": "Other",
+  "founders": "Jeremy Cai, Jean Sini",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-22 18:44:41.306366+00",
+  "description": "Fountain (formerly OnboardIQ) is a high-volume hiring and applicant tracking platform built specifically to automate recruitment, screening, and onboarding for frontline and hourly workforces.",
+  "description_short": "Fountain (formerly OnboardIQ) is a high-volume hiring and applicant tracking platform built specifically to automate recruitment, screening, and onboa",
+  "description_long": "Fountain (formerly OnboardIQ) is a high-volume hiring and applicant tracking platform built specifically to automate recruitment, screening, and onboarding for frontline and hourly workforces.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d2ac289c0156c41e04d1f111b1eeac68ebcc6117.png",
+  "website": "https://www.fountain.com",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Fountain",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Jeremy Cai, Jean Sini",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2014",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.fountain.com",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "B2B",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Seoul",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "South Korea",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2014-01-01",
+        "note": "Entity founded by Jeremy Cai, Jean Sini"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: B2B"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.fountain.com"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.987Z"
+}

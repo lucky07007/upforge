@@ -1,0 +1,137 @@
+{
+  "id": "uf-submittable",
+  "ufrn": "UF-2026-US-05392",
+  "name": "Submittable",
+  "slug": "submittable",
+  "status": "approved",
+  "founded": 2010,
+  "founded_year": 2010,
+  "location": {
+    "city": "Missoula",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "Missoula",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "b2b",
+  "subsector_ids": [
+    "b2b"
+  ],
+  "category": "B2B",
+  "industry_cluster": "Other",
+  "founders": "Michael FitzGerald, Bruce Tribbensee, John Neff",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-03-20 23:28:25.006948+00",
+  "description": "Submittable is a social impact and corporate grant management platform used by organizations to collect, review, and disburse grants, awards, and submissions.",
+  "description_short": "Submittable is a social impact and corporate grant management platform used by organizations to collect, review, and disburse grants, awards, and subm",
+  "description_long": "Submittable is a social impact and corporate grant management platform used by organizations to collect, review, and disburse grants, awards, and submissions.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/aab09ec98d8bdad2001ed8e71a0274b75c3da4e4.png",
+  "website": "https://www.submittable.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Submittable",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Michael FitzGerald, Bruce Tribbensee, John Neff",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2010",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.submittable.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "B2B",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Missoula",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2010-01-01",
+        "note": "Entity founded by Michael FitzGerald, Bruce Tribbensee, John Neff"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: B2B"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.submittable.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.990Z"
+}

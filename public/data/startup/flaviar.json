@@ -1,0 +1,137 @@
+{
+  "id": "uf-flaviar",
+  "ufrn": "UF-2026-SI-05333",
+  "name": "Flaviar",
+  "slug": "flaviar",
+  "status": "approved",
+  "founded": 2012,
+  "founded_year": 2012,
+  "location": {
+    "city": "Ljubljana",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "city": "Ljubljana",
+  "state": null,
+  "country_name": "Slovenia",
+  "country_code": "SI",
+  "sector_id": "consumer",
+  "subsector_ids": [
+    "consumer"
+  ],
+  "category": "Consumer",
+  "industry_cluster": "Other",
+  "founders": "Grisa Soba, Matija Rijavec, Jugoslav Petkovic",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-03-08 12:45:22.396634+00",
+  "description": "Flaviar is a subscription club and e-commerce platform for spirits and fine liquor enthusiasts, offering curated tasting boxes, member-exclusive bottlings, and distillery access.",
+  "description_short": "Flaviar is a subscription club and e-commerce platform for spirits and fine liquor enthusiasts, offering curated tasting boxes, member-exclusive bottl",
+  "description_long": "Flaviar is a subscription club and e-commerce platform for spirits and fine liquor enthusiasts, offering curated tasting boxes, member-exclusive bottlings, and distillery access.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/df44ec83f5a0301034fd4ddb6aa09c1eee90f3fa.png",
+  "website": "https://flaviar.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Flaviar",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Grisa Soba, Matija Rijavec, Jugoslav Petkovic",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2012",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://flaviar.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Consumer",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Ljubljana",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "Slovenia",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2012-01-01",
+        "note": "Entity founded by Grisa Soba, Matija Rijavec, Jugoslav Petkovic"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Consumer"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://flaviar.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.988Z"
+}

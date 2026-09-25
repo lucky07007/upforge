@@ -1,0 +1,129 @@
+{
+  "id": "uf-cars24-auto",
+  "ufrn": "UF-2026-IN-00025",
+  "name": "Cars24",
+  "slug": "cars24-auto",
+  "status": "approved",
+  "founded": 2015,
+  "founded_year": 2015,
+  "location": {
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "e-commerce-d2c",
+  "subsector_ids": [
+    "e-commerce-d2c"
+  ],
+  "category": "E-commerce & D2C",
+  "industry_cluster": "Other",
+  "founders": "Vikram Chopra",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-20 17:12:20.325790+00",
+  "description": "Cars24 is a leading platform for buying and selling used cars with a massive presence in India and international markets. Trending for its financing and refurbishment models. Stage: Unicorn.",
+  "description_short": "Cars24 is a leading platform for buying and selling used cars with a massive presence in India and international markets. Trending for its financing a",
+  "description_long": "Cars24 is a leading platform for buying and selling used cars with a massive presence in India and international markets. Trending for its financing and refurbishment models. Stage: Unicorn.",
+  "logo_url": "https://elevenlabs.io/_next/image?url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2F0hu28084aql-cars24-elevenlabs.webp&w=3840&q=95",
+  "website": "https://www.cars24.com/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/cars24/",
+    "twitter": null,
+    "instagram": "https://www.instagram.com/cars24india/"
+  },
+  "linkedin_url": "https://www.linkedin.com/company/cars24/",
+  "twitter_url": null,
+  "instagram_url": "https://www.instagram.com/cars24india/",
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Cars24",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Vikram Chopra",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2015",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.cars24.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "E-commerce & D2C",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2015-01-01",
+        "note": "Entity founded by Vikram Chopra"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: E-commerce & D2C"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.cars24.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.984Z"
+}

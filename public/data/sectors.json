@@ -1,0 +1,80 @@
+[
+  {
+    "id": "b2b",
+    "name": "B2B",
+    "slug": "b2b",
+    "count": 122
+  },
+  {
+    "id": "consumer",
+    "name": "Consumer",
+    "slug": "consumer",
+    "count": 48
+  },
+  {
+    "id": "healthcare",
+    "name": "Healthcare",
+    "slug": "healthcare",
+    "count": 34
+  },
+  {
+    "id": "industrials",
+    "name": "Industrials",
+    "slug": "industrials",
+    "count": 33
+  },
+  {
+    "id": "fintech",
+    "name": "Fintech",
+    "slug": "fintech",
+    "count": 28
+  },
+  {
+    "id": "ai-technology",
+    "name": "AI & Technology",
+    "slug": "ai-technology",
+    "count": 15
+  },
+  {
+    "id": "edtech",
+    "name": "EdTech",
+    "slug": "edtech",
+    "count": 8
+  },
+  {
+    "id": "real-estate-and-construction",
+    "name": "Real Estate and Construction",
+    "slug": "real-estate-and-construction",
+    "count": 7
+  },
+  {
+    "id": "saas",
+    "name": "SaaS",
+    "slug": "saas",
+    "count": 6
+  },
+  {
+    "id": "e-commerce-d2c",
+    "name": "E-commerce & D2C",
+    "slug": "e-commerce-d2c",
+    "count": 4
+  },
+  {
+    "id": "deeptech-climate",
+    "name": "Deeptech & Climate",
+    "slug": "deeptech-climate",
+    "count": 3
+  },
+  {
+    "id": "mobility-ev",
+    "name": "Mobility & EV",
+    "slug": "mobility-ev",
+    "count": 2
+  },
+  {
+    "id": "social-media",
+    "name": "Social media",
+    "slug": "social-media",
+    "count": 2
+  }
+]

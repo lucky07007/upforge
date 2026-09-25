@@ -1,0 +1,137 @@
+{
+  "id": "uf-retell-ai",
+  "ufrn": "UF-2026-US-05109",
+  "name": "Retell AI",
+  "slug": "retell-ai",
+  "status": "approved",
+  "founded": 2023,
+  "founded_year": 2023,
+  "location": {
+    "city": "San Carlos",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "San Carlos",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "ai-technology",
+  "subsector_ids": [
+    "ai-technology"
+  ],
+  "category": "AI & Technology",
+  "industry_cluster": "AI",
+  "founders": "Bing Wu, Zexia Zhang, Todd Li, Weijia Yu, Evie Wang",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-22 21:00:10.059246+00",
+  "description": "Retell AI is a platform for building, deploying, and scaling realistic AI voice agents that handle phone calls naturally for customer support and automation.",
+  "description_short": "Retell AI is a platform for building, deploying, and scaling realistic AI voice agents that handle phone calls naturally for customer support and auto",
+  "description_long": "Retell AI is a platform for building, deploying, and scaling realistic AI voice agents that handle phone calls naturally for customer support and automation.",
+  "logo_url": "https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_697a61c8df6b2009328ef25a97ccce62/retell-ai.png",
+  "website": "https://www.retellai.com/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/retellai/",
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": "https://www.linkedin.com/company/retellai/",
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Retell AI",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Bing Wu, Zexia Zhang, Todd Li, Weijia Yu, Evie Wang",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2023",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.retellai.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "AI & Technology",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Carlos",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2023-01-01",
+        "note": "Entity founded by Bing Wu, Zexia Zhang, Todd Li, Weijia Yu, Evie Wang"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: AI & Technology"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.retellai.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

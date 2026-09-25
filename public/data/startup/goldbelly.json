@@ -1,0 +1,137 @@
+{
+  "id": "uf-goldbelly",
+  "ufrn": "UF-2026-US-05369",
+  "name": "Goldbelly",
+  "slug": "goldbelly",
+  "status": "approved",
+  "founded": 2013,
+  "founded_year": 2013,
+  "location": {
+    "city": "New York City",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "New York City",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "consumer",
+  "subsector_ids": [
+    "consumer"
+  ],
+  "category": "Consumer",
+  "industry_cluster": "Other",
+  "founders": "Joe Ariel, Vanessa Torrivilla, Trevor Lunn, Craig Schorr",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-03-16 15:51:01.696459+00",
+  "description": "Goldbelly is an artisanal food marketplace connecting gourmet regional restaurants, bakeries, and purveyors with food lovers nationwide for home delivery.",
+  "description_short": "Goldbelly is an artisanal food marketplace connecting gourmet regional restaurants, bakeries, and purveyors with food lovers nationwide for home deliv",
+  "description_long": "Goldbelly is an artisanal food marketplace connecting gourmet regional restaurants, bakeries, and purveyors with food lovers nationwide for home delivery.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/cca9f25bb14498b6d14a86b02534da1a12502e50.png",
+  "website": "https://www.goldbelly.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Goldbelly",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Joe Ariel, Vanessa Torrivilla, Trevor Lunn, Craig Schorr",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2013",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.goldbelly.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Consumer",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "New York City",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2013-01-01",
+        "note": "Entity founded by Joe Ariel, Vanessa Torrivilla, Trevor Lunn, Craig Schorr"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Consumer"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.goldbelly.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.990Z"
+}

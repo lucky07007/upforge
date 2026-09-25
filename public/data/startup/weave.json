@@ -1,0 +1,137 @@
+{
+  "id": "uf-weave",
+  "ufrn": "UF-2026-US-05151",
+  "name": "Weave",
+  "slug": "weave",
+  "status": "approved",
+  "founded": 2008,
+  "founded_year": 2008,
+  "location": {
+    "city": "Lehi",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "Lehi",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "b2b",
+  "subsector_ids": [
+    "b2b"
+  ],
+  "category": "B2B",
+  "industry_cluster": "Other",
+  "founders": "Brandon Rodman, Jared Rodman, Clint Berry",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-31 16:15:07.371993+00",
+  "description": "Weave is an all-in-one customer communication and engagement platform designed for small and medium-sized businesses, primarily in healthcare, dental, and service industries.",
+  "description_short": "Weave is an all-in-one customer communication and engagement platform designed for small and medium-sized businesses, primarily in healthcare, dental,",
+  "description_long": "Weave is an all-in-one customer communication and engagement platform designed for small and medium-sized businesses, primarily in healthcare, dental, and service industries.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/5d33fe7ddb69049aa965ac936b584f1efc32afd2.png",
+  "website": "https://www.getweave.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Weave",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Brandon Rodman, Jared Rodman, Clint Berry",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2008",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.getweave.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "B2B",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Lehi",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2008-01-01",
+        "note": "Entity founded by Brandon Rodman, Jared Rodman, Clint Berry"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: B2B"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.getweave.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

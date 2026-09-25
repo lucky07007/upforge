@@ -1,0 +1,129 @@
+{
+  "id": "uf-elixiir-foods",
+  "ufrn": "UF-2026-IN-00005",
+  "name": "Elixiir Foods",
+  "slug": "elixiir-foods",
+  "status": "approved",
+  "founded": 2023,
+  "founded_year": 2023,
+  "location": {
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "e-commerce-d2c",
+  "subsector_ids": [
+    "e-commerce-d2c"
+  ],
+  "category": "E-commerce & D2C",
+  "industry_cluster": "Other",
+  "founders": "Arvind Mediratta, Ambuj Narayan",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-22 06:22:11.421967+00",
+  "description": "Elixiir Foods operates a tech-driven grocery and quick commerce platform focused on fresh, healthy, and regional products. It combines AI for inventory, supply chain optimization, and personalized recommendations with fast delivery. Serves urban consumers via app and dark stores. Early traction includes rapid customer acquisition and expansion in multiple cities. Stage: Seed ($9 Mn from 3one4 Capital and Incubate Fund Asia).",
+  "description_short": "Elixiir Foods operates a tech-driven grocery and quick commerce platform focused on fresh, healthy, and regional products. It combines AI for inventor",
+  "description_long": "Elixiir Foods operates a tech-driven grocery and quick commerce platform focused on fresh, healthy, and regional products. It combines AI for inventory, supply chain optimization, and personalized recommendations with fast delivery. Serves urban consumers via app and dark stores. Early traction includes rapid customer acquisition and expansion in multiple cities. Stage: Seed ($9 Mn from 3one4 Capital and Incubate Fund Asia).",
+  "logo_url": "https://static.businessworld.in/ELIXIIR%20_20260212122804_original_image_41.webp",
+  "website": "https://elixiirfoods.com/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/elixiir-foods",
+    "twitter": null,
+    "instagram": "https://www.instagram.com/elixiirfoods/"
+  },
+  "linkedin_url": "https://www.linkedin.com/company/elixiir-foods",
+  "twitter_url": null,
+  "instagram_url": "https://www.instagram.com/elixiirfoods/",
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Elixiir Foods",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Arvind Mediratta, Ambuj Narayan",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2023",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://elixiirfoods.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "E-commerce & D2C",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2023-01-01",
+        "note": "Entity founded by Arvind Mediratta, Ambuj Narayan"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: E-commerce & D2C"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://elixiirfoods.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.984Z"
+}

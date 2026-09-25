@@ -1,0 +1,137 @@
+{
+  "id": "uf-codecombat",
+  "ufrn": "UF-2026-US-05350",
+  "name": "CodeCombat",
+  "slug": "codecombat",
+  "status": "approved",
+  "founded": 2013,
+  "founded_year": 2013,
+  "location": {
+    "city": "Seattle",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "Seattle",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "edtech",
+  "subsector_ids": [
+    "edtech"
+  ],
+  "category": "EdTech",
+  "industry_cluster": "EdTech",
+  "founders": "Nick Winter, Scott Erickson, Matt Lott, George Saines",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-03-12 18:05:45.821771+00",
+  "description": "CodeCombat provides game-based coding education platforms where students learn syntax and computer science fundamentals by playing through interactive fantasy quests.",
+  "description_short": "CodeCombat provides game-based coding education platforms where students learn syntax and computer science fundamentals by playing through interactive",
+  "description_long": "CodeCombat provides game-based coding education platforms where students learn syntax and computer science fundamentals by playing through interactive fantasy quests.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/f867ef5f1e9cc19b841714369785ca83d8d9df2a.png",
+  "website": "https://codecombat.com/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "CodeCombat",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Nick Winter, Scott Erickson, Matt Lott, George Saines",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2013",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://codecombat.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "EdTech",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Seattle",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2013-01-01",
+        "note": "Entity founded by Nick Winter, Scott Erickson, Matt Lott, George Saines"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: EdTech"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://codecombat.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.988Z"
+}

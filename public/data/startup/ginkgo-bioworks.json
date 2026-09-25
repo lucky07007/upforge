@@ -1,0 +1,137 @@
+{
+  "id": "uf-ginkgo-bioworks",
+  "ufrn": "UF-2026-US-05152",
+  "name": "Ginkgo Bioworks",
+  "slug": "ginkgo-bioworks",
+  "status": "approved",
+  "founded": 2008,
+  "founded_year": 2008,
+  "location": {
+    "city": "Boston",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "Boston",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "healthcare",
+  "subsector_ids": [
+    "healthcare"
+  ],
+  "category": "Healthcare",
+  "industry_cluster": "HealthTech",
+  "founders": "Jason Kelly, Reshma Shetty, Barry Canton, Austin Che, Tom Knight",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-31 16:18:57.904830+00",
+  "description": "Ginkgo Bioworks is an American biotechnology company that specializes in genetic engineering, using data analytics and automation to design custom organisms for industrial applications.",
+  "description_short": "Ginkgo Bioworks is an American biotechnology company that specializes in genetic engineering, using data analytics and automation to design custom org",
+  "description_long": "Ginkgo Bioworks is an American biotechnology company that specializes in genetic engineering, using data analytics and automation to design custom organisms for industrial applications.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d8427e9e647b115fc9f1f760c7a1324f1d2c02ef.png",
+  "website": "https://www.ginkgo.bio/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Ginkgo Bioworks",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Jason Kelly, Reshma Shetty, Barry Canton, Austin Che, Tom Knight",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2008",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.ginkgo.bio/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Healthcare",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Boston",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2008-01-01",
+        "note": "Entity founded by Jason Kelly, Reshma Shetty, Barry Canton, Austin Che, Tom Knight"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Healthcare"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.ginkgo.bio/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

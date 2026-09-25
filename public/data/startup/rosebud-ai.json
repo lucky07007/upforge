@@ -1,0 +1,137 @@
+{
+  "id": "uf-rosebud-ai",
+  "ufrn": "UF-2026-US-05110",
+  "name": "Rosebud AI",
+  "slug": "rosebud-ai",
+  "status": "approved",
+  "founded": 2019,
+  "founded_year": 2019,
+  "location": {
+    "city": "San Francisco",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "San Francisco",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "ai-technology",
+  "subsector_ids": [
+    "ai-technology"
+  ],
+  "category": "AI & Technology",
+  "industry_cluster": "AI",
+  "founders": "Lisha Li (primary), Chrys Bader & Sean Dadashi",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-22 21:54:00.109467+00",
+  "description": "Rosebud AI is a generative AI platform that enables users to create, share, and play 3D games and interactive experiences using simple text prompts without coding.",
+  "description_short": "Rosebud AI is a generative AI platform that enables users to create, share, and play 3D games and interactive experiences using simple text prompts wi",
+  "description_long": "Rosebud AI is a generative AI platform that enables users to create, share, and play 3D games and interactive experiences using simple text prompts without coding.",
+  "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQHcoUNvSutEDQ/company-logo_200_200/company-logo_200_200/0/1719602383929/rosebud_ai_logo?e=2147483647&v=beta&t=PaJ6ue67xBpt8Rb8yAr6DglcS4bhje3eULiz6Q9HhR8",
+  "website": "https://rosebud.ai/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/rosebud-journal/",
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": "https://www.linkedin.com/company/rosebud-journal/",
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Rosebud AI",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Lisha Li (primary), Chrys Bader & Sean Dadashi",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2019",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://rosebud.ai/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "AI & Technology",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "San Francisco",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2019-01-01",
+        "note": "Entity founded by Lisha Li (primary), Chrys Bader & Sean Dadashi"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: AI & Technology"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://rosebud.ai/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

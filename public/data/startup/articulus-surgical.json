@@ -1,0 +1,129 @@
+{
+  "id": "uf-articulus-surgical",
+  "ufrn": "UF-2026-IN-00003",
+  "name": "Articulus Surgical",
+  "slug": "articulus-surgical",
+  "status": "approved",
+  "founded": 2019,
+  "founded_year": 2019,
+  "location": {
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "healthcare",
+  "subsector_ids": [
+    "healthcare"
+  ],
+  "category": "Healthcare",
+  "industry_cluster": "HealthTech",
+  "founders": "Saurya Mishra",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-20 03:14:32.574277+00",
+  "description": "Articulus Surgical creates affordable AI-enabled robotic systems for minimally invasive soft-tissue surgeries, targeting high-volume abdominal procedures in India. Products like Pulsar and Galaxi offer precision at 5x lower cost than global options, with compact design for diverse hospitals, improving outcomes and recovery. Bengaluru-based with clinical deployments, surgeon training, and hospital partnerships. Recognized in Tech30 lists with growing adoption. Stage: Seed (from Kalaari Capital).",
+  "description_short": "Articulus Surgical creates affordable AI-enabled robotic systems for minimally invasive soft-tissue surgeries, targeting high-volume abdominal procedu",
+  "description_long": "Articulus Surgical creates affordable AI-enabled robotic systems for minimally invasive soft-tissue surgeries, targeting high-volume abdominal procedures in India. Products like Pulsar and Galaxi offer precision at 5x lower cost than global options, with compact design for diverse hospitals, improving outcomes and recovery. Bengaluru-based with clinical deployments, surgeon training, and hospital partnerships. Recognized in Tech30 lists with growing adoption. Stage: Seed (from Kalaari Capital).",
+  "logo_url": "https://www.industrialautomationindia.in/_next/image?url=https%3A%2F%2Fadmin.industrialautomationindia.in%2Fstorage%2Fcompany%2Fcompany-IiaxA4R3FAYa3yXS912ijJr20dmo8d6RiABQzLTV.jpg&w=640&q=75",
+  "website": "https://www.articulussurgical.com/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/articulus-surgical/",
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": "https://www.linkedin.com/company/articulus-surgical/",
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Articulus Surgical",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Saurya Mishra",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2019",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.articulussurgical.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Healthcare",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2019-01-01",
+        "note": "Entity founded by Saurya Mishra"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Healthcare"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.articulussurgical.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.983Z"
+}

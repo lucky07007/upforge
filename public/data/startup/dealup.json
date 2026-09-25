@@ -1,0 +1,129 @@
+{
+  "id": "uf-dealup",
+  "ufrn": "UF-2026-US-05125",
+  "name": "DealUp",
+  "slug": "dealup",
+  "status": "approved",
+  "founded": 2026,
+  "founded_year": 2026,
+  "location": {
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "social-media",
+  "subsector_ids": [
+    "social-media"
+  ],
+  "category": "Social media",
+  "industry_cluster": "Other",
+  "founders": "Teresa Liu",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-25 23:53:26.545880+00",
+  "description": "DealUp is a social accountability mobile application designed to help users stick to their habits, personal goals, and social commitments. The platform works by turning promises into social challenges backed by peer review and playful consequences.",
+  "description_short": "DealUp is a social accountability mobile application designed to help users stick to their habits, personal goals, and social commitments. The platfor",
+  "description_long": "DealUp is a social accountability mobile application designed to help users stick to their habits, personal goals, and social commitments. The platform works by turning promises into social challenges backed by peer review and playful consequences.",
+  "logo_url": "https://www.dealupapp.com/wp-content/uploads/2026/03/cropped-dealup_512-transparent.png",
+  "website": "https://www.dealupapp.com",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "DealUp",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Teresa Liu",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2026",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.dealupapp.com",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Social media",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2026-01-01",
+        "note": "Entity founded by Teresa Liu"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Social media"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.dealupapp.com"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

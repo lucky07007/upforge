@@ -1,0 +1,129 @@
+{
+  "id": "uf-cava-athleisure",
+  "ufrn": "UF-2026-IN-00006",
+  "name": "Cava Athleisure",
+  "slug": "cava-athleisure",
+  "status": "approved",
+  "founded": 2022,
+  "founded_year": 2022,
+  "location": {
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "e-commerce-d2c",
+  "subsector_ids": [
+    "e-commerce-d2c"
+  ],
+  "category": "E-commerce & D2C",
+  "industry_cluster": "Other",
+  "founders": "Ria Mittal, Shreya Mittal",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-20 19:26:37.560016+00",
+  "description": "Cava Athleisure designs comfortable, high-quality activewear using BCI cotton and recycled polyester, tailored for Indian consumers with a function-first approach. Bengaluru-based D2C brand focuses on everyday wear, projecting ₹40 Cr revenue by FY26 through online sales and brand building. Media coverage praises its youth-focused innovation and rapid scaling. Stage: Series A (₹40 Cr led by Sharrp Ventures).",
+  "description_short": "Cava Athleisure designs comfortable, high-quality activewear using BCI cotton and recycled polyester, tailored for Indian consumers with a function-fi",
+  "description_long": "Cava Athleisure designs comfortable, high-quality activewear using BCI cotton and recycled polyester, tailored for Indian consumers with a function-first approach. Bengaluru-based D2C brand focuses on everyday wear, projecting ₹40 Cr revenue by FY26 through online sales and brand building. Media coverage praises its youth-focused innovation and rapid scaling. Stage: Series A (₹40 Cr led by Sharrp Ventures).",
+  "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDQJ8SSnhrS8tb5RKRBBD-vYQYA9rBGyoZvQ&s",
+  "website": "https://cavaathleisure.com/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/cava-athleisure/",
+    "twitter": null,
+    "instagram": "https://www.instagram.com/cava_athleisure?igsh=MTJpNHN1bzhsNWU2MA%3D%3D"
+  },
+  "linkedin_url": "https://www.linkedin.com/company/cava-athleisure/",
+  "twitter_url": null,
+  "instagram_url": "https://www.instagram.com/cava_athleisure?igsh=MTJpNHN1bzhsNWU2MA%3D%3D",
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Cava Athleisure",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Ria Mittal, Shreya Mittal",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2022",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://cavaathleisure.com/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "E-commerce & D2C",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2022-01-01",
+        "note": "Entity founded by Ria Mittal, Shreya Mittal"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: E-commerce & D2C"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://cavaathleisure.com/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.984Z"
+}

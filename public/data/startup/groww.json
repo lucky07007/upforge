@@ -1,0 +1,137 @@
+{
+  "id": "uf-groww",
+  "ufrn": "UF-2026-IN-05139",
+  "name": "Groww",
+  "slug": "groww",
+  "status": "approved",
+  "founded": 2016,
+  "founded_year": 2016,
+  "location": {
+    "city": "Bengaluru",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": "Bengaluru",
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "fintech",
+  "subsector_ids": [
+    "fintech"
+  ],
+  "category": "Fintech",
+  "industry_cluster": "Fintech",
+  "founders": "Lalit Keshre, Harsh Jain, Ishan Bansal, Neeraj Singh",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-29 01:04:05.182875+00",
+  "description": "Groww is an Indian financial technology platform that enables retail investors to invest in stocks, direct mutual funds, IPOs, and ETFs through a simplified, user-friendly interface.",
+  "description_short": "Groww is an Indian financial technology platform that enables retail investors to invest in stocks, direct mutual funds, IPOs, and ETFs through a simp",
+  "description_long": "Groww is an Indian financial technology platform that enables retail investors to invest in stocks, direct mutual funds, IPOs, and ETFs through a simplified, user-friendly interface.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0ae62cb1672e8223d9b0ae2e5b7ecde4ae763c5e.png",
+  "website": "https://groww.in",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Groww",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Lalit Keshre, Harsh Jain, Ishan Bansal, Neeraj Singh",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2016",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://groww.in",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Fintech",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Bengaluru",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2016-01-01",
+        "note": "Entity founded by Lalit Keshre, Harsh Jain, Ishan Bansal, Neeraj Singh"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Fintech"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://groww.in"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "uf-agnikul-cosmos",
+  "ufrn": "UF-2026-IN-00013",
+  "name": "Agnikul Cosmos",
+  "slug": "agnikul-cosmos",
+  "status": "approved",
+  "founded": 2017,
+  "founded_year": 2017,
+  "location": {
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "deeptech-climate",
+  "subsector_ids": [
+    "deeptech-climate"
+  ],
+  "category": "Deeptech & Climate",
+  "industry_cluster": "Other",
+  "founders": "Srinath Ravichandran, Moin SPM",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-19 19:23:17.285509+00",
+  "description": "Agnikul Cosmos develops small satellite launch vehicles powered by 3D-printed semi-cryogenic rocket engines. The company operates India's first private launchpad at Sriharikota and focuses on affordable on-demand satellite launches. Chennai-based spacetech startup attracting global aerospace attention and strong investor backing. Stage: Series B funded.",
+  "description_short": "Agnikul Cosmos develops small satellite launch vehicles powered by 3D-printed semi-cryogenic rocket engines. The company operates India's first privat",
+  "description_long": "Agnikul Cosmos develops small satellite launch vehicles powered by 3D-printed semi-cryogenic rocket engines. The company operates India's first private launchpad at Sriharikota and focuses on affordable on-demand satellite launches. Chennai-based spacetech startup attracting global aerospace attention and strong investor backing. Stage: Series B funded.",
+  "logo_url": "https://media.assettype.com/barandbench%2F2023-10%2F9cdcb9c9-3af3-4a62-9f3c-820b5d9240d2%2F11.jpg",
+  "website": "https://agnikul.in/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/agnikul-cosmos/",
+    "twitter": null,
+    "instagram": "https://www.instagram.com/agnikul/"
+  },
+  "linkedin_url": "https://www.linkedin.com/company/agnikul-cosmos/",
+  "twitter_url": null,
+  "instagram_url": "https://www.instagram.com/agnikul/",
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Agnikul Cosmos",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Srinath Ravichandran, Moin SPM",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2017",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://agnikul.in/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Deeptech & Climate",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2017-01-01",
+        "note": "Entity founded by Srinath Ravichandran, Moin SPM"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Deeptech & Climate"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://agnikul.in/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.983Z"
+}

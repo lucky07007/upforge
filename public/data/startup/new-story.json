@@ -1,0 +1,137 @@
+{
+  "id": "uf-new-story",
+  "ufrn": "UF-2026-US-05277",
+  "name": "New Story",
+  "slug": "new-story",
+  "status": "approved",
+  "founded": 2014,
+  "founded_year": 2014,
+  "location": {
+    "city": "Atlanta",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "Atlanta",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "real-estate-and-construction",
+  "subsector_ids": [
+    "real-estate-and-construction"
+  ],
+  "category": "Real Estate and Construction",
+  "industry_cluster": "Other",
+  "founders": "Brett Hagler, Alexandria Lafci, Mike Arrieta, Matthew Marshall",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-26 05:43:48.603459+00",
+  "description": "New Story is a non-profit organization that builds affordable, disaster-resilient housing and pioneers sustainable community-building technologies like 3D home printing for vulnerable families.",
+  "description_short": "New Story is a non-profit organization that builds affordable, disaster-resilient housing and pioneers sustainable community-building technologies lik",
+  "description_long": "New Story is a non-profit organization that builds affordable, disaster-resilient housing and pioneers sustainable community-building technologies like 3D home printing for vulnerable families.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/280805d97b8f928525e064cfec1a11ad08073997.png",
+  "website": "https://www.newstoryhomes.org/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "New Story",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Brett Hagler, Alexandria Lafci, Mike Arrieta, Matthew Marshall",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2014",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.newstoryhomes.org/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Real Estate and Construction",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Atlanta",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2014-01-01",
+        "note": "Entity founded by Brett Hagler, Alexandria Lafci, Mike Arrieta, Matthew Marshall"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Real Estate and Construction"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.newstoryhomes.org/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.987Z"
+}

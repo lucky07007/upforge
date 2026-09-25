@@ -1,0 +1,137 @@
+{
+  "id": "uf-sarvam-ai",
+  "ufrn": "UF-2026-IN-05111",
+  "name": "Sarvam AI",
+  "slug": "sarvam-ai",
+  "status": "approved",
+  "founded": 2023,
+  "founded_year": 2023,
+  "location": {
+    "city": "approved",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": "approved",
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "ai-technology",
+  "subsector_ids": [
+    "ai-technology"
+  ],
+  "category": "AI & Technology",
+  "industry_cluster": "AI",
+  "founders": "Vivek Raghavan, Pratyush Kumar",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-22 23:05:28.041391+00",
+  "description": "Sarvam AI is building full-stack AI infrastructure for India — including sovereign large language models trained on Indian languages, speech APIs, and enterprise AI deployment tools. Founded by IIT alumni and ex-Microsoft researchers, Sarvam is backed by Peak XV and Lightspeed.",
+  "description_short": "Sarvam AI is building full-stack AI infrastructure for India — including sovereign large language models trained on Indian languages, speech APIs, and",
+  "description_long": "Sarvam AI is building full-stack AI infrastructure for India — including sovereign large language models trained on Indian languages, speech APIs, and enterprise AI deployment tools. Founded by IIT alumni and ex-Microsoft researchers, Sarvam is backed by Peak XV and Lightspeed.",
+  "logo_url": "https://www.peakxv.com/wp-content/uploads/sites/2/2024/02/sarvam.ai-idJ9Sr0Dj7.jpeg",
+  "website": "https://www.sarvam.ai",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/sarvam-ai",
+    "twitter": null,
+    "instagram": "https://www.instagram.com/sarvam.ai_official"
+  },
+  "linkedin_url": "https://www.linkedin.com/company/sarvam-ai",
+  "twitter_url": null,
+  "instagram_url": "https://www.instagram.com/sarvam.ai_official",
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Sarvam AI",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Vivek Raghavan, Pratyush Kumar",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2023",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.sarvam.ai",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "AI & Technology",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "approved",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2023-01-01",
+        "note": "Entity founded by Vivek Raghavan, Pratyush Kumar"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: AI & Technology"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.sarvam.ai"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

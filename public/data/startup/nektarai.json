@@ -1,0 +1,129 @@
+{
+  "id": "uf-nektarai",
+  "ufrn": "UF-2026-SG-05132",
+  "name": "Nektar.ai",
+  "slug": "nektarai",
+  "status": "approved",
+  "founded": 2020,
+  "founded_year": 2020,
+  "location": {
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "Singapore",
+  "country_code": "SG",
+  "sector_id": "saas",
+  "subsector_ids": [
+    "saas"
+  ],
+  "category": "SaaS",
+  "industry_cluster": "SaaS",
+  "founders": "Abhijeet Vijayvergiya and Aravind Ravi Sulekha",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-26 19:28:49.523614+00",
+  "description": "Nektar.ai is a B2B sales productivity platform that deploys an AI-powered virtual sales assistant to automate CRM updates, capture buyer signals, and boost pipeline visibility for revenue teams.",
+  "description_short": "Nektar.ai is a B2B sales productivity platform that deploys an AI-powered virtual sales assistant to automate CRM updates, capture buyer signals, and ",
+  "description_long": "Nektar.ai is a B2B sales productivity platform that deploys an AI-powered virtual sales assistant to automate CRM updates, capture buyer signals, and boost pipeline visibility for revenue teams.",
+  "logo_url": "https://media.glassdoor.com/sqll/3366463/nektar-ai-squareLogo-1622624470020.png",
+  "website": "https://nektar.ai",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/nektar-ai/",
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": "https://www.linkedin.com/company/nektar-ai/",
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Nektar.ai",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Abhijeet Vijayvergiya and Aravind Ravi Sulekha",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2020",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://nektar.ai",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "SaaS",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "Singapore",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2020-01-01",
+        "note": "Entity founded by Abhijeet Vijayvergiya and Aravind Ravi Sulekha"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: SaaS"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://nektar.ai"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.985Z"
+}

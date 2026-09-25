@@ -1,0 +1,137 @@
+{
+  "id": "uf-clear",
+  "ufrn": "UF-2026-IN-05334",
+  "name": "Clear",
+  "slug": "clear",
+  "status": "approved",
+  "founded": 2011,
+  "founded_year": 2011,
+  "location": {
+    "city": "Bengaluru",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": "Bengaluru",
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "fintech",
+  "subsector_ids": [
+    "fintech"
+  ],
+  "category": "Fintech",
+  "industry_cluster": "Fintech",
+  "founders": "Archit Gupta, Raja Ram Gupta, Srivatsan Chari, Ankit Solanki",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-03-08 22:07:25.973620+00",
+  "description": "Clear (formerly ClearTax) is a fintech and SaaS platform that provides automated tax filing, GST compliance, invoicing, and wealth management solutions for individuals and enterprises.",
+  "description_short": "Clear (formerly ClearTax) is a fintech and SaaS platform that provides automated tax filing, GST compliance, invoicing, and wealth management solution",
+  "description_long": "Clear (formerly ClearTax) is a fintech and SaaS platform that provides automated tax filing, GST compliance, invoicing, and wealth management solutions for individuals and enterprises.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/b9c7802fe390e275d36ad0835a41223e647bcf5a.png",
+  "website": "https://www.clear.in/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Clear",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Archit Gupta, Raja Ram Gupta, Srivatsan Chari, Ankit Solanki",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2011",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.clear.in/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Fintech",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Bengaluru",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2011-01-01",
+        "note": "Entity founded by Archit Gupta, Raja Ram Gupta, Srivatsan Chari, Ankit Solanki"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Fintech"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.clear.in/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.988Z"
+}

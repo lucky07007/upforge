@@ -1,0 +1,129 @@
+{
+  "id": "uf-emergent",
+  "ufrn": "UF-2026-IN-00008",
+  "name": "Emergent",
+  "slug": "emergent",
+  "status": "approved",
+  "founded": 2025,
+  "founded_year": 2025,
+  "location": {
+    "country": "India",
+    "country_code": "IN"
+  },
+  "city": null,
+  "state": null,
+  "country_name": "India",
+  "country_code": "IN",
+  "sector_id": "ai-technology",
+  "subsector_ids": [
+    "ai-technology"
+  ],
+  "category": "AI & Technology",
+  "industry_cluster": "AI",
+  "founders": "Mukund Jha (CEO) and Madhav Jha (CTO)",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-01-22 08:08:54.119656+00",
+  "description": "Emergent creates horizontal AI apps for enterprises, automating workflows, delivering real-time insights, and optimizing operations for Indian businesses. Features intuitive dashboards and seamless integrations. Bengaluru-based with strong YC/Lightspeed traction and early adoption. Website excels: dynamic, interactive demos, modern gradients, fast-loading, premium tech vibe. Small team focused on practical AI impact. Stage: Early Stage/Seed.",
+  "description_short": "Emergent creates horizontal AI apps for enterprises, automating workflows, delivering real-time insights, and optimizing operations for Indian busines",
+  "description_long": "Emergent creates horizontal AI apps for enterprises, automating workflows, delivering real-time insights, and optimizing operations for Indian businesses. Features intuitive dashboards and seamless integrations. Bengaluru-based with strong YC/Lightspeed traction and early adoption. Website excels: dynamic, interactive demos, modern gradients, fast-loading, premium tech vibe. Small team focused on practical AI impact. Stage: Early Stage/Seed.",
+  "logo_url": "data:image/jpeg;base64,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",
+  "website": "https://app.emergent.sh/landing/",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/emergentlabs",
+    "twitter": null,
+    "instagram": "https://www.instagram.com/emergentlabs"
+  },
+  "linkedin_url": "https://www.linkedin.com/company/emergentlabs",
+  "twitter_url": null,
+  "instagram_url": "https://www.instagram.com/emergentlabs",
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Emergent",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Mukund Jha (CEO) and Madhav Jha (CTO)",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2025",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://app.emergent.sh/landing/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "AI & Technology",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "India",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2025-01-01",
+        "note": "Entity founded by Mukund Jha (CEO) and Madhav Jha (CTO)"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: AI & Technology"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://app.emergent.sh/landing/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.984Z"
+}

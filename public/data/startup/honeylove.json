@@ -1,0 +1,137 @@
+{
+  "id": "uf-honeylove",
+  "ufrn": "UF-2026-US-05198",
+  "name": "Honeylove",
+  "slug": "honeylove",
+  "status": "approved",
+  "founded": 2018,
+  "founded_year": 2018,
+  "location": {
+    "city": "Los Angeles",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "city": "Los Angeles",
+  "state": null,
+  "country_name": "United States",
+  "country_code": "US",
+  "sector_id": "consumer",
+  "subsector_ids": [
+    "consumer"
+  ],
+  "category": "Consumer",
+  "industry_cluster": "Other",
+  "founders": "Betsie Larkin",
+  "business_model": null,
+  "legal_name": null,
+  "funding_stage": null,
+  "funding_total": null,
+  "valuation": null,
+  "valuation_date": null,
+  "data_as_of": "2026-02-11 04:38:53.568836+00",
+  "description": "Honeylove is a direct-to-consumer apparel and shapewear brand that designs structured, functional, and supportive garments tailored to enhance comfort and body shape.",
+  "description_short": "Honeylove is a direct-to-consumer apparel and shapewear brand that designs structured, functional, and supportive garments tailored to enhance comfort",
+  "description_long": "Honeylove is a direct-to-consumer apparel and shapewear brand that designs structured, functional, and supportive garments tailored to enhance comfort and body shape.",
+  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/50726ec2a923dcdbc1976fc34ca5ae61e74a8d58.png",
+  "website": "https://www.honeylove.com/en-in/",
+  "social": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "linkedin_url": null,
+  "twitter_url": null,
+  "instagram_url": null,
+  "verification": {
+    "status": "verified",
+    "score": 90,
+    "is_self_reported_capped": false,
+    "breakdown": {
+      "website_reachable": 15,
+      "domain_validity": 15,
+      "company_identity_signal": 15,
+      "founder_identity_signal": 15,
+      "social_presence": 10,
+      "product_evidence": 10,
+      "registration_evidence": 5,
+      "recent_activity": 5
+    },
+    "last_verified": "2026-09-25"
+  },
+  "provenance": [
+    {
+      "field": "name",
+      "value": "Honeylove",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founders",
+      "value": "Betsie Larkin",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "founded_year",
+      "value": "2018",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "website",
+      "value": "https://www.honeylove.com/en-in/",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "category",
+      "value": "Consumer",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "city",
+      "value": "Los Angeles",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    },
+    {
+      "field": "country",
+      "value": "United States",
+      "source": "UpForge Registry Google Sheet",
+      "verified_on": "2026-09-25",
+      "confidence": "high"
+    }
+  ],
+  "history": {
+    "founders": [
+      {
+        "date": "2018-01-01",
+        "note": "Entity founded by Betsie Larkin"
+      }
+    ],
+    "sector": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry classification: Consumer"
+      }
+    ],
+    "status": [
+      {
+        "date": "2026-09-25",
+        "note": "Registry status: verified (Score: 90/100)"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.honeylove.com/en-in/"
+  ],
+  "is_featured": false,
+  "created_at": "2026-09-25T17:26:51.986Z"
+}
