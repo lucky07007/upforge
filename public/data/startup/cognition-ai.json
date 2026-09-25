@@ -1,39 +1,39 @@
 {
-  "id": "uf-influxdata",
-  "ufrn": "UF-2026-US-05378",
-  "name": "InfluxData",
-  "slug": "influxdata",
+  "id": "uf-cognition-ai",
+  "ufrn": "UF-2026-GLB-COGNI",
+  "name": "Cognition AI",
+  "slug": "cognition-ai",
   "status": "approved",
-  "founded": 2012,
-  "founded_year": 2012,
+  "founded": 2023,
+  "founded_year": 2023,
   "location": {
-    "city": "New York City",
-    "country": "United States",
-    "country_code": "US"
+    "city": "San Francisco",
+    "country": "San Francisco",
+    "country_code": "GLB"
   },
-  "city": "New York City",
+  "city": "San Francisco",
   "state": null,
-  "country_name": "United States",
-  "country_code": "US",
-  "sector_id": "b2b",
+  "country_name": "San Francisco",
+  "country_code": "GLB",
+  "sector_id": "artificial-intelligence-ai-technology",
   "subsector_ids": [
-    "b2b"
+    "artificial-intelligence-ai-technology"
   ],
-  "category": "B2B",
-  "industry_cluster": "Other",
-  "founders": "Paul Dix, Todd Persen",
+  "category": "Artificial Intelligence (AI) & Technology",
+  "industry_cluster": "AI",
+  "founders": "Scott Wu, Steven Hao, Walden Yan",
   "business_model": null,
   "legal_name": null,
   "funding_stage": null,
   "funding_total": null,
   "valuation": null,
   "valuation_date": null,
-  "data_as_of": "2026-03-18 21:24:41.375909+00",
-  "description": "InfluxData produces InfluxDB, a purpose-built time-series database optimized for storing, analyzing, and visualizing metrics, IoT telemetry, and event data.",
-  "description_short": "InfluxData produces InfluxDB, a purpose-built time-series database optimized for storing, analyzing, and visualizing metrics, IoT telemetry, and event",
-  "description_long": "InfluxData produces InfluxDB, a purpose-built time-series database optimized for storing, analyzing, and visualizing metrics, IoT telemetry, and event data.",
-  "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/52f8bfabfa73534a4e180ab67b04914310f2a95e.png",
-  "website": "https://www.influxdata.com/",
+  "data_as_of": "2026-04-15 08:47:05.774465+00",
+  "description": "Cognition AI is an applied AI lab focused on advanced reasoning and logic. Based in San Francisco, the startup is best known for creating Devin, the world's first fully autonomous AI software engineer capable of writing code, debugging, and building software projects entirely on its own.",
+  "description_short": "Cognition AI is an applied AI lab focused on advanced reasoning and logic. Based in San Francisco, the startup is best known for creating Devin, the w",
+  "description_long": "Cognition AI is an applied AI lab focused on advanced reasoning and logic. Based in San Francisco, the startup is best known for creating Devin, the world's first fully autonomous AI software engineer capable of writing code, debugging, and building software projects entirely on its own.",
+  "logo_url": "https://img.logo.dev/cognition.ai?token=live_6a1a28fd-6420-4492-aeb0-b297461d9de2&size=512&retina=true&format=png",
+  "website": "https://cognition.com/",
   "social": {
     "linkedin": null,
     "twitter": null,
@@ -61,49 +61,49 @@
   "provenance": [
     {
       "field": "name",
-      "value": "InfluxData",
+      "value": "Cognition AI",
       "source": "UpForge Registry Google Sheet",
       "verified_on": "2026-09-25",
       "confidence": "high"
     },
     {
       "field": "founders",
-      "value": "Paul Dix, Todd Persen",
+      "value": "Scott Wu, Steven Hao, Walden Yan",
       "source": "UpForge Registry Google Sheet",
       "verified_on": "2026-09-25",
       "confidence": "high"
     },
     {
       "field": "founded_year",
-      "value": "2012",
+      "value": "2023",
       "source": "UpForge Registry Google Sheet",
       "verified_on": "2026-09-25",
       "confidence": "high"
     },
     {
       "field": "website",
-      "value": "https://www.influxdata.com/",
+      "value": "https://cognition.com/",
       "source": "UpForge Registry Google Sheet",
       "verified_on": "2026-09-25",
       "confidence": "high"
     },
     {
       "field": "category",
-      "value": "B2B",
+      "value": "Artificial Intelligence (AI) & Technology",
       "source": "UpForge Registry Google Sheet",
       "verified_on": "2026-09-25",
       "confidence": "high"
     },
     {
       "field": "city",
-      "value": "New York City",
+      "value": "San Francisco",
       "source": "UpForge Registry Google Sheet",
       "verified_on": "2026-09-25",
       "confidence": "high"
     },
     {
       "field": "country",
-      "value": "United States",
+      "value": "San Francisco",
       "source": "UpForge Registry Google Sheet",
       "verified_on": "2026-09-25",
       "confidence": "high"
@@ -112,14 +112,14 @@
   "history": {
     "founders": [
       {
-        "date": "2012-01-01",
-        "note": "Entity founded by Paul Dix, Todd Persen"
+        "date": "2023-01-01",
+        "note": "Entity founded by Scott Wu, Steven Hao, Walden Yan"
       }
     ],
     "sector": [
       {
         "date": "2026-09-25",
-        "note": "Registry classification: B2B"
+        "note": "Registry classification: Artificial Intelligence (AI) & Technology"
       }
     ],
     "status": [
@@ -130,8 +130,8 @@
     ]
   },
   "sources": [
-    "https://www.influxdata.com/"
+    "https://cognition.com/"
   ],
   "is_featured": false,
-  "created_at": "2026-09-25T20:13:11.654Z"
+  "created_at": "2026-09-25T20:13:11.656Z"
 }

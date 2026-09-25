@@ -57,6 +57,7 @@ interface LeaderboardItem {
 interface CompletionResult {
   certificateId: string;
   record: LeaderboardItem & { id?: string; completedAt?: string };
+  rank: number;
 }
 
 async function readJson(res: Response) {
@@ -164,7 +165,7 @@ export default function QuizDetailClient({ quiz }: { quiz: QuizDetailData }) {
 
   const submitCompletion = async (nextAnswers: Record<string, number>) => {
     if (!attemptId) {
-      setCompletionError("Preparing your secure attempt. Please try again.");
+      setCompletionError("Your secure attempt is still preparing. Please wait a moment and retry.");
       return;
     }
     if (!userName.trim()) {
@@ -175,68 +176,101 @@ export default function QuizDetailClient({ quiz }: { quiz: QuizDetailData }) {
     setSubmittingResult(true);
     setCompletionError("");
 
+    const payload = {
+      quizSlug: quiz.slug,
+      answers: nextAnswers,
+      attemptId,
+      userName: userName.trim(),
+      timeTakenSeconds: timeElapsed,
+      website: "",
+    };
+
+    let lastError = "We could not save your result yet.";
+
     try {
-      const res = await fetch("/api/quiz/complete", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          quizSlug: quiz.slug,
-          answers: nextAnswers,
-          attemptId,
-          userName: userName.trim(),
-          timeTakenSeconds: timeElapsed,
-          website: "",
-        }),
-      });
-
-      const data = await readJson(res);
-      if (!res.ok || !data?.success) {
-        throw new Error(data?.error || "We could not record the leaderboard result.");
-      }
-
-      const record = data.record;
-      const submittedEntry: LeaderboardItem = {
-        rank: Number(data.rank || 0),
-        id: data.completionId,
-        userName: record.userName,
-        score: record.score,
-        totalQuestions: record.totalQuestions,
-        percentage: record.percentage,
-        badgeEarned: record.badgeEarned,
-        timeTakenSeconds: record.timeTakenSeconds,
-        completedAt: record.completedAt,
-      };
-
-      try { sessionStorage.setItem("upforge:last-completion", data.completionId); } catch {}
-
-      setCompletion({ certificateId: data.certificateId, record: submittedEntry });
-
-      if (data?.top?.userName) {
+      // Google Apps Script can occasionally cold-start. Two short retries make
+      // the completion flow resilient without adding background polling.
+      for (let attempt = 0; attempt < 3; attempt += 1) {
         try {
-          const top = {
-            userName: String(data.top.userName).slice(0, 80),
-            percentage: Number(data.top.percentage) || 0,
-            quizTitle: data.top.quizTitle ? String(data.top.quizTitle).slice(0, 120) : undefined,
-            savedAt: Date.now(),
-          };
-          window.localStorage.setItem("upforge:header:leaderboard-top", JSON.stringify(top));
-          window.dispatchEvent(new CustomEvent("upforge:leaderboard-updated", { detail: top }));
-        } catch {}
+          const controller = new AbortController();
+          const timeout = window.setTimeout(() => controller.abort(), 11000);
+          try {
+            const res = await fetch("/api/quiz/complete", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(payload),
+              signal: controller.signal,
+              cache: "no-store",
+            });
+
+            const data = await readJson(res);
+            if (!res.ok || !data?.success) {
+              throw new Error(data?.error || "We could not save your result yet.");
+            }
+
+            const record = data.record;
+            const submittedEntry: LeaderboardItem = {
+              rank: Number(data.rank || 0),
+              id: data.completionId,
+              userName: record.userName,
+              score: record.score,
+              totalQuestions: record.totalQuestions,
+              percentage: record.percentage,
+              badgeEarned: record.badgeEarned,
+              timeTakenSeconds: record.timeTakenSeconds,
+              completedAt: record.completedAt,
+            };
+
+            try { sessionStorage.setItem("upforge:last-completion", data.completionId); } catch {}
+
+            setCompletion({
+              certificateId: data.certificateId,
+              record: submittedEntry,
+              rank: Number(data.rank || 0),
+            });
+
+            // Update the already-mounted header without another Worker request.
+            if (data?.top?.userName) {
+              try {
+                const top = {
+                  userName: String(data.top.userName).slice(0, 80),
+                  percentage: Number(data.top.percentage) || 0,
+                  quizTitle: data.top.quizTitle ? String(data.top.quizTitle).slice(0, 120) : undefined,
+                  savedAt: Date.now(),
+                };
+                window.localStorage.setItem("upforge:header:leaderboard-top", JSON.stringify(top));
+                window.dispatchEvent(new CustomEvent("upforge:leaderboard-updated", { detail: top }));
+              } catch {}
+            }
+
+            setLeaderboard((previous) => {
+              const merged = [submittedEntry, ...previous.filter((entry) => entry.id !== submittedEntry.id)];
+              merged.sort((a, b) => {
+                if (b.percentage !== a.percentage) return b.percentage - a.percentage;
+                if (b.score !== a.score) return b.score - a.score;
+                return (a.timeTakenSeconds || 999999) - (b.timeTakenSeconds || 999999);
+              });
+              return merged.slice(0, 10).map((entry, index) => ({ ...entry, rank: index + 1 }));
+            });
+
+            setIsCompleted(true);
+            return;
+          } finally {
+            window.clearTimeout(timeout);
+          }
+        } catch (error: any) {
+          lastError = error?.name === "AbortError"
+            ? "The leaderboard service took too long to respond."
+            : String(error?.message || "We could not save your result yet.");
+          if (attempt < 2) {
+            await new Promise((resolve) => window.setTimeout(resolve, 500 * (attempt + 1)));
+          }
+        }
       }
 
-      setLeaderboard((previous) => {
-        const merged = [submittedEntry, ...previous.filter((entry) => entry.id !== submittedEntry.id)];
-        merged.sort((a, b) => {
-          if (b.percentage !== a.percentage) return b.percentage - a.percentage;
-          if (b.score !== a.score) return b.score - a.score;
-          return (a.timeTakenSeconds || 999999) - (b.timeTakenSeconds || 999999);
-        });
-        return merged.slice(0, 10).map((entry, index) => ({ ...entry, rank: index + 1 }));
-      });
-
-      setIsCompleted(true);
-    } catch (error: any) {
-      setCompletionError(error?.message || "We could not record this completion. Please retry once.");
+      // Keep the completed screen mounted so the user never loses their result,
+      // but clearly indicate that the official credential is waiting for sync.
+      setCompletionError(lastError);
       setIsCompleted(true);
     } finally {
       setSubmittingResult(false);
@@ -422,16 +456,28 @@ export default function QuizDetailClient({ quiz }: { quiz: QuizDetailData }) {
                 <Award className="h-4 w-4" /> {liveBadge}
               </div>
 
-              {completionError ? (
-                <div className="mx-auto mt-5 max-w-xl rounded-xl border border-red-500/20 bg-red-500/10 p-4 text-sm font-semibold text-red-700 dark:text-red-300">
-                  <p>{completionError}</p>
-                  <button type="button" onClick={() => submitCompletion(selectedAnswers)} disabled={submittingResult} className="mt-2 underline">
-                    {submittingResult ? "Retrying…" : "Retry completion"}
-                  </button>
+              {completion ? (
+                <div className="mx-auto mt-5 max-w-xl rounded-2xl border border-emerald-500/20 bg-emerald-500/10 p-4 text-left">
+                  <div className="flex items-center justify-between gap-4">
+                    <div>
+                      <p className="text-[10px] font-black uppercase tracking-[0.16em] text-emerald-700 dark:text-emerald-300">Official result recorded</p>
+                      <p className="mt-1 text-sm font-black text-foreground">Your UpForge credential is ready.</p>
+                    </div>
+                    <div className="shrink-0 rounded-xl bg-background px-3 py-2 text-center shadow-sm">
+                      <p className="text-[9px] font-black uppercase tracking-[0.12em] text-muted-foreground">Rank</p>
+                      <p className="text-xl font-black text-foreground">#{completion.rank || "—"}</p>
+                    </div>
+                  </div>
+                  <p className="mt-2 text-[11px] leading-5 text-muted-foreground">Your score, real completion time and rank have been recorded on the public leaderboard.</p>
                 </div>
-              ) : completion ? (
-                <div className="mx-auto mt-5 max-w-xl rounded-xl border border-emerald-500/20 bg-emerald-500/10 p-3 text-sm font-bold text-emerald-700 dark:text-emerald-300">
-                  Result recorded on the public UpForge leaderboard.
+              ) : completionError ? (
+                <div className="mx-auto mt-5 max-w-xl rounded-2xl border border-amber-500/25 bg-amber-500/10 p-4 text-left">
+                  <p className="text-[10px] font-black uppercase tracking-[0.16em] text-amber-700 dark:text-amber-300">Almost there</p>
+                  <p className="mt-1 text-sm font-black text-foreground">Your score is complete, but the official result has not synced yet.</p>
+                  <p className="mt-1 text-[11px] leading-5 text-muted-foreground">{completionError}</p>
+                  <button type="button" onClick={() => submitCompletion(selectedAnswers)} disabled={submittingResult} className="mt-3 rounded-xl bg-accent-primary px-4 py-2.5 text-xs font-black text-white transition hover:opacity-90 disabled:opacity-50">
+                    {submittingResult ? "Saving securely…" : "Save result & unlock certificate"}
+                  </button>
                 </div>
               ) : null}
             </div>
@@ -447,6 +493,8 @@ export default function QuizDetailClient({ quiz }: { quiz: QuizDetailData }) {
                 certificateId={completion.certificateId}
                 issuedAt={completion.record.completedAt}
                 credentialTier={quiz.credentialTier}
+                leaderboardRank={completion.rank}
+                shareUrl={`https://upforge.org/quiz/leaderboard?quiz=${encodeURIComponent(quiz.slug)}`}
               />
             )}
 

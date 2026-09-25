@@ -76,5 +76,11 @@
     "name": "Social media",
     "slug": "social-media",
     "count": 2
+  },
+  {
+    "id": "artificial-intelligence-ai-technology",
+    "name": "Artificial Intelligence (AI) & Technology",
+    "slug": "artificial-intelligence-ai-technology",
+    "count": 1
   }
 ]
