@@ -2,12 +2,7 @@
   {
     "code": "USA",
     "name": "United States",
-    "count": 195
-  },
-  {
-    "code": "IND",
-    "name": "San Francisco",
-    "count": 36
+    "count": 240
   },
   {
     "code": "IND",
@@ -17,27 +12,17 @@
   {
     "code": "IND",
     "name": "Canada",
-    "count": 8
+    "count": 9
   },
   {
     "code": "GBR",
     "name": "United Kingdom",
-    "count": 7
+    "count": 9
   },
   {
     "code": "SGP",
     "name": "Singapore",
-    "count": 6
-  },
-  {
-    "code": "IND",
-    "name": "Los Angeles",
-    "count": 3
-  },
-  {
-    "code": "IND",
-    "name": "New York City",
-    "count": 3
+    "count": 7
   },
   {
     "code": "NLD",
@@ -47,16 +32,6 @@
   {
     "code": "IND",
     "name": "Slovenia",
-    "count": 2
-  },
-  {
-    "code": "IND",
-    "name": "Boston",
-    "count": 2
-  },
-  {
-    "code": "IND",
-    "name": "London",
     "count": 2
   },
   {
@@ -136,22 +111,7 @@
   },
   {
     "code": "IND",
-    "name": "Zürich",
-    "count": 1
-  },
-  {
-    "code": "IND",
-    "name": "Jaco",
-    "count": 1
-  },
-  {
-    "code": "IND",
-    "name": "Paris",
-    "count": 1
-  },
-  {
-    "code": "IND",
-    "name": "Toronto",
+    "name": "France",
     "count": 1
   }
 ]

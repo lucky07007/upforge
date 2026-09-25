@@ -399,38 +399,35 @@ async function main() {
 
   let rawRows = [];
 
-  try {
-    // Build-time only: give Google Sheets enough time to respond without
-    // affecting Cloudflare Worker runtime CPU. A single retry handles
-    // occasional Google cold/slow responses while avoiding retry loops.
-    let lastError = null;
-    for (let attempt = 0; attempt < 2; attempt += 1) {
+  let lastError = null;
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 15000);
       try {
         const res = await fetch(SHEET_CSV_URL, {
-          headers: { Accept: "text/csv,text/plain,*/*" },
-          cache: "no-store",
-          signal: AbortSignal.timeout(15000),
+          signal: controller.signal,
+          headers: { "User-Agent": "UpForge-Build/1.0" },
         });
-        if (!res.ok) {
-          throw new Error(`Google Sheets fetch returned status ${res.status}.`);
-        }
+        if (!res.ok) throw new Error(`Google Sheets fetch returned status ${res.status}.`);
         const csvText = await res.text();
         rawRows = parseCSV(csvText);
-        console.log(`📥 Downloaded ${rawRows.length} rows from Google Sheets CSV.`);
-        break;
-      } catch (err) {
-        lastError = err;
-        if (attempt === 0) {
-          console.warn(`⚠️ Google Sheets fetch attempt 1 failed: ${err.message}. Retrying once...`);
-          await new Promise((resolve) => setTimeout(resolve, 500));
+        if (rawRows.length > 0) {
+          console.log(`📥 Downloaded ${rawRows.length} rows from Google Sheets CSV (attempt ${attempt}).`);
+          break;
         }
+        throw new Error("Google Sheets returned zero data rows.");
+      } finally {
+        clearTimeout(timer);
       }
+    } catch (err) {
+      lastError = err;
+      console.warn(`⚠️ Google Sheets fetch attempt ${attempt}/3 failed: ${err.message}`);
+      if (attempt < 3) await new Promise((resolve) => setTimeout(resolve, 1000 * attempt));
     }
-    if (rawRows.length === 0) {
-      throw lastError || new Error("Google Sheets returned no data.");
-    }
-  } catch (err) {
-    throw new Error(`Failed to fetch Google Sheets CSV: ${err.message}`);
+  }
+  if (rawRows.length === 0) {
+    throw new Error(`Failed to fetch Google Sheets CSV after 3 attempts: ${lastError?.message || "unknown error"}`);
   }
 
 function convertGoogleDriveUrl(url) {

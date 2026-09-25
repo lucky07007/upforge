@@ -1,6 +1,6 @@
 {
   "id": "uf-ultrasonium",
-  "ufrn": "UF-2026-GLB-ULTRA",
+  "ufrn": "UF-2026-US-05447",
   "name": "Ultrasonium",
   "slug": "ultrasonium",
   "status": "approved",
@@ -8,13 +8,13 @@
   "founded_year": 2021,
   "location": {
     "city": "Boston",
-    "country": "Boston",
-    "country_code": "GLB"
+    "country": "United States",
+    "country_code": "US"
   },
   "city": "Boston",
   "state": null,
-  "country_name": "Boston",
-  "country_code": "GLB",
+  "country_name": "United States",
+  "country_code": "US",
   "sector_id": "industrials",
   "subsector_ids": [
     "industrials"
@@ -103,7 +103,7 @@
     },
     {
       "field": "country",
-      "value": "Boston",
+      "value": "United States",
       "source": "UpForge Registry Google Sheet",
       "verified_on": "2026-09-25",
       "confidence": "high"
@@ -133,5 +133,5 @@
     "https://ultrasonium.com/"
   ],
   "is_featured": false,
-  "created_at": "2026-09-25T20:13:11.655Z"
+  "created_at": "2026-09-25T20:41:57.004Z"
 }

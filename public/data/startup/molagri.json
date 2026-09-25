@@ -1,6 +1,6 @@
 {
   "id": "uf-molagri",
-  "ufrn": "UF-2026-GLB-MOLAG",
+  "ufrn": "UF-2026-CN-05466",
   "name": "Molagri",
   "slug": "molagri",
   "status": "approved",
@@ -8,13 +8,13 @@
   "founded_year": 2023,
   "location": {
     "city": "Toronto",
-    "country": "Toronto",
-    "country_code": "GLB"
+    "country": "Canada",
+    "country_code": "CN"
   },
   "city": "Toronto",
   "state": null,
-  "country_name": "Toronto",
-  "country_code": "GLB",
+  "country_name": "Canada",
+  "country_code": "CN",
   "sector_id": "industrials",
   "subsector_ids": [
     "industrials"
@@ -103,7 +103,7 @@
     },
     {
       "field": "country",
-      "value": "Toronto",
+      "value": "Canada",
       "source": "UpForge Registry Google Sheet",
       "verified_on": "2026-09-25",
       "confidence": "high"
@@ -133,5 +133,5 @@
     "https://molagri.com/"
   ],
   "is_featured": false,
-  "created_at": "2026-09-25T20:13:11.656Z"
+  "created_at": "2026-09-25T20:41:57.004Z"
 }

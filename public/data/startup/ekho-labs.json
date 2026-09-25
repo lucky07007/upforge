@@ -1,6 +1,6 @@
 {
   "id": "uf-ekho-labs",
-  "ufrn": "UF-2026-GLB-EKHOL",
+  "ufrn": "UF-2026-US-05446",
   "name": "Ekho Labs",
   "slug": "ekho-labs",
   "status": "approved",
@@ -8,13 +8,13 @@
   "founded_year": 2022,
   "location": {
     "city": "New York City",
-    "country": "New York City",
-    "country_code": "GLB"
+    "country": "United States",
+    "country_code": "US"
   },
   "city": "New York City",
   "state": null,
-  "country_name": "New York City",
-  "country_code": "GLB",
+  "country_name": "United States",
+  "country_code": "US",
   "sector_id": "b2b",
   "subsector_ids": [
     "b2b"
@@ -103,7 +103,7 @@
     },
     {
       "field": "country",
-      "value": "New York City",
+      "value": "United States",
       "source": "UpForge Registry Google Sheet",
       "verified_on": "2026-09-25",
       "confidence": "high"
@@ -133,5 +133,5 @@
     "https://ekholabs.com/"
   ],
   "is_featured": false,
-  "created_at": "2026-09-25T20:13:11.655Z"
+  "created_at": "2026-09-25T20:41:57.004Z"
 }

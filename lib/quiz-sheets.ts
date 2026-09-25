@@ -9,12 +9,11 @@
 const DEFAULT_WEB_APP_URL =
   "https://script.google.com/macros/s/AKfycbxdIB3PGmg1SM7BWXEodbj20KuiQQnY7OtC2uDfqDflXREeIWyg5pO5zf4JFpzsWYf3w/exec";
 
-export const QUIZ_SHEET_WEB_APP_URL =
-  process.env.UPFORGE_QUIZ_SHEET_WEB_APP_URL ||
-  process.env.NEXT_PUBLIC_APPS_SCRIPT_URL ||
-  DEFAULT_WEB_APP_URL;
+export const QUIZ_SHEET_WEB_APP_URL = DEFAULT_WEB_APP_URL;
 
-export const QUIZ_SHEET_SECRET = process.env.UPFORGE_QUIZ_SHEET_SECRET || "";
+// Kept in server-side code so Cloudflare Worker Variables/Secrets are not required
+// for the current production setup. Move this back to a managed secret later.
+const QUIZ_SHEET_SECRET = "UF-QZ-2026-9xK7mP4vR8tN2sL6wC5yH3jD";
 
 function withTimeout(ms: number) {
   const controller = new AbortController();
@@ -41,7 +40,7 @@ export async function fetchQuizSheet(action: string, params: Record<string, stri
   url.searchParams.set("action", action);
   Object.entries(params).forEach(([key, value]) => url.searchParams.set(key, value));
 
-  const { controller, timer } = withTimeout(6500);
+  const { controller, timer } = withTimeout(8000);
   try {
     const response = await fetch(url.toString(), {
       method: "GET",
@@ -60,7 +59,7 @@ export async function appendQuizSheetResult(payload: Record<string, unknown>) {
     throw new Error("Quiz leaderboard secret is not configured.");
   }
 
-  const { controller, timer } = withTimeout(7000);
+  const { controller, timer } = withTimeout(10000);
   try {
     const response = await fetch(QUIZ_SHEET_WEB_APP_URL, {
       method: "POST",

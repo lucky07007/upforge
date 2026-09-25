@@ -1,6 +1,6 @@
 {
   "id": "uf-subvysion",
-  "ufrn": "UF-2026-GLB-SUBVY",
+  "ufrn": "UF-2026-US-05425",
   "name": "SubVysion",
   "slug": "subvysion",
   "status": "approved",
@@ -8,13 +8,13 @@
   "founded_year": 2024,
   "location": {
     "city": "San Francisco",
-    "country": "San Francisco",
-    "country_code": "GLB"
+    "country": "United States",
+    "country_code": "US"
   },
   "city": "San Francisco",
   "state": null,
-  "country_name": "San Francisco",
-  "country_code": "GLB",
+  "country_name": "United States",
+  "country_code": "US",
   "sector_id": "real-estate-and-construction",
   "subsector_ids": [
     "real-estate-and-construction"
@@ -103,7 +103,7 @@
     },
     {
       "field": "country",
-      "value": "San Francisco",
+      "value": "United States",
       "source": "UpForge Registry Google Sheet",
       "verified_on": "2026-09-25",
       "confidence": "high"
@@ -133,5 +133,5 @@
     "https://subvysion.com/"
   ],
   "is_featured": false,
-  "created_at": "2026-09-25T20:13:11.655Z"
+  "created_at": "2026-09-25T20:41:57.004Z"
 }

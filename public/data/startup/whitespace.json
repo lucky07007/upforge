@@ -1,6 +1,6 @@
 {
   "id": "uf-whitespace",
-  "ufrn": "UF-2026-GLB-WHITE",
+  "ufrn": "UF-2026-UK-05457",
   "name": "Whitespace",
   "slug": "whitespace",
   "status": "approved",
@@ -8,13 +8,13 @@
   "founded_year": 1985,
   "location": {
     "city": "London",
-    "country": "London",
-    "country_code": "GLB"
+    "country": "United Kingdom",
+    "country_code": "UK"
   },
   "city": "London",
   "state": null,
-  "country_name": "London",
-  "country_code": "GLB",
+  "country_name": "United Kingdom",
+  "country_code": "UK",
   "sector_id": "b2b",
   "subsector_ids": [
     "b2b"
@@ -103,7 +103,7 @@
     },
     {
       "field": "country",
-      "value": "London",
+      "value": "United Kingdom",
       "source": "UpForge Registry Google Sheet",
       "verified_on": "2026-09-25",
       "confidence": "high"
@@ -133,5 +133,5 @@
     "https://www.whitespace.co.uk/"
   ],
   "is_featured": false,
-  "created_at": "2026-09-25T20:13:11.655Z"
+  "created_at": "2026-09-25T20:41:57.004Z"
 }

@@ -1,6 +1,6 @@
 {
   "id": "uf-ooak-data",
-  "ufrn": "UF-2026-GLB-OOAKD",
+  "ufrn": "UF-2026-FR-05461",
   "name": "Ooak Data",
   "slug": "ooak-data",
   "status": "approved",
@@ -8,13 +8,13 @@
   "founded_year": 2023,
   "location": {
     "city": "Paris",
-    "country": "Paris",
-    "country_code": "GLB"
+    "country": "France",
+    "country_code": "FR"
   },
   "city": "Paris",
   "state": null,
-  "country_name": "Paris",
-  "country_code": "GLB",
+  "country_name": "France",
+  "country_code": "FR",
   "sector_id": "b2b",
   "subsector_ids": [
     "b2b"
@@ -103,7 +103,7 @@
     },
     {
       "field": "country",
-      "value": "Paris",
+      "value": "France",
       "source": "UpForge Registry Google Sheet",
       "verified_on": "2026-09-25",
       "confidence": "high"
@@ -133,5 +133,5 @@
     "https://ooakdata.com/"
   ],
   "is_featured": false,
-  "created_at": "2026-09-25T20:13:11.656Z"
+  "created_at": "2026-09-25T20:41:57.004Z"
 }

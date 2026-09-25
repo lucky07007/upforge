@@ -37,12 +37,31 @@ export async function GET(request: NextRequest) {
   const scope = request.nextUrl.searchParams.get("scope") || "quiz";
   const period = request.nextUrl.searchParams.get("period") === "daily" ? "daily" : "all-time";
   const topOnly = request.nextUrl.searchParams.get("topOnly") === "1";
+  const fresh = request.nextUrl.searchParams.get("fresh") === "1";
   const requestedPage = Number(request.nextUrl.searchParams.get("page") || "1");
   const page = Number.isFinite(requestedPage) ? Math.max(1, Math.floor(requestedPage)) : 1;
   const limit = Math.min(50, Math.max(1, Number(request.nextUrl.searchParams.get("limit") || 10)));
   const offset = (page - 1) * 10;
 
   try {
+    if (scope === "rank") {
+      const viewerId = request.nextUrl.searchParams.get("viewerId") || request.nextUrl.searchParams.get("id") || "";
+      if (!viewerId) return noStore({ success: false, error: "Result ID is required." }, 400);
+
+      const data = await fetchQuizSheet("rank", {
+        id: viewerId,
+        scope: request.nextUrl.searchParams.get("rankScope") === "quiz" ? "quiz" : "global",
+        period,
+      });
+
+      return noStore({
+        success: true,
+        rank: Number(data.rank || 0),
+        record: data.record || null,
+        top: data.top || null,
+      });
+    }
+
     if (scope === "counts") {
       const data = await fetchQuizSheet("stats");
       const rawCounts = data.counts && typeof data.counts === "object" ? data.counts : {};
@@ -60,27 +79,6 @@ export async function GET(request: NextRequest) {
       return response({ success: true, counts, total: Number(data.total || 0) }, 200, 60);
     }
 
-    if (scope === "rank") {
-      const name = (request.nextUrl.searchParams.get("name") || "").trim().slice(0, 80);
-      if (!name) return noStore({ success: false, error: "Name is required.", matches: [] }, 400);
-
-      const data = await fetchQuizSheet("rank", {
-        scope: request.nextUrl.searchParams.get("searchScope") || "global",
-        period,
-        quizSlug,
-        quizTitle: request.nextUrl.searchParams.get("quizTitle") || "",
-        name,
-      });
-
-      return response({
-        success: true,
-        matches: Array.isArray(data.matches) ? data.matches : [],
-        query: name,
-        scope: request.nextUrl.searchParams.get("searchScope") || "global",
-        period,
-      }, 200, 20);
-    }
-
     if (scope === "global") {
       const data = await fetchQuizSheet("leaderboard", {
         scope: "global",
@@ -89,14 +87,15 @@ export async function GET(request: NextRequest) {
         offset: String(topOnly ? 0 : offset),
       });
       const leaderboard = Array.isArray(data.leaderboard) ? data.leaderboard : [];
-      return response({
+      const payload = {
         success: true,
         top: leaderboard[0] || null,
         leaderboard,
         hasMore: Boolean(data.hasMore),
         scope: "global",
         period,
-      }, 200, topOnly ? 20 : 30);
+      };
+      return fresh ? noStore(payload) : response(payload, 200, topOnly ? 20 : 30);
     }
 
     if (!quizSlug) return noStore({ success: false, error: "Quiz slug is required.", leaderboard: [] }, 400);
@@ -112,7 +111,7 @@ export async function GET(request: NextRequest) {
     });
     const leaderboard = Array.isArray(data.leaderboard) ? data.leaderboard : [];
 
-    return response({
+    const payload = {
       success: true,
       leaderboard,
       hasMore: Boolean(data.hasMore),
@@ -120,7 +119,8 @@ export async function GET(request: NextRequest) {
       scope: "quiz",
       quizSlug,
       period,
-    }, 200, 30);
+    };
+    return fresh ? noStore(payload) : response(payload, 200, 30);
   } catch (error) {
     console.error("[quiz/leaderboard] Sheets lookup failed:", error);
     return response({ success: false, error: "Leaderboard temporarily unavailable.", leaderboard: [] }, 503, 5);

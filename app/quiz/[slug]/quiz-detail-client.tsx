@@ -133,7 +133,7 @@ export default function QuizDetailClient({ quiz }: { quiz: QuizDetailData }) {
     let active = true;
     setLeaderboardLoading(true);
 
-    fetch(`/api/quiz/leaderboard?quizSlug=${encodeURIComponent(quiz.slug)}&period=all-time`, {
+    fetch(`/api/quiz/leaderboard?quizSlug=${encodeURIComponent(quiz.slug)}&period=all-time&fresh=1`, {
       headers: { "x-upforge-domain": "quiz" },
     })
       .then(readJson)
