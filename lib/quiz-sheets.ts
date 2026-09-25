@@ -7,7 +7,7 @@
  */
 
 const DEFAULT_WEB_APP_URL =
-  "https://script.google.com/macros/s/AKfycbxdIB3PGmg1SM7BWXEodbj20KuiQQnY7OtC2uDfqDflXREeIWyg5pO5zf4JFpzsWYf3w/exec";
+  "https://script.google.com/macros/s/AKfycby_DTgJndG96oIUY3xhkiDvW6ZDZUn4_WmxjC5mwP5VpBMQSXvO4D90DZokZz-_WMfxQA/exec";
 
 export const QUIZ_SHEET_WEB_APP_URL = DEFAULT_WEB_APP_URL;
 
