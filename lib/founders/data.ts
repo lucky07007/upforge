@@ -5,6 +5,63 @@ import { Founder } from './types'
 
 export const FOUNDERS: Founder[] = [
 
+  {
+  id: "scott-wu-cognition-2026",
+  slug: "scott-wu-cognition-ai",
+  edition: 26,
+  featured: true,
+  category: "AI & Technology",
+  name: "Scott Wu",
+  nameShort: "Scott Wu",
+  initials: "SW",
+  company: "Cognition AI",
+  role: "Co-Founder & CEO",
+  city: "San Francisco",
+  country: "United States",
+  countryCode: "US",
+  context: "Autonomous AI Software Engineering & Reasoning Lab", 
+  valuation: "$2B+",
+  funding: "$175M+",
+  founded: "2024",
+  imageUrl: "https://images.upforge.org/Magazine/Scott-Wu-founder-Cognition-AI-card.png",
+  cardImage: "https://images.upforge.org/Magazine/Scott-Wu-founder-Cognition-AI-card.png",
+  newsImage: "https://images.upforge.org/Magazine/Scott-Wu-founder-Cognition-AI-news.png",
+  verified: true,
+  ufrnCode: "UF-2026-US-05468",
+  oneLiner: "Cognition AI is an applied AI lab focused on reasoning that created Devin, the world's first fully autonomous AI software engineer.",
+  accent: "#2563EB",
+  accentBg: "#EFF6FF",
+  accentBorder: "#93C5FD",
+  headline: "He engineered the world's first autonomous AI coder. How Scott Wu and Cognition AI unlocked advanced reasoning to redefine software development.",
+  deck: "Cognition AI is an applied AI lab focused on reasoning that created Devin, the world's first fully autonomous AI software engineer.",
+  columns: [
+    {
+      heading: "Solving for AI Long-Term Reasoning",
+      body: "Scott Wu and his co-founders Walden Yan and Steven Hao established Cognition AI with a fundamentally unique approach to artificial intelligence. Instead of simply building next-token prediction tools, the team focused on core cognitive architectures: logic, long-term reasoning, and algorithmic problem-solving.\n\nOperating in stealth, the founding team drew heavily from their backgrounds as elite competitive programmers and math Olympiad champions to create a core AI model capable of planning complex multi-step technical execution."
+    },
+    {
+      heading: "Introducing Devin: The Autonomous Coder",
+      body: "Cognition AI disrupted the technology industry by unveiling Devin, the world's first fully autonomous AI software engineer. Operating within its own secure developer sandbox environment, Devin can independently learn unfamiliar technologies, debug legacy code, build and deploy web applications from scratch, and even train other localized language models.\n\nUnlike traditional code-completion extensions that function as simple auto-suggest utilities, Devin acts as a true end-to-end engineering teammate capable of executing ultra-long-horizon tasks with minimal human intervention."
+    },
+    {
+      heading: "Accelerating Through Corporate Enterprise",
+      body: "Backed by Peter Thiel's Founders Fund alongside prominent technology figures like Elad Gil and Tony Xu, Cognition AI quickly attained unicorn status. As enterprise organizations integrated Devin to modernize legacy codebases and handle high-volume systems maintenance, the company demonstrated a massive paradigm shift in software production—proving that structural reasoning models represent the future of machine intelligence."
+    }
+  ],
+  pullQuote: "We aren't just building a code assistant; we are training AI models to think, plan, and reason through highly complex engineering problems completely on their own.",
+  pullQuoteBy: "Scott Wu",
+  lesson: "Shift your focus from surface-level generative patterns to structural, long-term reasoning capabilities to build products that act as autonomous agents rather than basic helpers.",
+  stats: [
+    { label: "Valuation", value: "$2B+" },
+    { label: "Category", value: "AI & Technology" },
+    { label: "Status", value: "Verified Founder" },
+    { label: "UFRN Code", value: "UF-2026-US-05468" }
+  ],
+  createdAt: "2026-09-25",
+  updatedAt: "2026-09-25",
+  publishedAt: "2026-09-25"
+},
+
 
   {
   id: "brendan-foody-mercor-2026",
