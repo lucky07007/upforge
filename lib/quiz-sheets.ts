@@ -11,9 +11,8 @@ const DEFAULT_WEB_APP_URL =
 
 export const QUIZ_SHEET_WEB_APP_URL = DEFAULT_WEB_APP_URL;
 
-// Kept in server-side code so Cloudflare Worker Variables/Secrets are not required
-// for the current production setup. Move this back to a managed secret later.
-const QUIZ_SHEET_SECRET = "UF-QZ-2026-9xK7mP4vR8tN2sL6wC5yH3jD";
+// Read only on the server/Worker. Never expose this value to the browser.
+const QUIZ_SHEET_SECRET = process.env.UPFORGE_QUIZ_SHEET_SECRET || "";
 
 function withTimeout(ms: number) {
   const controller = new AbortController();

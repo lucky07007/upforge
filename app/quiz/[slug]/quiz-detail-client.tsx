@@ -180,7 +180,15 @@ export default function QuizDetailClient({ quiz }: { quiz: QuizDetailData }) {
     let score = 0;
     for (const question of questions) {
       const selected = Number(nextAnswers[String(question.id)]);
-      if (Number.isInteger(selected) && selected === question.correctIndex) score += 1;
+      if (
+        Number.isInteger(selected) &&
+        selected === Number(
+          (question as any).correctIndex ??
+          (question as any).correctAnswer ??
+          (question as any).answer ??
+          (question as any).correctOption
+        )
+      ) score += 1;
     }
 
     const totalQuestions = questions.length;
@@ -379,7 +387,7 @@ export default function QuizDetailClient({ quiz }: { quiz: QuizDetailData }) {
                 <div className="mt-5 grid grid-cols-2 gap-2 text-xs font-semibold text-muted-foreground">
                   <span className="rounded-xl bg-muted px-3 py-2.5">{questions.length} questions</span>
                   <span className="rounded-xl bg-muted px-3 py-2.5">{quiz.duration || "3–5 minutes"}</span>
-                  <span className="rounded-xl bg-muted px-3 py-2.5">Server scored</span>
+                  <span className="rounded-xl bg-muted px-3 py-2.5">Instant result</span>
                   <span className="rounded-xl bg-muted px-3 py-2.5">Certificate</span>
                 </div>
 
