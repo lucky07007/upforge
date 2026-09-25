@@ -24,6 +24,11 @@
       "service": "upforge"
     }
   ],
+  "secrets": {
+    "required": [
+      "UPFORGE_QUIZ_SHEET_SECRET"
+    ]
+  },
   "routes": [
     { "pattern": "upforge.org", "custom_domain": true },
     { "pattern": "www.upforge.org", "custom_domain": true }

@@ -1,66 +1,114 @@
 import { NextResponse, type NextRequest } from "next/server"
 
-// APPROVED BOTS (Allowed to crawl/fetch, subject to rate limiting)
-const ALLOWED_BOTS = [
-  "googlebot", "googlebot-image", "googlebot-video", "googlebot-news", "adsbot-google",
-  "bingbot", "msnbot", "duckduckbot", "gptbot", "oai-searchbot", "chatgpt-user",
-  "perplexitybot", "claudebot", "claude-web", "applebot", "applebot-extended",
-  "facebookexternalhit", "meta-externalagent", "twitterbot", "linkedinbot",
-  "slackbot", "slack-imgproxy", "discordbot", "whatsapp", "telegrambot", "pinterest",
-  "vercel", "lighthouse"
+const BLOCKED_SCRAPER_KEYWORDS = [
+  "ahrefsbot",
+  "semrushbot",
+  "dotbot",
+  "rogerbot",
+  "mj12bot",
+  "megaindex",
+  "criteobot",
+  "petalbot",
+  "spyfu",
+  "serpstat",
+  "cognitiveseo",
+  "linkdex",
+  "seokicks",
+  "searchmetrics",
+  "sitecheck",
+  "screaming frog",
+  "ccbot",
+  "bytespider",
+  "diffbot",
+  "facebookbot",
+  "google-extended",
+  "cohere-ai",
+  "anthropic-ai",
+  "blexbot",
+  "barkrowler",
+  "zoominfobot",
+  "exabot",
+  "nmap",
 ]
-
-// BLOCKED BOT KEYWORDS (Blocked immediately)
-const BLOCKED_KEYWORDS = [
-  "ahrefsbot", "semrushbot", "dotbot", "rogerbot", "mj12bot", "megaindex", "criteobot",
-  "petalbot", "spyfu", "serpstat", "cognitiveseo", "linkdex", "seokicks", "grapeshot",
-  "coccoc", "mail.ru_bot", "screaming frog", "searchmetrics", "sitecheck", "backlink",
-  "keycss", "ccbot", "bytespider", "amazonbot", "diffbot", "cohere-ai", "anthropic-ai",
-  "google-extended", "facebookbot", "baiduspider", "yandexbot", "yandexmobilebot",
-  "sogou", "yahoo", "yeti", "curl", "wget", "urllib", "node-fetch", "axios", "scrapy",
-  "headlesschrome", "selenium", "puppeteer", "playwright", "postman", "go-http-client",
-  "java", "perl", "blexbot", "barkrowler", "zoominfobot", "exabot", "python",
-  "libwww-perl", "lwp-trivial", "mechanize", "nmap", "httpclient", "http-client"
-]
-
-const GENERIC_CRAWLER_KEYWORDS = ["bot", "spider", "crawler", "crawling", "scraper", "scraping"]
 
 interface RateLimitBucket {
   count: number
   resetTime: number
 }
-const rateLimitMap = new Map<string, RateLimitBucket>()
 
-function cleanupRateLimitMap() {
-  if (rateLimitMap.size > 10000) {
-    const now = Date.now()
-    for (const [key, val] of rateLimitMap.entries()) {
-      if (now > val.resetTime) rateLimitMap.delete(key)
-    }
+const rateLimitMap = new Map<string, RateLimitBucket>()
+const API_WINDOW_MS = 10_000
+const API_LIMIT = 90
+const API_MAX_KEYS = 5000
+
+function getClientIp(request: NextRequest) {
+  const cfIp = request.headers.get("cf-connecting-ip")
+  if (cfIp) return cfIp.slice(0, 80)
+
+  const forwarded = request.headers.get("x-forwarded-for")
+  if (forwarded) return forwarded.split(",")[0].trim().slice(0, 80)
+
+  return request.headers.get("x-real-ip")?.slice(0, 80) || "unknown-ip"
+}
+
+function cleanupRateLimitMap(now: number) {
+  if (rateLimitMap.size < API_MAX_KEYS) return
+
+  for (const [key, value] of rateLimitMap.entries()) {
+    if (value.resetTime <= now) rateLimitMap.delete(key)
+  }
+
+  while (rateLimitMap.size >= API_MAX_KEYS) {
+    const first = rateLimitMap.keys().next().value
+    if (!first) break
+    rateLimitMap.delete(first)
   }
 }
 
-function isRateLimited(ip: string, limit: number, windowMs: number): boolean {
-  cleanupRateLimitMap()
+function isApiRateLimited(ip: string) {
   const now = Date.now()
-  const bucket = rateLimitMap.get(ip)
-  if (!bucket || now > bucket.resetTime) {
-    rateLimitMap.set(ip, { count: 1, resetTime: now + windowMs })
+  cleanupRateLimitMap(now)
+
+  const current = rateLimitMap.get(ip)
+  if (!current || current.resetTime <= now) {
+    rateLimitMap.set(ip, { count: 1, resetTime: now + API_WINDOW_MS })
     return false
   }
-  if (bucket.count >= limit) return true
-  bucket.count++
+
+  if (current.count >= API_LIMIT) return true
+
+  current.count += 1
+  rateLimitMap.set(ip, current)
   return false
+}
+
+function blockedScraper(userAgent: string) {
+  const ua = userAgent.toLowerCase()
+  return BLOCKED_SCRAPER_KEYWORDS.some((keyword) => ua.includes(keyword))
+}
+
+function deny(status: 403 | 429, message: string, retryAfter?: number) {
+  const headers = new Headers({
+    "Content-Type": "application/json; charset=utf-8",
+    "Cache-Control": "no-store",
+  })
+  if (retryAfter) headers.set("Retry-After", String(retryAfter))
+
+  return new NextResponse(JSON.stringify({ error: message }), { status, headers })
 }
 
 export async function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname
 
-  // perf: Fast-path return for API and static assets to minimize edge CPU execution time (<10ms target)
-  if (pathname.startsWith('/_next') || pathname.match(/\.(png|jpg|jpeg|gif|webp|svg|css|js|ico|woff2?|xml|txt)$/)) {
+  // Static assets never need bot/rate-limit work in the Next.js middleware.
+  if (
+    pathname.startsWith("/_next") ||
+    pathname.match(/\.(png|jpg|jpeg|gif|webp|svg|css|js|ico|woff2?|xml|txt)$/)
+  ) {
     return NextResponse.next()
   }
 
+  // Canonical host redirect.
   const host = request.headers.get("host") || ""
   if (host.startsWith("www.") || host.includes("upforge.in")) {
     const url = request.nextUrl.clone()
@@ -71,49 +119,37 @@ export async function middleware(request: NextRequest) {
   }
 
   const userAgent = request.headers.get("user-agent") || ""
-  const uaLower = userAgent.toLowerCase().trim()
-  
-  // Dynamic TypeScript Property 'ip' bypass
-  const ip = (request as any).ip || request.headers.get("x-forwarded-for")?.split(",")[0] || request.headers.get("x-real-ip") || "unknown-ip"
+  const isApi = pathname.startsWith("/api/")
 
-  // BOT DETECTION
-  if (!uaLower || uaLower.length < 12) {
-    return new NextResponse(JSON.stringify({ error: "Access denied." }), { status: 403, headers: { "Content-Type": "application/json" } })
+  /*
+   * Bot policy:
+   * - Public HTML remains crawlable for Google, Bing and approved AI/search
+   *   agents such as OAI-SearchBot, ChatGPT-User, PerplexityBot and ClaudeBot.
+   * - We only block a small, explicit list of known unwanted scraper agents.
+   * - We do NOT use generic "bot/crawler/spider" matching, so legitimate
+   *   search and AI crawlers are not accidentally blocked.
+   * - API endpoints are rate-limited because API traffic can create origin
+   *   CPU work without providing indexable traffic value.
+   */
+  if (blockedScraper(userAgent)) {
+    return deny(403, "Automated scraping is not permitted.")
   }
 
-  const isApproved = ALLOWED_BOTS.some((bot) => uaLower.includes(bot))
-  if (!isApproved) {
-    if (BLOCKED_KEYWORDS.some((kw) => uaLower.includes(kw)) || GENERIC_CRAWLER_KEYWORDS.some((kw) => uaLower.includes(kw))) {
-      return new NextResponse(JSON.stringify({ error: "Access denied." }), { status: 403, headers: { "Content-Type": "application/json" } })
+  if (isApi) {
+    if (!userAgent.trim()) {
+      return deny(403, "A browser-like user agent is required.")
     }
-  }
 
-  // RATE LIMITING
-  // Bypass rate-limiting for Next.js React Server Component (RSC) prefetch requests (?_rsc=...)
-  const isRscPrefetch = request.nextUrl.searchParams.has("_rsc") || 
-                        request.headers.get("next-router-prefetch") === "1" ||
-                        request.headers.get("purpose") === "prefetch" ||
-                        request.headers.get("rsc") === "1"
-
-  if (!isRscPrefetch) {
-    if (isApproved) {
-      if (isRateLimited(ip, 100, 10000)) {
-        return new NextResponse(JSON.stringify({ error: "Rate limit exceeded." }), { status: 429, headers: { "Content-Type": "application/json" } })
-      }
-    } else {
-      if (isRateLimited(ip, 300, 10000)) {
-        return new NextResponse(JSON.stringify({ error: "Rate limit exceeded." }), { status: 429, headers: { "Content-Type": "application/json" } })
-      }
+    if (isApiRateLimited(getClientIp(request))) {
+      return deny(429, "Too many requests. Please retry shortly.", 10)
     }
-  }
 
-  if (pathname.startsWith('/api')) {
     return NextResponse.next()
   }
 
   const requestHeaders = new Headers(request.headers)
-  requestHeaders.set('x-upforge-domain', 'org')
-  requestHeaders.set('x-upforge-pathname', pathname)
+  requestHeaders.set("x-upforge-domain", "org")
+  requestHeaders.set("x-upforge-pathname", pathname)
 
   return NextResponse.next({
     request: {

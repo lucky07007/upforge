@@ -70,8 +70,6 @@ export default function robots(): MetadataRoute.Robots {
           "CCBot",
           "Bytespider",
           "Google-Extended",
-          "FacebookBot",
-          "Diffbot",
           "AhrefsBot",
           "SemrushBot",
           "DotBot",
@@ -81,6 +79,8 @@ export default function robots(): MetadataRoute.Robots {
           "Spyfu",
           "Serpstat",
           "Screaming Frog",
+          "Diffbot",
+          "FacebookBot",
         ],
         disallow: "/",
       },
@@ -97,10 +97,7 @@ export default function robots(): MetadataRoute.Robots {
         ],
       },
     ],
-    sitemap: [
-      `${BASE}/sitemap.xml`,
-      `${BASE}/news-sitemap.xml`,
-    ],
+    sitemap: [`${BASE}/sitemap.xml`, `${BASE}/news-sitemap.xml`],
     host: BASE,
   }
 }

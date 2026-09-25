@@ -174,30 +174,54 @@ export async function appendQuizResult(input: {
     throw new Error("UPFORGE_QUIZ_SHEET_SECRET is not configured.");
   }
 
-  const response = await fetch(WRITE_URL, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      secret: WRITE_SECRET,
-      name: input.userName,
-      quiz: input.quizTitle,
-      score: input.score,
-      total: input.totalQuestions,
-      date: input.date,
-    }),
-    cache: "no-store",
-    signal: AbortSignal.timeout(8000),
+  const payload = JSON.stringify({
+    secret: WRITE_SECRET,
+    name: input.userName,
+    quiz: input.quizTitle,
+    score: input.score,
+    total: input.totalQuestions,
+    date: input.date,
   });
 
-  if (!response.ok) {
-    throw new Error(`Google Sheet write failed: ${response.status}`);
+  let lastError: unknown = null;
+
+  // Google Apps Script can occasionally take a moment to wake a web-app
+  // instance. A single short retry keeps real completions reliable without
+  // creating a retry storm or unnecessary Worker CPU usage.
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    try {
+      const response = await fetch(WRITE_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json,text/plain,*/*",
+        },
+        body: payload,
+        cache: "no-store",
+        redirect: "follow",
+        signal: AbortSignal.timeout(attempt === 0 ? 8000 : 6000),
+      });
+
+      const result = await response.json().catch(() => null);
+
+      if (response.ok && result?.success) {
+        cache = null;
+        return result;
+      }
+
+      lastError = new Error(
+        result?.error || `Google Sheet write failed: ${response.status}`
+      );
+    } catch (error) {
+      lastError = error;
+    }
+
+    if (attempt === 0) {
+      await new Promise((resolve) => setTimeout(resolve, 250));
+    }
   }
 
-  const result = await response.json().catch(() => null);
-  if (!result?.success) {
-    throw new Error(result?.error || "Google Sheet write failed.");
-  }
-
-  cache = null;
-  return result;
+  throw lastError instanceof Error
+    ? lastError
+    : new Error("Google Sheet write failed.");
 }
