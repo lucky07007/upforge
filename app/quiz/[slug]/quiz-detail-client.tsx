@@ -27,6 +27,7 @@ export interface Question {
   id: string | number;
   question: string;
   options: string[];
+  correctIndex: number;
   explanation?: string;
 }
 
@@ -180,15 +181,10 @@ export default function QuizDetailClient({ quiz }: { quiz: QuizDetailData }) {
     let score = 0;
     for (const question of questions) {
       const selected = Number(nextAnswers[String(question.id)]);
-      if (
-        Number.isInteger(selected) &&
-        selected === Number(
-          (question as any).correctIndex ??
-          (question as any).correctAnswer ??
-          (question as any).answer ??
-          (question as any).correctOption
-        )
-      ) score += 1;
+      const correct = Number(question.correctIndex);
+      if (Number.isInteger(selected) && Number.isInteger(correct) && selected === correct) {
+        score += 1;
+      }
     }
 
     const totalQuestions = questions.length;
@@ -274,7 +270,7 @@ export default function QuizDetailClient({ quiz }: { quiz: QuizDetailData }) {
     } catch (error: any) {
       setCompletionError(error?.name === "AbortError"
         ? "Leaderboard sync is taking longer than usual. Your certificate is ready; retry sync when convenient."
-        : "Certificate is ready. The leaderboard could not sync yet; you can retry once.");
+        : "Certificate is ready. The leaderboard could not sync yet. Check the server-side Google Sheets secret and Apps Script deployment, then retry once.");
       return false;
     }
   };

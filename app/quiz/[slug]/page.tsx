@@ -120,10 +120,14 @@ export default async function QuizDetailPage({ params }: PageProps) {
     badge: quiz.badge,
     credentialTier: quiz.metrics?.credentialTier || "UpForge Credential",
     image: quiz.image,
+    // The browser needs the answer key to calculate the result instantly.
+    // This is intentionally public because the quiz itself is a client-side
+    // assessment; it must never be used as an authentication secret.
     questions: (quiz.questions || []).map((question) => ({
       id: question.id,
       question: question.question,
       options: question.options,
+      correctIndex: question.correctIndex,
       explanation: question.explanation,
     })),
   };
