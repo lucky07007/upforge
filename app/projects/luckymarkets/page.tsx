@@ -16,7 +16,7 @@ const roles = [
 ]
 
 const videos = [
-  { title: "LuckyMarkets — Project Explainer", id: "SgVF44McpCU", url: "https://youtu.be/SgVF44McpCU" },
+  { title: "LuckyMarkets — Sample Business Story", id: "SgVF44McpCU", url: "https://youtu.be/SgVF44McpCU" },
   { title: "LuckyMarkets — Sample Business Story", id: "RYjQ4eGIbOA", url: "https://youtu.be/RYjQ4eGIbOA" },
 ]
 
