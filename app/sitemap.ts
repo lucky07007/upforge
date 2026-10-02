@@ -55,6 +55,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ["/methodology", 0.7, "monthly"],
     ["/editorial-standards", 0.65, "monthly"],
     ["/careers", 0.6, "monthly"],
+    ["/projects", 0.75, "weekly"],
+    ["/projects/luckymarkets", 0.75, "weekly"],
+    ["/projects/arjunaai.in", 0.65, "monthly"],
     ["/contact", 0.4, "yearly"],
   ] as const
 
