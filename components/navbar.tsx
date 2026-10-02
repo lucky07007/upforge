@@ -38,6 +38,7 @@ const MORE_LINKS = {
   explore: [
     { name: "Global Startup Registry", href: "/global-startup-registry", desc: "Browse the global startup database" },
     { name: "Startup Intelligence", href: "/startup-intelligence", desc: "Research, reports and market analysis" },
+    { name: "Projects", href: "/projects", desc: "Explore initiatives and contributor opportunities" },
     { name: "Compare Startups", href: "/compare", desc: "Side-by-side startup comparisons" },
     { name: "News Gallery", href: "/news-gallery", desc: "Press coverage & media moments" },
     { name: "About", href: "/about", desc: "About UpForge" },
